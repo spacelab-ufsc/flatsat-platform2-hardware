@@ -829,7 +829,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LVACFYKA
 
 [Document47]
 DocumentPath=..\..\..\..\Libraries\altium-library-master\altium-library-master\lib\SOM.PcbLib
@@ -1054,6 +1054,23 @@ DocumentUniqueId=
 
 [Document60]
 DocumentPath=..\..\..\..\Libraries\altium-library-master\altium-library-master\lib\Varistor.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document61]
+DocumentPath=flatsat_platform_2.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
