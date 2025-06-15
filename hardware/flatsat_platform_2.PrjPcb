@@ -1120,6 +1120,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IYMTIIUK
 
+[Document64]
+DocumentPath=sources\TPS74401RGWRM3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KVEGYEAO
+
 [GeneratedDocument1]
 DocumentPath=outputs\assembly_odb\assembly_odb.REP
 DItemRevisionGUID=
