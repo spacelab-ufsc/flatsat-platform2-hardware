@@ -51,7 +51,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=sources\architecture.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -68,7 +68,7 @@ DocumentUniqueId=BMVHNHTM
 
 [Document2]
 DocumentPath=sources\microzed_schematic.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -136,7 +136,7 @@ DocumentUniqueId=KSRFOJLV
 
 [Document6]
 DocumentPath=sources\PC104_schematic.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -153,7 +153,7 @@ DocumentUniqueId=KYHRBNGQ
 
 [Document7]
 DocumentPath=sources\voltage_level_translators_schematic.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -170,7 +170,7 @@ DocumentUniqueId=KJNVJPFL
 
 [Document8]
 DocumentPath=sources\CAN_schematic.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -204,7 +204,7 @@ DocumentUniqueId=LODALKEY
 
 [Document10]
 DocumentPath=sources\kill-switches_schematic.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
