@@ -455,7 +455,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WNIEEFFI
 
 [Document25]
 DocumentPath=..\..\..\..\Libraries\altium-library-master\altium-library-master\lib\Crystal.PcbLib
