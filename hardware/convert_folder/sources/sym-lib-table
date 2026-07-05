@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SW-T3-2B-A-A3-S1")(type "Altium")(uri "/home/joaoc/Downloads/flatsat-platform2-hardware-modified_power_subsystem/hardware/SW-T3-2B-A-A3-S1.SchLib")(options "")(descr ""))
+  (lib (name "Thermocouple_connector")(type "Altium")(uri "/home/joaoc/Downloads/flatsat-platform2-hardware-modified_power_subsystem/hardware/Thermocouple_connector.SchLib")(options "")(descr ""))
+  (lib (name "flatsat_platform_2")(type "Altium")(uri "/home/joaoc/Downloads/flatsat-platform2-hardware-modified_power_subsystem/hardware/libraries/flatsat_platform_2.SchLib")(options "")(descr ""))
+  (lib (name "flatsat_platform_2-altium-import")(type "KiCad")(uri "${KIPRJMOD}/flatsat_platform_2-altium-import.kicad_sym")(options "")(descr ""))
+)

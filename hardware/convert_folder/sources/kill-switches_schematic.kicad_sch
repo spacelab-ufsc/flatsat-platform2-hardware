@@ -1,0 +1,3992 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3fe2d506-071f-4731-abd5-af059e191732")
+	(paper "A2")
+	(title_block
+		(title "Microzed Interface")
+	)
+	(lib_symbols
+		(symbol "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SW-T3-2B-A-A3-S1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SW-T3-2B-A-A3-S1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flatsat_platform_2:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN26"
+				(at 4 3.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "JST 2 position header 2.5mm"
+				(at -5.54 3.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "B2B-XH-A-M(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER TOP 2POS 2.5MM GRN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER 1" "Digi-Key"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "455-2879-ND"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "STOCK 1" "5564"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICING 1" "1=0.17, 10=0.157, 100=0.0966, 500=0.07998, 1000=0.06999, 5000=0.05999, 10000=0.05832 (USD)"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUNT" "Through Hole"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "COLOR" "Natural"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "CONTACT PLATING" "Tin"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGING" "Bulk"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "NUMBER OF POSITIONS" "2"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "NUMBER OF ROWS" "1"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "TERMINATION" "Press-Fit"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "FASTENING TYPE" "Detent"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "CONNECTOR TYPE" "Male Pin"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE QUANTITY" "1000"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "PITCH" "0.098inch"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER PART NUMBER" "B2B-XH-A-M(LF)(SN)"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "COMPONENTLINK1DESCRIPTION" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "COMPONENTLINK1URL" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 4 7.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*B2B-XH-A-M(LF)(SN)*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib_1_0"
+				(rectangle
+					(start -3 2.635)
+					(end 4 -2.365)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.27 3.62) (xy -1.27 2.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.62) (xy -1.27 3.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.27 3.62) (xy -1.27 2.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.27 3.62) (xy 1.27 2.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.62) (xy 1.27 3.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.27 3.62) (xy 1.27 2.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 7.62 270)
+					(length 4)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 7.62 270)
+					(length 4)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flatsat_platform_2:root_0_mirrored_0533980471_flatsat_platform_2.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 4 Circuits"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PICO{space}BLADE{space}0532610471*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_0533980471_flatsat_platform_2.SchLib_1_0"
+				(rectangle
+					(start -6.096 -7.62)
+					(end -3.81 -15.24)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.556 -7.62)
+					(end -1.27 -15.24)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.016 -7.62)
+					(end 1.27 -15.24)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 1.524 -7.62)
+					(end 3.81 -15.24)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 6.35 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -20.32 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PICO{space}BLADE{space}0532610671*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_53398-0671_flatsat_platform_2.SchLib_1_0"
+				(rectangle
+					(start -4.826 -12.7)
+					(end -2.54 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -7.62 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy 8.89 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.286 -12.7)
+					(end 0 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.254 -12.7)
+					(end 2.54 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 -12.7)
+					(end 5.08 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 5.334 -12.7)
+					(end 7.62 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 7.874 -12.7)
+					(end 10.16 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -10.16) (xy 12.7 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 -25.4 90)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -25.4 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -25.4 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -25.4 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -25.4 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -25.4 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 116.84 143.9672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d552959-3af0-40e7-86b2-0cf9c6d2884e")
+	)
+	(text "OPEN"
+		(exclude_from_sim no)
+		(at 157.48 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34b0e257-912d-4488-8994-45fa51bd2fa0")
+	)
+	(text "Cut-off"
+		(exclude_from_sim no)
+		(at 172.72 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39a4b57b-c2de-41f8-87e9-6208c0cf7d65")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 147.32 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a3cde63-8e96-457e-9720-b749546c2ffc")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 116.84 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f251d1b-9ca4-4eb6-b3bf-6af410815ff6")
+	)
+	(text "Switch(NC)"
+		(exclude_from_sim no)
+		(at 127 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "506a7113-8fc6-43ec-a095-d0183fe2a8b1")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 129.54 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f42ce8c-402c-4196-98be-7c4f096784c2")
+	)
+	(text "(launch moment)"
+		(exclude_from_sim no)
+		(at 180.34 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b28f89-c5e3-46cc-95b0-faf952017d55")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 147.32 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88183cbb-4d8a-4e05-a844-35947af634a0")
+	)
+	(text "RBF"
+		(exclude_from_sim no)
+		(at 114.3 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "907c379f-aa9e-4cc5-a97c-e9eb77cc484d")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 147.32 143.9672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98165fab-3810-42f8-a5ca-90defafe40c8")
+	)
+	(text "MOSFET"
+		(exclude_from_sim no)
+		(at 157.48 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a707150b-f0ee-4b80-8965-d231ca92800d")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 129.54 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba2c30c6-709e-4de3-91b8-fe8db248c98e")
+	)
+	(text "Switch(NO)"
+		(exclude_from_sim no)
+		(at 142.24 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bed0fb84-c617-4c93-ba0d-a33ed920b957")
+	)
+	(text "ON"
+		(exclude_from_sim no)
+		(at 172.72 143.9672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb2d947b-f67d-42c9-a784-43404a4fc7f0")
+	)
+	(text "EPS POWER"
+		(exclude_from_sim no)
+		(at 177.8 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38e211b-e67f-490c-99ba-44df15fa1fb2")
+	)
+	(text "CLOSE"
+		(exclude_from_sim no)
+		(at 157.48 143.9672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfaaf0e3-37ec-478e-9f85-e8887cf5ee58")
+	)
+	(text "Cut-off"
+		(exclude_from_sim no)
+		(at 172.72 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dea063-d166-4427-9ca7-7b13a773e9c3")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 116.84 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8ea3f6b-9f2b-44c2-b7f8-ad4cdfc7b7df")
+	)
+	(text "OPEN"
+		(exclude_from_sim no)
+		(at 157.48 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6044c2b-d8db-4b5b-95bb-541fd5092680")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 129.54 143.9672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffe0da87-3ea0-43b4-96d9-b6f47f6502e8")
+	)
+	(text_box "\n\n"
+		(exclude_from_sim no)
+		(at 198.12 133.8072 0)
+		(size -86.36 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "f78d0b62-e32e-4f28-89b4-fd8f604538d8")
+	)
+	(polyline
+		(pts
+			(xy 154.94 133.8072) (xy 154.94 151.5872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0c168461-4752-47c3-87e1-7df84d9a40e5")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d14cb0-f7d8-4fbf-a96c-f96d1f3dddf5")
+	)
+	(wire
+		(pts
+			(xy 177.8 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c5267e-1e9e-4af4-96f5-c69b697130bc")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fec54ea-94c9-4fc2-b66f-89d264d001ce")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24111947-5d7f-4e4b-8679-3b7d88e9faee")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bc69ef-0bcd-4f89-a313-9a11411724c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390dc611-666e-4465-af47-0b7235733114")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de965c6-99dc-4644-adac-2e1c11e51add")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 49.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ecbf98-7657-4525-92dc-152c3429402d")
+	)
+	(polyline
+		(pts
+			(xy 124.46 133.8072) (xy 124.46 151.5872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "469ad45a-d4c3-4c12-98c3-35e999c7f6b3")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a39253-2b28-4096-862a-cab15d87adfd")
+	)
+	(wire
+		(pts
+			(xy 177.8 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edcc709-5536-4725-86e1-e57ac8d05cca")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5494187d-9faa-4ad0-ad50-c2b75fae4e5a")
+	)
+	(polyline
+		(pts
+			(xy 139.7 133.8072) (xy 139.7 151.5872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "56c64281-7d80-45ec-a6ea-7dd3a8c5f58b")
+	)
+	(polyline
+		(pts
+			(xy 170.18 133.8072) (xy 170.18 151.5872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6015b44e-37cd-402f-a6ac-ab720bf02370")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6016b78c-e540-4b6e-b75b-0bc675356323")
+	)
+	(wire
+		(pts
+			(xy 176.53 105.41) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69758a20-3261-4e2a-94d9-0a43783eb6ef")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f30659d-422d-41aa-8580-1c9ea3ea3777")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d6864a-d7ef-4492-afc8-772c3f0e5432")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 213.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9819811c-1991-45ee-8870-40dee907a21c")
+	)
+	(wire
+		(pts
+			(xy 220.98 106.68) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cdcc7e-6070-4604-aed7-7d271542002b")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f55d6f-0213-45d3-bd1d-eca27d3d8635")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 177.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f3e4d3-3631-4e27-80df-dcf2c17c1dcd")
+	)
+	(wire
+		(pts
+			(xy 49.53 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eb5a97-41de-49b0-a222-991d0f61ceb9")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba957f91-547e-401d-9d52-fba02657a954")
+	)
+	(wire
+		(pts
+			(xy 220.98 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf08bd7-8bb5-4233-a646-29bf233c5906")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f550c0-afd4-4577-be36-3c3e462d3170")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a55c71-1552-4df8-9e89-f19bacd8e6ca")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6be8cec-9584-4c72-a100-48fc95e03e20")
+	)
+	(wire
+		(pts
+			(xy 176.53 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f16826-8db2-4658-bfd7-88f9cc7d33ae")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea28667e-2635-4b24-92a8-a81496b13bd5")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaedfe83-b788-47f2-93ce-9c2ce0c3c56d")
+	)
+	(polyline
+		(pts
+			(xy 111.76 136.3472) (xy 198.12 136.3472)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ed9d47a4-e5d0-4481-a85d-6b1ef518cc30")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbee0d6-8221-482c-8c36-c22cb2baf5fc")
+	)
+	(label "NO_KILL_SWITCH_2"
+		(at 176.53 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0268f58d-3139-441b-abe7-7ff4d0429643")
+	)
+	(label "-RBF"
+		(at 213.36 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07f111df-7b81-4333-a19f-8fbf85d85462")
+	)
+	(label "NC_KILL_SWITCH_1"
+		(at 176.53 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e68eaa8-4dde-4129-a447-b3a3a9a8af5c")
+	)
+	(label "NC_KILL_SWITCH_1"
+		(at 53.34 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41a707bb-9787-41a2-be74-8ba182e3d37a")
+	)
+	(label "+RBF"
+		(at 213.36 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "523c47c9-c0ab-4233-bc2e-2c4ca414277a")
+	)
+	(label "COMMON_KILL_SWITCH_2"
+		(at 176.53 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6390a33d-5ea0-4a2d-a7f8-95f8a5b1d9bf")
+	)
+	(label "+RBF"
+		(at 220.98 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7941d3ef-7e50-4077-8519-f9429d912e4e")
+	)
+	(label "-RBF"
+		(at 213.36 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b5f1f51-2dac-43bd-a788-32713d26e914")
+	)
+	(label "-RBF"
+		(at 220.98 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9978986e-b7d6-4684-b794-558474c67365")
+	)
+	(label "NC_KILL_SWITCH_2"
+		(at 49.53 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7ec271a-2848-4e40-81f0-5f5112877909")
+	)
+	(label "NO_KILL_SWITCH_2"
+		(at 49.53 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae10271a-02c1-4303-9f5f-b7542c6dc561")
+	)
+	(label "NO_KILL_SWITCH_1"
+		(at 176.53 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c24a19d1-f267-42c3-a367-a912ea262163")
+	)
+	(label "COMMON_KILL_SWITCH_1"
+		(at 176.53 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3a3d057-a713-44f8-b483-1b5d973f6c27")
+	)
+	(label "+RBF"
+		(at 213.36 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9ea2de7-0ac5-4e07-9cb7-9faa176ea76e")
+	)
+	(label "NO_KILL_SWITCH_1"
+		(at 53.34 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb2e23a7-aba4-41be-af46-baff4ad01b85")
+	)
+	(label "COMMON_KILL_SWITCH_1"
+		(at 99.06 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ece4b9b3-689f-44c4-a8b7-e3079dfca1cb")
+	)
+	(label "COMMON_KILL_SWITCH_2"
+		(at 106.68 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8a76f84-8000-49a0-9022-d3bc41e36275")
+	)
+	(label "NC_KILL_SWITCH_2"
+		(at 176.53 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd161e4a-6c7f-4726-bdaf-e87427a2c792")
+	)
+	(symbol
+		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
+		(at 203.2 78.74 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "464811fb-b3df-490f-b682-2abba7510bf8")
+		(property "Reference" "CN4"
+			(at 182.88 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "6 pin Picoblade"
+			(at 182.88 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PICO BLADE 0532610671"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "WM7610DKR-ND"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 1" "21086"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "1=1.39, 10=1.26, 100=1.0802, 500=0.90014 (USD)"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" "Natural"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Tin"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" "Bronze,Tin"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BODY PLATING" "Tin"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING COLOR" "Natural"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING MATERIAL" "Nylon"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-40°C"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "85°C"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT RESISTANCE" "20mR"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "125V"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" "1A"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (AC)" "125V"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1000"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "6"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "Solder"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INSULATION RESISTANCE" "100MR"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" "6"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING VOLTAGE" "125V"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Vertical"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CIRCUITS" "6"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (DC)" "125V"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD PITCH" "1.25mm"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "1.25mm"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" "No"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "Unknown"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GLOW WIRE COMPLIANT" "Non-compliant"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FLAMMABILITY RATING" "UL94 V-0"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "538-53398-0671"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 2" "26"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 2" "1=1.15, 10=1.01, 100=0.864, 500=0.727, 1000=0.427, 2000=0.374 (USD)"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "53398-0671"
+			(at 177.292 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5c1f3abd-6efd-4978-9ea4-4a32de60a6df")
+		)
+		(pin "4"
+			(uuid "ed3ff08f-bb29-4542-9fb3-91f4d484267a")
+		)
+		(pin "3"
+			(uuid "3a144925-2026-466d-8c16-58a438fb872b")
+		)
+		(pin "2"
+			(uuid "2ccff595-f0ae-4b6c-9756-d837eb85a8f5")
+		)
+		(pin "1"
+			(uuid "e3958d31-a790-4288-b1ef-8b8861f42209")
+		)
+		(pin "6"
+			(uuid "470bd26c-8ccc-4729-887e-9902a1fa92c7")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flatsat_platform_2:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib")
+		(at 229.87 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ea0735f-2d51-4fac-84f2-abe287398275")
+		(property "Reference" "CN26"
+			(at 226.616 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "JST 2 position header 2.5mm"
+			(at 226.616 84.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "B2B-XH-A-M(LF)(SN)"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER TOP 2POS 2.5MM GRN"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "455-2879-ND"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 1" "5564"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "1=0.17, 10=0.157, 100=0.0966, 500=0.07998, 1000=0.06999, 5000=0.05999, 10000=0.05832 (USD)"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Through Hole"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" "Natural"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Tin"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Bulk"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "2"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "Press-Fit"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "FASTENING TYPE" "Detent"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" "Male Pin"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1000"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "0.098inch"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "B2B-XH-A-M(LF)(SN)"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 222.362 74.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcfeacb2-115d-42b0-bf6b-dc26fb8121e7")
+		)
+		(pin "1"
+			(uuid "1950eeb7-90a2-46c0-8b9a-755a6456a396")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "CN26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
+		(at 203.2 109.22 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ec1c64e-360a-47d0-8b13-e6b16dcd32ea")
+		(property "Reference" "CN5"
+			(at 182.88 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "6 pin Picoblade"
+			(at 182.88 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PICO BLADE 0532610671"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "WM7610DKR-ND"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 1" "21086"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "1=1.39, 10=1.26, 100=1.0802, 500=0.90014 (USD)"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" "Natural"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Tin"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" "Bronze,Tin"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BODY PLATING" "Tin"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING COLOR" "Natural"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING MATERIAL" "Nylon"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-40°C"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "85°C"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT RESISTANCE" "20mR"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "125V"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" "1A"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (AC)" "125V"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1000"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "6"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "Solder"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INSULATION RESISTANCE" "100MR"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" "6"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING VOLTAGE" "125V"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Vertical"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CIRCUITS" "6"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (DC)" "125V"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD PITCH" "1.25mm"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "1.25mm"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" "No"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "Unknown"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GLOW WIRE COMPLIANT" "Non-compliant"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FLAMMABILITY RATING" "UL94 V-0"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "538-53398-0671"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 2" "26"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 2" "1=1.15, 10=1.01, 100=0.864, 500=0.727, 1000=0.427, 2000=0.374 (USD)"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "53398-0671"
+			(at 177.292 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1a4ea10f-f6f3-4756-a5f4-9a204d4dc548")
+		)
+		(pin "4"
+			(uuid "3bf3d813-5da7-4f34-95a9-79f27c9c0717")
+		)
+		(pin "3"
+			(uuid "98c25435-743a-4cf2-ac65-8679751975ee")
+		)
+		(pin "2"
+			(uuid "53690e27-3666-4092-82cd-14c7554692f1")
+		)
+		(pin "1"
+			(uuid "d79ea8e0-109b-43b7-812e-146aad9a13bf")
+		)
+		(pin "6"
+			(uuid "263eb0a7-db79-4b74-b629-7d370d8208d0")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
+		(at 88.9 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a93e4464-3f43-4799-8291-c44840132bcd")
+		(property "Reference" "SW2"
+			(at 86.106 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SW-T3-2B-A-A3-S1"
+			(at 86.106 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW-T3-2B-A-A3-S1"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SW-T3-2B-A-A3-S1"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7856179-e8e3-448a-9d47-a19311bf1187")
+		)
+		(pin "1"
+			(uuid "d0025a0c-a888-48e8-a0e8-e1c4cf4feb22")
+		)
+		(pin "3"
+			(uuid "f1275f26-6e21-4831-b441-b1adfab6de84")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flatsat_platform_2:root_0_mirrored_0533980471_flatsat_platform_2.SchLib")
+		(at 241.3 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4390684-c2a3-4f71-88eb-71b8a7365723")
+		(property "Reference" "CN6"
+			(at 226.06 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4 pin Picoblade"
+			(at 226.06 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PICO BLADE 0532610471"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 4 Circuits"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "N OF POSITIONS" "4"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "1.25mm"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT TYPE" "SMD"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0533980471"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "WM7608CT-ND"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 1" "21236"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 1" "1=1.19, 10=1.044, 100=0.901, 500=0.73716 (USD)"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Tin"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" "Bronze,Tin,Brass"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BODY PLATING" "Tin"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" "Natural"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING COLOR" "Natural"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING MATERIAL" "Nylon"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-40°C"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "85°C"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "4"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "Solder"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" "1A"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1000"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "125V"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT RESISTANCE" "20mR"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (AC)" "125V"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" "4"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INSULATION RESISTANCE" "100MR"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING VOLTAGE" "125V"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Vertical"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CIRCUITS" "4"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (DC)" "125V"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD PITCH" "1.25mm"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" "No"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FLAMMABILITY RATING" "UL94 V-0"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "Unknown"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GLOW WIRE COMPLIANT" "Non-compliant"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://www.mouser.com/ds/2/276/0533980471_PCB_HEADERS-171069.pdf?src-supplier=Mouser"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://www.mouser.com/ds/2/276/0533980471_PCB_HEADERS-171069.pdf?src-supplier=Mouser"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "http://www.jameco.com/Jameco/Products/ProdDS/1932627.pdf?src-supplier=Jameco"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "http://www.jameco.com/Jameco/Products/ProdDS/1932627.pdf?src-supplier=Jameco"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK3URL" "https://www.distrelec.biz/Web/Downloads/46/_e/gf116833-116846_e.pdf?mime=application%2Fpdf&src-supplier=Distrelec"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK3DESCRIPTION" "https://www.distrelec.biz/Web/Downloads/46/_e/gf116833-116846_e.pdf?mime=application%2Fpdf&src-supplier=Distrelec"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK4URL" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK4DESCRIPTION" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK5URL" "http://www.farnell.com/datasheets/1867381.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK5DESCRIPTION" "http://www.farnell.com/datasheets/1867381.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK6URL" "http://uk.rs-online.com/webdocs/13c4/0900766b813c4500.pdf?src-supplier=RSComponents"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK6DESCRIPTION" "http://uk.rs-online.com/webdocs/13c4/0900766b813c4500.pdf?src-supplier=RSComponents"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK7URL" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Farnell"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK7DESCRIPTION" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Farnell"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK8URL" "http://www.farnell.com/datasheets/2697809.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK8DESCRIPTION" "http://www.farnell.com/datasheets/2697809.pdf?src-supplier=Element14"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK9URL" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Avnet"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK9DESCRIPTION" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Avnet"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK10URL" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Avnet+Europe"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK10DESCRIPTION" "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980471_PCB_HEADERS.pdf?src-supplier=Avnet+Europe"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "538-53398-0471"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STOCK 2" "43680"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICING 2" "1=0.98, 10=0.832, 100=0.716, 500=0.6, 1000=0.391, 2000=0.342 (USD)"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "53398-0471"
+			(at 220.472 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e4ca65cb-3f46-444d-8871-60d2804f94e3")
+		)
+		(pin "2"
+			(uuid "c72abdec-32bc-4e6c-8286-f2e8dce5dde3")
+		)
+		(pin "1"
+			(uuid "3274bcce-f257-4c6c-8695-2fcf934b08e4")
+		)
+		(pin "4"
+			(uuid "fcc7f960-bfeb-4b64-82c6-2b4b99f5f2a1")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
+		(at 85.09 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdaea63b-4744-4a03-8255-0ad820713787")
+		(property "Reference" "SW3"
+			(at 82.296 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SW-T3-2B-A-A3-S1"
+			(at 82.296 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW-T3-2B-A-A3-S1"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SW-T3-2B-A-A3-S1"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43016285-86ca-41c0-a9b3-ee8cf09d6584")
+		)
+		(pin "1"
+			(uuid "f3aa7920-8dd0-4d86-89ef-eb147ab59d19")
+		)
+		(pin "3"
+			(uuid "c6a0c35d-e8c8-455e-bfae-189110cca54a")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/fd8561dc-965e-4da4-a400-e79c6297b87b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
