@@ -1040,7 +1040,7 @@
 	)
 	(text "0"
 		(exclude_from_sim no)
-		(at 116.84 143.9672 0)
+		(at 135.89 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1051,7 +1051,7 @@
 	)
 	(text "OPEN"
 		(exclude_from_sim no)
-		(at 157.48 141.4272 0)
+		(at 176.53 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 	)
 	(text "Cut-off"
 		(exclude_from_sim no)
-		(at 172.72 146.5072 0)
+		(at 191.77 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 147.32 146.5072 0)
+		(at 166.37 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 	)
 	(text "0"
 		(exclude_from_sim no)
-		(at 116.84 146.5072 0)
+		(at 135.89 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 	)
 	(text "Switch(NC)"
 		(exclude_from_sim no)
-		(at 127 136.3472 0)
+		(at 146.05 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1106,7 +1106,7 @@
 	)
 	(text "X"
 		(exclude_from_sim no)
-		(at 129.54 141.4272 0)
+		(at 148.59 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1117,7 +1117,7 @@
 	)
 	(text "(launch moment)"
 		(exclude_from_sim no)
-		(at 180.34 146.5072 0)
+		(at 199.39 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1128,7 +1128,7 @@
 	)
 	(text "X"
 		(exclude_from_sim no)
-		(at 147.32 141.4272 0)
+		(at 166.37 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,7 +1139,7 @@
 	)
 	(text "RBF"
 		(exclude_from_sim no)
-		(at 114.3 136.3472 0)
+		(at 133.35 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,7 +1150,7 @@
 	)
 	(text "0"
 		(exclude_from_sim no)
-		(at 147.32 143.9672 0)
+		(at 166.37 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1161,7 +1161,7 @@
 	)
 	(text "MOSFET"
 		(exclude_from_sim no)
-		(at 157.48 136.3472 0)
+		(at 176.53 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,7 +1172,7 @@
 	)
 	(text "0"
 		(exclude_from_sim no)
-		(at 129.54 146.5072 0)
+		(at 148.59 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1183,7 +1183,7 @@
 	)
 	(text "Switch(NO)"
 		(exclude_from_sim no)
-		(at 142.24 136.3472 0)
+		(at 161.29 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 	)
 	(text "ON"
 		(exclude_from_sim no)
-		(at 172.72 143.9672 0)
+		(at 191.77 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1205,7 +1205,7 @@
 	)
 	(text "EPS POWER"
 		(exclude_from_sim no)
-		(at 177.8 136.3472 0)
+		(at 196.85 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 	)
 	(text "CLOSE"
 		(exclude_from_sim no)
-		(at 157.48 143.9672 0)
+		(at 176.53 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1227,7 +1227,7 @@
 	)
 	(text "Cut-off"
 		(exclude_from_sim no)
-		(at 172.72 141.4272 0)
+		(at 191.77 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 116.84 141.4272 0)
+		(at 135.89 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1249,7 +1249,7 @@
 	)
 	(text "OPEN"
 		(exclude_from_sim no)
-		(at 157.48 146.5072 0)
+		(at 176.53 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 129.54 143.9672 0)
+		(at 148.59 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 	)
 	(text_box "\n\n"
 		(exclude_from_sim no)
-		(at 198.12 133.8072 0)
+		(at 217.17 139.7 0)
 		(size -86.36 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1292,7 +1292,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 133.8072) (xy 154.94 151.5872)
+			(xy 173.99 139.7) (xy 173.99 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -1303,7 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 177.8 102.87)
+			(xy 139.7 101.6) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 176.53 110.49)
+			(xy 140.97 109.22) (xy 139.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 95.25 113.03)
+			(xy 87.63 100.33) (xy 76.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 109.22) (xy 213.36 109.22)
+			(xy 220.98 109.22) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 69.85) (xy 176.53 72.39)
+			(xy 139.7 68.58) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 53.34 80.01)
+			(xy 60.96 82.55) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1363,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 77.47) (xy 220.98 77.47)
+			(xy 220.98 91.44) (xy 219.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1373,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 49.53 110.49)
+			(xy 60.96 97.79) (xy 53.34 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1383,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 133.8072) (xy 124.46 151.5872)
+			(xy 143.51 139.7) (xy 143.51 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -1394,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 220.98 80.01)
+			(xy 220.98 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 69.85) (xy 176.53 69.85)
+			(xy 140.97 68.58) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 176.53 77.47)
+			(xy 140.97 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1424,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 133.8072) (xy 139.7 151.5872)
+			(xy 158.75 139.7) (xy 158.75 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -1435,7 +1435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 170.18 133.8072) (xy 170.18 151.5872)
+			(xy 189.23 139.7) (xy 189.23 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -1446,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 82.55) (xy 176.53 82.55)
+			(xy 140.97 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 176.53 107.95)
+			(xy 139.7 104.14) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 177.8 80.01)
+			(xy 139.7 78.74) (xy 140.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 100.33) (xy 176.53 102.87)
+			(xy 139.7 99.06) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 213.36 104.14)
+			(xy 220.98 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 213.36 106.68)
+			(xy 220.98 106.68) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 105.41) (xy 176.53 105.41)
+			(xy 140.97 104.14) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 177.8 107.95)
+			(xy 139.7 106.68) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 80.01 115.57)
+			(xy 53.34 102.87) (xy 60.96 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 77.47) (xy 176.53 74.93)
+			(xy 139.7 76.2) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 111.76) (xy 213.36 111.76)
+			(xy 220.98 111.76) (xy 219.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 110.49) (xy 176.53 113.03)
+			(xy 139.7 109.22) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 177.8 74.93)
+			(xy 139.7 73.66) (xy 140.97 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 85.09) (xy 53.34 85.09)
+			(xy 60.96 87.63) (xy 53.34 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 177.8 72.39)
+			(xy 139.7 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 176.53 80.01)
+			(xy 139.7 81.28) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 176.53 100.33)
+			(xy 140.97 99.06) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1616,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 136.3472) (xy 198.12 136.3472)
+			(xy 130.81 142.24) (xy 217.17 142.24)
 		)
 		(stroke
 			(width 0.254)
@@ -1627,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 177.8 113.03)
+			(xy 139.7 111.76) (xy 140.97 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1636,7 @@
 		(uuid "ffbee0d6-8221-482c-8c36-c22cb2baf5fc")
 	)
 	(label "NO_KILL_SWITCH_2"
-		(at 176.53 105.41 180)
+		(at 139.7 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,7 +1646,7 @@
 		(uuid "0268f58d-3139-441b-abe7-7ff4d0429643")
 	)
 	(label "-RBF"
-		(at 213.36 104.14 180)
+		(at 219.71 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,7 +1656,7 @@
 		(uuid "07f111df-7b81-4333-a19f-8fbf85d85462")
 	)
 	(label "NC_KILL_SWITCH_1"
-		(at 176.53 69.85 180)
+		(at 139.7 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 		(uuid "1e68eaa8-4dde-4129-a447-b3a3a9a8af5c")
 	)
 	(label "NC_KILL_SWITCH_1"
-		(at 53.34 85.09 180)
+		(at 53.34 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 		(uuid "41a707bb-9787-41a2-be74-8ba182e3d37a")
 	)
 	(label "+RBF"
-		(at 213.36 106.68 180)
+		(at 219.71 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 		(uuid "523c47c9-c0ab-4233-bc2e-2c4ca414277a")
 	)
 	(label "COMMON_KILL_SWITCH_2"
-		(at 176.53 110.49 180)
+		(at 139.7 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 		(uuid "6390a33d-5ea0-4a2d-a7f8-95f8a5b1d9bf")
 	)
 	(label "+RBF"
-		(at 220.98 77.47 180)
+		(at 219.71 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 		(uuid "7941d3ef-7e50-4077-8519-f9429d912e4e")
 	)
 	(label "-RBF"
-		(at 213.36 109.22 180)
+		(at 219.71 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1716,7 +1716,7 @@
 		(uuid "7b5f1f51-2dac-43bd-a788-32713d26e914")
 	)
 	(label "-RBF"
-		(at 220.98 80.01 180)
+		(at 219.71 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1726,7 +1726,7 @@
 		(uuid "9978986e-b7d6-4684-b794-558474c67365")
 	)
 	(label "NC_KILL_SWITCH_2"
-		(at 49.53 115.57 180)
+		(at 53.34 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1736,7 +1736,7 @@
 		(uuid "a7ec271a-2848-4e40-81f0-5f5112877909")
 	)
 	(label "NO_KILL_SWITCH_2"
-		(at 49.53 110.49 180)
+		(at 53.34 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1746,7 +1746,7 @@
 		(uuid "ae10271a-02c1-4303-9f5f-b7542c6dc561")
 	)
 	(label "NO_KILL_SWITCH_1"
-		(at 176.53 74.93 180)
+		(at 139.7 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 		(uuid "c24a19d1-f267-42c3-a367-a912ea262163")
 	)
 	(label "COMMON_KILL_SWITCH_1"
-		(at 176.53 80.01 180)
+		(at 139.7 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +1766,7 @@
 		(uuid "c3a3d057-a713-44f8-b483-1b5d973f6c27")
 	)
 	(label "+RBF"
-		(at 213.36 111.76 180)
+		(at 219.71 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +1776,7 @@
 		(uuid "c9ea2de7-0ac5-4e07-9cb7-9faa176ea76e")
 	)
 	(label "NO_KILL_SWITCH_1"
-		(at 53.34 80.01 180)
+		(at 53.34 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 		(uuid "cb2e23a7-aba4-41be-af46-baff4ad01b85")
 	)
 	(label "COMMON_KILL_SWITCH_1"
-		(at 99.06 82.55 0)
+		(at 76.2 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 		(uuid "ece4b9b3-689f-44c4-a8b7-e3079dfca1cb")
 	)
 	(label "COMMON_KILL_SWITCH_2"
-		(at 106.68 113.03 0)
+		(at 87.63 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1806,7 +1806,7 @@
 		(uuid "f8a76f84-8000-49a0-9022-d3bc41e36275")
 	)
 	(label "NC_KILL_SWITCH_2"
-		(at 176.53 100.33 180)
+		(at 139.7 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
-		(at 203.2 78.74 270)
+		(at 166.37 77.47 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1826,7 +1826,7 @@
 		(dnp no)
 		(uuid "464811fb-b3df-490f-b682-2abba7510bf8")
 		(property "Reference" "CN4"
-			(at 182.88 65.786 90)
+			(at 146.05 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Value" "6 pin Picoblade"
-			(at 182.88 89.154 90)
+			(at 146.05 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "PICO BLADE 0532610671"
-			(at 203.2 78.74 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 78.74 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"
-			(at 203.2 78.74 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1881,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "WM7610DKR-ND"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(property "STOCK 1" "21086"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(property "PRICING 1" "1=1.39, 10=1.26, 100=1.0802, 500=0.90014 (USD)"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1921,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(property "COLOR" "Natural"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "CONTACT PLATING" "Tin"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" "Bronze,Tin"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +1961,7 @@
 			)
 		)
 		(property "BODY PLATING" "Tin"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "HOUSING COLOR" "Natural"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1981,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" "Nylon"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +1991,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2001,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" "20mR"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2031,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "125V"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2051,7 @@
 			)
 		)
 		(property "CURRENT RATING" "1A"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2061,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (AC)" "125V"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" "1000"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "6"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2091,7 @@
 			)
 		)
 		(property "TERMINATION" "Solder"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2101,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" "100MR"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" "6"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" "125V"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 			)
 		)
 		(property "ORIENTATION" "Vertical"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2141,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "NUMBER OF CIRCUITS" "6"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2161,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" "125V"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "LEAD PITCH" "1.25mm"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "PITCH" "1.25mm"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2191,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" "No"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "REACH SVHC" "Unknown"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "GLOW WIRE COMPLIANT" "Non-compliant"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2221,7 @@
 			)
 		)
 		(property "LEAD FREE" "Lead Free"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2231,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" "UL94 V-0"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2241,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2261,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "538-53398-0671"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "STOCK 2" "26"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 			)
 		)
 		(property "PRICING 2" "1=1.15, 10=1.01, 100=0.864, 500=0.727, 1000=0.427, 2000=0.374 (USD)"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2301,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "53398-0671"
-			(at 177.292 65.786 90)
+			(at 140.462 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2339,7 @@
 	)
 	(symbol
 		(lib_id "flatsat_platform_2:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib")
-		(at 229.87 78.74 90)
+		(at 228.6 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2347,7 +2347,7 @@
 		(dnp no)
 		(uuid "4ea0735f-2d51-4fac-84f2-abe287398275")
 		(property "Reference" "CN26"
-			(at 226.616 74.74 90)
+			(at 225.346 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2356,7 @@
 			)
 		)
 		(property "Value" "JST 2 position header 2.5mm"
-			(at 226.616 84.28 90)
+			(at 225.346 98.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2366,7 @@
 			)
 		)
 		(property "Footprint" "B2B-XH-A-M(LF)(SN)"
-			(at 229.87 78.74 0)
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 78.74 0)
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2384,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER TOP 2POS 2.5MM GRN"
-			(at 229.87 78.74 0)
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "455-2879-ND"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2413,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "STOCK 1" "5564"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2433,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.17, 10=0.157, 100=0.0966, 500=0.07998, 1000=0.06999, 5000=0.05999, 10000=0.05832 (USD)"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2443,7 @@
 			)
 		)
 		(property "MOUNT" "Through Hole"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2453,7 @@
 			)
 		)
 		(property "COLOR" "Natural"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "CONTACT PLATING" "Tin"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(property "PACKAGING" "Bulk"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "2"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2493,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 			)
 		)
 		(property "TERMINATION" "Press-Fit"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2513,7 @@
 			)
 		)
 		(property "FASTENING TYPE" "Detent"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2523,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Male Pin"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2533,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" "1000"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "PITCH" "0.098inch"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "B2B-XH-A-M(LF)(SN)"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2573,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 222.362 74.74 90)
+			(at 221.092 88.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 	)
 	(symbol
 		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
-		(at 203.2 109.22 270)
+		(at 166.37 107.95 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2608,7 +2608,7 @@
 		(dnp no)
 		(uuid "6ec1c64e-360a-47d0-8b13-e6b16dcd32ea")
 		(property "Reference" "CN5"
-			(at 182.88 96.266 90)
+			(at 146.05 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2617,7 @@
 			)
 		)
 		(property "Value" "6 pin Picoblade"
-			(at 182.88 119.634 90)
+			(at 146.05 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2626,7 @@
 			)
 		)
 		(property "Footprint" "PICO BLADE 0532610671"
-			(at 203.2 109.22 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 109.22 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2644,7 @@
 			)
 		)
 		(property "Description" "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"
-			(at 203.2 109.22 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2663,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "WM7610DKR-ND"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2683,7 @@
 			)
 		)
 		(property "STOCK 1" "21086"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2693,7 @@
 			)
 		)
 		(property "PRICING 1" "1=1.39, 10=1.26, 100=1.0802, 500=0.90014 (USD)"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2713,7 @@
 			)
 		)
 		(property "COLOR" "Natural"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2723,7 @@
 			)
 		)
 		(property "CONTACT PLATING" "Tin"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2733,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" "Bronze,Tin"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "BODY PLATING" "Tin"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "HOUSING COLOR" "Natural"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" "Nylon"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2773,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2803,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" "20mR"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2813,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "125V"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2823,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "CURRENT RATING" "1A"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2843,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (AC)" "125V"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" "1000"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2863,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "6"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2873,7 @@
 			)
 		)
 		(property "TERMINATION" "Solder"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" "100MR"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" "6"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2903,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" "125V"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "ORIENTATION" "Vertical"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2933,7 @@
 			)
 		)
 		(property "NUMBER OF CIRCUITS" "6"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" "125V"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +2953,7 @@
 			)
 		)
 		(property "LEAD PITCH" "1.25mm"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2963,7 @@
 			)
 		)
 		(property "PITCH" "1.25mm"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" "No"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(property "REACH SVHC" "Unknown"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(property "GLOW WIRE COMPLIANT" "Non-compliant"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3003,7 @@
 			)
 		)
 		(property "LEAD FREE" "Lead Free"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3013,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" "UL94 V-0"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3033,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "https://www.molex.com/pdm_docs/sd/533980671_sd.pdf?src-supplier=Digi-Key"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3053,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "538-53398-0671"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(property "STOCK 2" "26"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "PRICING 2" "1=1.15, 10=1.01, 100=0.864, 500=0.727, 1000=0.427, 2000=0.374 (USD)"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "53398-0671"
-			(at 177.292 96.266 90)
+			(at 140.462 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3121,7 @@
 	)
 	(symbol
 		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
-		(at 88.9 82.55 270)
+		(at 66.04 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3129,7 +3129,7 @@
 		(dnp no)
 		(uuid "a93e4464-3f43-4799-8291-c44840132bcd")
 		(property "Reference" "SW2"
-			(at 86.106 79.248 90)
+			(at 63.246 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3138,7 @@
 			)
 		)
 		(property "Value" "SW-T3-2B-A-A3-S1"
-			(at 86.106 88.392 90)
+			(at 63.246 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3147,7 @@
 			)
 		)
 		(property "Footprint" "SW-T3-2B-A-A3-S1"
-			(at 88.9 82.55 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 82.55 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Description" "SW-T3-2B-A-A3-S1"
-			(at 88.9 82.55 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 	)
 	(symbol
 		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
-		(at 85.09 113.03 270)
+		(at 66.04 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,7 +3927,7 @@
 		(dnp no)
 		(uuid "cdaea63b-4744-4a03-8255-0ad820713787")
 		(property "Reference" "SW3"
-			(at 82.296 109.728 90)
+			(at 63.246 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Value" "SW-T3-2B-A-A3-S1"
-			(at 82.296 118.872 90)
+			(at 63.246 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" "SW-T3-2B-A-A3-S1"
-			(at 85.09 113.03 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 113.03 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3963,7 @@
 			)
 		)
 		(property "Description" "SW-T3-2B-A-A3-S1"
-			(at 85.09 113.03 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
