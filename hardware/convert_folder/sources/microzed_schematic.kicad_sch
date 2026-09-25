@@ -8,121 +8,7 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "Resistor:root_1_CRCW060350R0FKEA_Resistor.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 50 OHM 1% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*R0603_HD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_CRCW060350R0FKEA_Resistor.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 2.54 0.635) (xy -2.54 0.635) (xy -2.54 -0.635) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2-altium-import:+5V_BAR"
+		(symbol "altium_import:+5V_BAR"
 			(power)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -227,148 +113,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2-altium-import:VCCIO_BAR"
+		(symbol "altium_import:VCCIO_BAR"
 			(power)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -473,7 +218,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_87832-1420_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_87832-1420_flatsat_platform_2.SchLib"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -493,7 +238,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:SAMTEC_TSW-107-05-F-D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1335,7 +1080,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_MicroZed_SOM_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_MicroZed_SOM_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1358,7 +1103,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:MICROZEDSOM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5024,6 +4769,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "altium_import:root_1_CRCW060350R0FKEA_Resistor.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:R0603_HD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 50 OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0603_HD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_CRCW060350R0FKEA_Resistor.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 0.635) (xy -2.54 0.635) (xy -2.54 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "MZ_CTRL"
 		(members "PG_CARRIER" "PWR_EN" "VBAT" "VCCIO_EN")
@@ -5040,7 +5000,9 @@
 		(members "CLK_CHN_1" "CLK_CHN_2" "CS_CHN_1" "CS_CHN_2" "MISO_CHN_1" "MISO_CHN_2"
 			"MOSI_CHN_1" "MOSI_CHN_2" "RX_CHN_1" "RX_CHN_2" "TX_CHN_1" "TX_CHN_2"
 			"SCL_CHN_1" "SCL_CHN_2" "SDA_CHN_1" "SDA_CHN_2" "RX_CHN_3" "TX_CHN_3"
-			"RXD_CHN_1" "RXD_CHN_2" "TXD_CHN_1" "TXD_CHN_2"
+			"RXD_CHN_1" "RXD_CHN_2" "TXD_CHN_1" "TXD_CHN_2" "T/R_CHN_4" "T/R_CHN_3"
+			"TX_CHN_3" "TX_CHN_4" "RX_CHN_3" "RX_CHN_4" "SCL_CHN_3" "SDA_CHN_3" "CLK_CHN_3"
+			"CS_CHN_3" "MISO_CHN_3" "MOSI_CHN_3"
 		)
 	)
 	(junction
@@ -5525,6 +5487,15 @@
 		(uuid "0f61d5c3-6699-485b-9841-0a0cb1cc6044")
 	)
 	(bus_entry
+		(at 457.2 274.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8f95bc-68c5-45f6-ab45-0fb7f7bae280")
+	)
+	(bus_entry
 		(at 457.2 184.15)
 		(size 2.54 2.54)
 		(stroke
@@ -5579,6 +5550,15 @@
 		(uuid "1dca5553-5b8b-437b-9c4f-eef1d620815f")
 	)
 	(bus_entry
+		(at 457.2 297.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e83cc9c-1c6d-4e30-a043-263383036e83")
+	)
+	(bus_entry
 		(at 457.2 189.23)
 		(size 2.54 2.54)
 		(stroke
@@ -5631,6 +5611,24 @@
 			(type default)
 		)
 		(uuid "3439cd24-ff8a-4524-b9b2-ec79317fd6c9")
+	)
+	(bus_entry
+		(at 457.2 294.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ebae4c-378f-44da-8ff3-e191f86ae181")
+	)
+	(bus_entry
+		(at 457.2 292.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38766d9e-2240-4600-880f-15cc30ebe5e2")
 	)
 	(bus_entry
 		(at 457.2 125.73)
@@ -5750,6 +5748,15 @@
 		(uuid "66752dfe-10c1-4e10-b43f-cbd8eb754dcf")
 	)
 	(bus_entry
+		(at 457.2 289.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6764eb88-4a1d-45e8-bbb9-aad5df41b734")
+	)
+	(bus_entry
 		(at 457.2 118.11)
 		(size 2.54 2.54)
 		(stroke
@@ -5804,6 +5811,24 @@
 		(uuid "8079b655-7c92-4cf7-9628-18c2a5a8391c")
 	)
 	(bus_entry
+		(at 457.2 269.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88237023-8cf1-46a1-ac5d-a151c2b0c78b")
+	)
+	(bus_entry
+		(at 457.2 284.48)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb4c9a1-eaa4-45aa-98fa-6bef24f8965c")
+	)
+	(bus_entry
 		(at 457.2 151.13)
 		(size 2.54 2.54)
 		(stroke
@@ -5820,6 +5845,15 @@
 			(type default)
 		)
 		(uuid "9051a110-f81b-456c-9ba2-da68acd89472")
+	)
+	(bus_entry
+		(at 457.2 279.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914c6627-3291-4b53-8bb8-837f0a0d76cb")
 	)
 	(bus_entry
 		(at 457.2 212.09)
@@ -5966,6 +6000,15 @@
 		(uuid "cb2aecfa-fa02-4f1b-8426-083781cffc1c")
 	)
 	(bus_entry
+		(at 457.2 276.86)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4374c2-7bcf-4013-b484-30c9c37c2511")
+	)
+	(bus_entry
 		(at 457.2 143.51)
 		(size 2.54 2.54)
 		(stroke
@@ -5982,6 +6025,15 @@
 			(type default)
 		)
 		(uuid "d094ddbd-41fb-446a-9210-4e0a2259350f")
+	)
+	(bus_entry
+		(at 457.2 281.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d38b7c-f0f2-4406-bcd7-a120e81d87f3")
 	)
 	(bus_entry
 		(at 457.2 80.01)
@@ -6054,6 +6106,15 @@
 			(type default)
 		)
 		(uuid "e4c1e426-233a-40b3-a012-ce3af964ab56")
+	)
+	(bus_entry
+		(at 457.2 287.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71b53ed-318c-437f-95d0-f9d0ab059cc5")
 	)
 	(bus_entry
 		(at 457.2 133.35)
@@ -6135,6 +6196,15 @@
 			(type default)
 		)
 		(uuid "f61349f3-9362-4b68-a684-e3e8a07c4cc3")
+	)
+	(bus_entry
+		(at 457.2 271.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc4203b-79bd-4efe-bd55-47839a89b03e")
 	)
 	(bus_entry
 		(at 457.2 97.79)
@@ -6255,6 +6325,16 @@
 		)
 		(uuid "0573e369-4c73-40ce-93e2-c76d1b860880")
 	)
+	(wire
+		(pts
+			(xy 459.74 276.86) (xy 464.82 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066d032a-3120-4d25-a1e7-809b94435a50")
+	)
 	(bus
 		(pts
 			(xy 457.2 128.27) (xy 457.2 130.81)
@@ -6327,6 +6407,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 289.56) (xy 464.82 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d8740b-9cab-48eb-998d-8837f062ca3f")
+	)
+	(wire
+		(pts
 			(xy 149.86 167.64) (xy 139.7 167.64)
 		)
 		(stroke
@@ -6354,6 +6444,16 @@
 			(type default)
 		)
 		(uuid "0c5145ea-503c-47ed-a669-350d083b9975")
+	)
+	(wire
+		(pts
+			(xy 459.74 294.64) (xy 464.82 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6413fc-e6f4-42d6-88ed-d1cb5fcdb812")
 	)
 	(wire
 		(pts
@@ -6394,6 +6494,16 @@
 			(type default)
 		)
 		(uuid "0df66778-b58e-4b0a-9335-272e94936771")
+	)
+	(wire
+		(pts
+			(xy 459.74 279.4) (xy 464.82 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e074300-f651-490d-a63f-2e8588810f6e")
 	)
 	(wire
 		(pts
@@ -6785,6 +6895,16 @@
 		)
 		(uuid "1fe84fe7-a844-44c6-aa1e-abd4bb7aa8d4")
 	)
+	(bus
+		(pts
+			(xy 457.2 279.4) (xy 457.2 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201b646c-52fb-45f3-9c19-d62f3058b21c")
+	)
 	(wire
 		(pts
 			(xy 459.74 113.03) (xy 464.82 113.03)
@@ -7025,6 +7145,16 @@
 		)
 		(uuid "2d91381f-5b5a-4894-a7da-83e2430cea5b")
 	)
+	(bus
+		(pts
+			(xy 457.2 284.48) (xy 457.2 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddc23cd-ce43-415c-853c-55c7167da07b")
+	)
 	(wire
 		(pts
 			(xy 246.38 162.56) (xy 240.03 162.56)
@@ -7134,6 +7264,16 @@
 			(type default)
 		)
 		(uuid "3205746b-1bf1-4cca-b888-ae9ccf0abb56")
+	)
+	(bus
+		(pts
+			(xy 457.2 269.24) (xy 457.2 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ec4c33-8df9-47cd-a770-65af802b45b9")
 	)
 	(wire
 		(pts
@@ -7255,6 +7395,16 @@
 		)
 		(uuid "39b013b3-5982-4b36-a06e-fd6938faef83")
 	)
+	(bus
+		(pts
+			(xy 457.2 274.32) (xy 457.2 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5fbb89-cc08-4d5b-b7ad-f09df5012d49")
+	)
 	(wire
 		(pts
 			(xy 248.92 144.78) (xy 248.92 134.62)
@@ -7347,6 +7497,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 271.78) (xy 464.82 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f23695d-3b6e-4fe7-937e-d742ad197249")
+	)
+	(wire
+		(pts
 			(xy 66.04 142.24) (xy 55.88 142.24)
 		)
 		(stroke
@@ -7384,6 +7544,16 @@
 			(type default)
 		)
 		(uuid "4105d82f-8ade-40a0-8b9d-d913360f3145")
+	)
+	(wire
+		(pts
+			(xy 459.74 284.48) (xy 464.82 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418b079e-ca8f-4d76-8cd5-2dda22990a2a")
 	)
 	(wire
 		(pts
@@ -7634,6 +7804,16 @@
 			(type default)
 		)
 		(uuid "53c44c44-818c-4ebf-a1f0-0d20357c8a4b")
+	)
+	(bus
+		(pts
+			(xy 457.2 276.86) (xy 457.2 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cb7bfc-29a6-4051-a010-bea1a31c73e1")
 	)
 	(wire
 		(pts
@@ -8065,6 +8245,16 @@
 		)
 		(uuid "6f171a5f-f269-4563-8ef2-184f4e290ef3")
 	)
+	(bus
+		(pts
+			(xy 457.2 287.02) (xy 457.2 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f413627-fc8a-440c-a000-92d149f81e0d")
+	)
 	(wire
 		(pts
 			(xy 251.46 99.06) (xy 241.3 99.06)
@@ -8194,6 +8384,16 @@
 			(type default)
 		)
 		(uuid "7799461b-a9b6-44de-b586-4596dc63587c")
+	)
+	(wire
+		(pts
+			(xy 459.74 297.18) (xy 464.82 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782917fd-0947-4978-9909-b1961c0942c3")
 	)
 	(wire
 		(pts
@@ -8765,6 +8965,16 @@
 		)
 		(uuid "9b50bb25-81ef-472a-aad7-d7eb8b994855")
 	)
+	(bus
+		(pts
+			(xy 457.2 281.94) (xy 457.2 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8208be-b36b-465b-90de-28d686acd7ad")
+	)
 	(wire
 		(pts
 			(xy 66.04 205.74) (xy 55.88 205.74)
@@ -8874,6 +9084,16 @@
 			(type default)
 		)
 		(uuid "9f109870-3940-46d7-9666-4f36d5f8b548")
+	)
+	(bus
+		(pts
+			(xy 457.2 294.64) (xy 457.2 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f90a8ea-1bf4-4f09-bb74-66d9acdf9b21")
 	)
 	(wire
 		(pts
@@ -9325,6 +9545,16 @@
 		)
 		(uuid "b931be99-4dc4-48d7-ac77-4b48f8bd13be")
 	)
+	(bus
+		(pts
+			(xy 457.2 289.56) (xy 457.2 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9473416-21cb-4855-9939-4f81d6430c5c")
+	)
 	(wire
 		(pts
 			(xy 251.46 198.12) (xy 233.68 198.12)
@@ -9394,6 +9624,16 @@
 			(type default)
 		)
 		(uuid "bd32d2e6-e0a6-4528-8ca2-7f77b7476156")
+	)
+	(wire
+		(pts
+			(xy 459.74 274.32) (xy 464.82 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9f6596-3093-412c-b078-af42a800ae8b")
 	)
 	(wire
 		(pts
@@ -9524,6 +9764,16 @@
 			(type default)
 		)
 		(uuid "c8071d57-c14b-44cf-8c5b-606d5fabeea4")
+	)
+	(wire
+		(pts
+			(xy 459.74 299.72) (xy 464.82 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c923c7dd-b449-485e-a47e-ab83e4f25e6e")
 	)
 	(wire
 		(pts
@@ -9885,6 +10135,16 @@
 		)
 		(uuid "dce51fc4-eaed-4957-86d4-52e33b82805b")
 	)
+	(bus
+		(pts
+			(xy 457.2 292.1) (xy 457.2 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9d92fe-e46f-4057-b9de-4eea892e97f0")
+	)
 	(wire
 		(pts
 			(xy 251.46 116.84) (xy 236.22 116.84)
@@ -9974,6 +10234,16 @@
 			(type default)
 		)
 		(uuid "e33ffbc5-096c-420a-b372-42f66c4ddef9")
+	)
+	(wire
+		(pts
+			(xy 459.74 292.1) (xy 464.82 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3401e12-f40c-44f7-bc06-d513035b9471")
 	)
 	(wire
 		(pts
@@ -10125,6 +10395,16 @@
 		)
 		(uuid "e9214289-a86b-4245-b9a0-4ffb81095e3e")
 	)
+	(bus
+		(pts
+			(xy 457.2 271.78) (xy 457.2 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bf342d-34a2-460b-9efa-283c6d31db90")
+	)
 	(wire
 		(pts
 			(xy 139.7 190.5) (xy 149.86 190.5)
@@ -10165,6 +10445,16 @@
 		)
 		(uuid "eba8b85a-f4da-498e-8eb5-eef96e06d560")
 	)
+	(bus
+		(pts
+			(xy 457.2 266.7) (xy 457.2 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebabb977-2057-40f9-930d-9fdc5f8b589b")
+	)
 	(wire
 		(pts
 			(xy 66.04 134.62) (xy 63.5 134.62)
@@ -10184,6 +10474,16 @@
 			(type default)
 		)
 		(uuid "ed2c7a2d-90a2-45c6-a8ad-f5a1ab74d2c7")
+	)
+	(wire
+		(pts
+			(xy 459.74 287.02) (xy 464.82 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0e916f-47ad-4805-b01d-4917e9d5bbda")
 	)
 	(wire
 		(pts
@@ -10314,6 +10614,16 @@
 			(type default)
 		)
 		(uuid "f546cd6d-9075-4f49-a514-41ad69d1eb2b")
+	)
+	(wire
+		(pts
+			(xy 459.74 281.94) (xy 464.82 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5683e4d-ce30-4cf0-a883-ae24a40edd50")
 	)
 	(wire
 		(pts
@@ -10825,6 +11135,16 @@
 		)
 		(uuid "25dafd23-5791-4ef9-8908-04c79fb5c776")
 	)
+	(label "SCL_CHN_3"
+		(at 464.82 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "288463d1-89a9-4aee-8082-0230eaa0fb83")
+	)
 	(label "P22"
 		(at 464.82 133.35 0)
 		(effects
@@ -10884,6 +11204,16 @@
 			(justify left bottom)
 		)
 		(uuid "2cfe8dc2-9d26-4529-8219-b1233a79df1d")
+	)
+	(label "TX_CHN_4"
+		(at 464.82 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2de32815-9338-4be2-8751-7213d4be167f")
 	)
 	(label "P17"
 		(at 55.88 139.7 0)
@@ -11095,6 +11425,16 @@
 		)
 		(uuid "4a993f69-f62b-4848-b323-fec1cd8abff0")
 	)
+	(label "CLK_CHN_3"
+		(at 464.82 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b8841ff-0407-40c2-92a6-dbc9fa0323a3")
+	)
 	(label "P24"
 		(at 464.82 138.43 0)
 		(effects
@@ -11134,6 +11474,16 @@
 			(justify left bottom)
 		)
 		(uuid "531452f9-0207-4829-a935-8785f7a00290")
+	)
+	(label "MOSI_CHN_3"
+		(at 464.82 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53603145-46ec-45a8-90ea-ae556b5b0602")
 	)
 	(label "P54"
 		(at 464.82 214.63 0)
@@ -11314,6 +11664,16 @@
 			(justify left bottom)
 		)
 		(uuid "71d56579-55bf-4620-8df0-621c0bf55ea8")
+	)
+	(label "TX_CHN_3"
+		(at 464.82 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7290e20e-27a7-41e6-9fd4-3d92c1ae4af3")
 	)
 	(label "P6"
 		(at 464.82 92.71 0)
@@ -11635,6 +11995,16 @@
 		)
 		(uuid "925288b3-f42a-4347-b1db-c0830719ca09")
 	)
+	(label "CS_CHN_3"
+		(at 464.82 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "926dea8d-7333-4f26-9640-8bd602e8f9a6")
+	)
 	(label "MISO_CHN_1"
 		(at 149.86 124.46 0)
 		(effects
@@ -11714,6 +12084,16 @@
 			(justify left bottom)
 		)
 		(uuid "9dbbc8f0-6350-4fa0-8e56-7b3a2faee31e")
+	)
+	(label "MISO_CHN_3"
+		(at 464.82 294.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e9606a9-45a0-4ac3-9bae-daac59ddc034")
 	)
 	(label "P47"
 		(at 233.68 121.92 0)
@@ -12235,6 +12615,16 @@
 		)
 		(uuid "cfbc6a33-b4e2-4ebd-a118-ecb242020352")
 	)
+	(label "SDA_CHN_3"
+		(at 464.82 289.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0fb31c2-3e9c-405b-b2da-67c8f252d39e")
+	)
 	(label "{MZ_CTRL}"
 		(at 440.69 63.5 0)
 		(effects
@@ -12355,6 +12745,16 @@
 		)
 		(uuid "eb37d31a-6836-43e4-90f0-b05aa5e79ab1")
 	)
+	(label "RX_CHN_3"
+		(at 464.82 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb7084ba-5d19-4800-827d-8a5c8aaef5b1")
+	)
 	(label "P64"
 		(at 165.1 259.08 0)
 		(effects
@@ -12384,6 +12784,26 @@
 			(justify left bottom)
 		)
 		(uuid "ec01b11a-75d1-45b0-a3d9-6860df073857")
+	)
+	(label "RX_CHN_4"
+		(at 464.82 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eda91cf3-2713-4592-adf5-d036b4158f7e")
+	)
+	(label "T{slash}R_CHN_4"
+		(at 464.82 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef6dd71a-28a5-4e4a-823b-778984cfca81")
 	)
 	(label "SCL_CHN_1"
 		(at 233.68 175.26 0)
@@ -12525,6 +12945,16 @@
 		)
 		(uuid "fe144e05-ea71-4bab-a53b-0b013b92e304")
 	)
+	(label "T{slash}R_CHN_3"
+		(at 464.82 281.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe9fc432-14e1-4dba-a608-7d2c1f56f1d8")
+	)
 	(label "P31"
 		(at 55.88 170.18 0)
 		(effects
@@ -12589,7 +13019,7 @@
 		(uuid "bcbbd765-b9fa-4d5a-ae6e-580692b67b16")
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:VCCIO_BAR")
+		(lib_id "altium_import:VCCIO_BAR")
 		(at 55.88 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12652,7 +13082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 63.5 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12683,25 +13113,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 85.598 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 85.598 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 85.598 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "5299bfa9-b881-4173-819a-a0270512d01e")
 		)
 		(instances
@@ -12714,7 +13177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_MicroZed_SOM_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_MicroZed_SOM_flatsat_platform_2.SchLib")
 		(at 264.16 78.74 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12740,7 +13203,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MicroZedSOM"
+		(property "Footprint" "altium_import:MICROZEDSOM"
 			(at 264.16 78.74 0)
 			(effects
 				(font
@@ -13387,7 +13850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_MicroZed_SOM_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_MicroZed_SOM_flatsat_platform_2.SchLib")
 		(at 78.74 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13413,7 +13876,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MicroZedSOM"
+		(property "Footprint" "altium_import:MICROZEDSOM"
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -14060,7 +14523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
+		(lib_id "altium_import:+5V_BAR")
 		(at 57.15 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14123,7 +14586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:VCCIO_BAR")
+		(lib_id "altium_import:VCCIO_BAR")
 		(at 233.68 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14186,7 +14649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:VCCIO_BAR")
+		(lib_id "altium_import:VCCIO_BAR")
 		(at 233.68 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14249,7 +14712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
+		(lib_id "altium_import:+5V_BAR")
 		(at 241.3 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14312,7 +14775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_87832-1420_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_87832-1420_flatsat_platform_2.SchLib")
 		(at 193.04 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14338,7 +14801,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SAMTEC_TSW-107-05-F-D"
+		(property "Footprint" "altium_import:SAMTEC_TSW-107-05-F-D"
 			(at 193.04 251.46 0)
 			(effects
 				(font
@@ -14487,7 +14950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:VCCIO_BAR")
+		(lib_id "altium_import:VCCIO_BAR")
 		(at 149.86 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14550,7 +15013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:root_1_CRCW060350R0FKEA_Resistor.SchLib")
+		(lib_id "altium_import:root_1_CRCW060350R0FKEA_Resistor.SchLib")
 		(at 237.49 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14577,7 +15040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R0603_HD"
+		(property "Footprint" "altium_import:R0603_HD"
 			(at 237.49 154.94 0)
 			(effects
 				(font
@@ -14689,7 +15152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
+		(lib_id "altium_import:+5V_BAR")
 		(at 335.28 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14752,7 +15215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 205.74 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14783,25 +15246,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 205.74 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 227.838 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 227.838 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 227.838 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "b77dde77-5657-4e17-9e42-95a85496fc11")
 		)
 		(instances
@@ -14814,7 +15310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 327.66 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14845,25 +15341,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 327.66 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 327.66 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 349.758 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 349.758 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 349.758 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "f74ac634-27be-4958-804e-dfd6b6c06fd8")
 		)
 		(instances
@@ -14876,7 +15405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 248.92 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14907,25 +15436,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 248.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 248.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 271.018 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 271.018 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 271.018 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "4a55ea43-6f5d-479c-a5d8-6c41acb197a8")
 		)
 		(instances
@@ -14938,7 +15500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:root_1_CRCW060350R0FKEA_Resistor.SchLib")
+		(lib_id "altium_import:root_1_CRCW060350R0FKEA_Resistor.SchLib")
 		(at 340.36 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14965,7 +15527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R0603_HD"
+		(property "Footprint" "altium_import:R0603_HD"
 			(at 340.36 154.94 0)
 			(effects
 				(font
@@ -15077,7 +15639,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:root_1_CRCW060350R0FKEA_Resistor.SchLib")
+		(lib_id "altium_import:root_1_CRCW060350R0FKEA_Resistor.SchLib")
 		(at 340.36 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15104,7 +15666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R0603_HD"
+		(property "Footprint" "altium_import:R0603_HD"
 			(at 340.36 157.48 0)
 			(effects
 				(font
@@ -15216,7 +15778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:VCCIO_BAR")
+		(lib_id "altium_import:VCCIO_BAR")
 		(at 335.28 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15279,7 +15841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
+		(lib_id "altium_import:+5V_BAR")
 		(at 149.86 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15342,7 +15904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
+		(lib_id "altium_import:+5V_BAR")
 		(at 240.03 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15405,7 +15967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 142.24 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15436,25 +15998,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 164.338 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 164.338 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 164.338 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "847ec64f-c829-48d6-a148-12bc78c707ee")
 		)
 		(instances

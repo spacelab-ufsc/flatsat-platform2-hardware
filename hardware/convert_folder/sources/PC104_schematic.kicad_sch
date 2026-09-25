@@ -8,253 +8,7 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "flatsat_platform_2-altium-import:+5V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+5V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -280,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:Fiducial 1.3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -344,7 +98,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -370,7 +124,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:M3 HOLE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -439,7 +193,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_PC104_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -462,7 +216,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:PC104"
 				(at 0 0 0)
 				(effects
 					(font
@@ -500,7 +254,7 @@
 			)
 			(symbol "root_0_PC104_flatsat_platform_2.SchLib_1_0"
 				(circle
-					(center -7.62 -21.94)
+					(center -8.89 -34.64)
 					(radius 3)
 					(stroke
 						(width 0.0254)
@@ -523,7 +277,7 @@
 					)
 				)
 				(text "Mouting Module Holes"
-					(at -13.62 -17.94 900)
+					(at -14.89 -30.64 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -532,7 +286,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -27.94 90)
+					(at -8.89 -40.64 90)
 					(length 3)
 					(name "Mouting"
 						(effects
@@ -1487,17 +1241,6 @@
 				)
 			)
 			(symbol "root_0_PC104_flatsat_platform_2.SchLib_2_0"
-				(circle
-					(center -7.62 -21.94)
-					(radius 3)
-					(stroke
-						(width 0.0254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(rectangle
 					(start 68.58 -40.64)
 					(end 0 0)
@@ -1508,33 +1251,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "Mouting Module Holes"
-					(at -13.62 -17.94 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify right bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 -27.94 90)
-					(length 3)
-					(name "Mouting"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -2476,7 +2192,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_PC104_inverted_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_PC104_inverted_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2499,7 +2215,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:PC104_INVERTED"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2537,7 +2253,7 @@
 			)
 			(symbol "root_0_PC104_inverted_flatsat_platform_2.SchLib_1_0"
 				(circle
-					(center -7.62 -21.94)
+					(center -8.89 -34.64)
 					(radius 3)
 					(stroke
 						(width 0.0254)
@@ -2560,7 +2276,7 @@
 					)
 				)
 				(text "Mouting Module Holes"
-					(at -13.62 -17.94 900)
+					(at -14.89 -30.64 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2569,7 +2285,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -27.94 90)
+					(at -8.89 -40.64 90)
 					(length 3)
 					(name "Mouting"
 						(effects
@@ -3524,17 +3240,6 @@
 				)
 			)
 			(symbol "root_0_PC104_inverted_flatsat_platform_2.SchLib_2_0"
-				(circle
-					(center -7.62 -21.94)
-					(radius 3)
-					(stroke
-						(width 0.0254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(rectangle
 					(start 68.58 -40.64)
 					(end 0 0)
@@ -3545,33 +3250,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "Mouting Module Holes"
-					(at -13.62 -17.94 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify right bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 -27.94 90)
-					(length 3)
-					(name "Mouting"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -4513,26 +4191,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib"
+		(symbol "power:GND"
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4557,7 +4238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TEST POINT PAD"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4566,7 +4247,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*TEST{space}POINT{space}PTH*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4575,35 +4256,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "root_0_Test Point PTH_flatsat_platform_2.SchLib_1_0"
-				(circle
-					(center -1.27 0)
-					(radius 0.508)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
 					(stroke
 						(width 0)
-						(type solid)
-						(color 0 0 0 1)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5911,16 +5582,6 @@
 		)
 		(uuid "0380dce4-2959-4d92-bceb-b49388f00e68")
 	)
-	(wire
-		(pts
-			(xy 490.22 120.65) (xy 497.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b8109d-dde6-4255-820b-a0eb89a07f3f")
-	)
 	(bus
 		(pts
 			(xy 270.51 247.65) (xy 270.51 250.19)
@@ -5960,16 +5621,6 @@
 			(type default)
 		)
 		(uuid "048139f7-2724-4f31-92a6-84492a5215aa")
-	)
-	(wire
-		(pts
-			(xy 87.63 124.46) (xy 95.25 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a10340-dce2-4a34-ad88-2f23ce846c80")
 	)
 	(wire
 		(pts
@@ -7183,7 +6834,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 344.17) (xy 78.74 344.17)
+			(xy 83.82 345.44) (xy 91.44 345.44)
 		)
 		(stroke
 			(width 0)
@@ -7350,16 +7001,6 @@
 			(type default)
 		)
 		(uuid "315337d7-eddb-4144-b73d-e324f04d41a7")
-	)
-	(wire
-		(pts
-			(xy 360.68 382.27) (xy 360.68 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32215751-2a94-4c22-8250-de686c0c5006")
 	)
 	(wire
 		(pts
@@ -7733,16 +7374,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 382.27) (xy 353.06 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d115d2e-0cec-4ef3-9575-22f04e82ba47")
-	)
-	(wire
-		(pts
 			(xy 342.9 222.25) (xy 335.28 222.25)
 		)
 		(stroke
@@ -7910,16 +7541,6 @@
 			(type default)
 		)
 		(uuid "423051f0-1cb5-41a0-8502-85d9e862069c")
-	)
-	(wire
-		(pts
-			(xy 337.82 382.27) (xy 337.82 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423a56af-817c-4b4c-890f-ec016126143c")
 	)
 	(wire
 		(pts
@@ -8403,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 120.65) (xy 396.24 120.65)
+			(xy 401.32 121.92) (xy 408.94 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9073,16 +8694,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 344.17) (xy 172.72 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6242683b-c309-4426-96a0-2406dac1c39b")
-	)
-	(wire
-		(pts
 			(xy 408.94 46.99) (xy 416.56 46.99)
 		)
 		(stroke
@@ -9133,16 +8744,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 382.27) (xy 345.44 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64cf41ae-7a64-4ff8-afe7-a77eb7da921b")
-	)
-	(wire
-		(pts
 			(xy 185.42 168.91) (xy 193.04 168.91)
 		)
 		(stroke
@@ -9173,7 +8774,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 344.17) (xy 386.08 344.17)
+			(xy 391.16 345.44) (xy 398.78 345.44)
 		)
 		(stroke
 			(width 0)
@@ -9260,16 +8861,6 @@
 			(type default)
 		)
 		(uuid "67d2d7a3-28f6-4e3e-ad42-ead984bb0950")
-	)
-	(wire
-		(pts
-			(xy 194.31 124.46) (xy 201.93 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6887c08a-1a74-43b2-9b5a-b9379e201d51")
 	)
 	(wire
 		(pts
@@ -10663,16 +10254,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 344.17) (xy 480.06 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91be167d-f52e-4f50-93ba-7c205990a27d")
-	)
-	(wire
-		(pts
 			(xy 342.9 196.85) (xy 335.28 196.85)
 		)
 		(stroke
@@ -10903,7 +10484,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 232.41) (xy 386.08 232.41)
+			(xy 391.16 233.68) (xy 398.78 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11403,16 +10984,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 232.41) (xy 480.06 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a745fbd7-478b-49f7-85db-a5b0b2256e3a")
-	)
-	(wire
-		(pts
 			(xy 273.05 90.17) (xy 278.13 90.17)
 		)
 		(stroke
@@ -11550,16 +11121,6 @@
 			(type default)
 		)
 		(uuid "ac52f252-e9b8-461b-814d-b111fb18ca24")
-	)
-	(wire
-		(pts
-			(xy 368.3 382.27) (xy 368.3 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acacf09f-f69c-49df-8109-26a0bc1c1e31")
 	)
 	(wire
 		(pts
@@ -11863,7 +11424,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 232.41) (xy 78.74 232.41)
+			(xy 83.82 233.68) (xy 91.44 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11911,6 +11472,16 @@
 		)
 		(uuid "b3e9b203-6f12-4d93-a5b0-0c6edb9cee6f")
 	)
+	(wire
+		(pts
+			(xy 100.33 125.73) (xy 107.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f251a3-ffb1-449b-aa30-0d9cfa1aa152")
+	)
 	(bus
 		(pts
 			(xy 270.51 146.05) (xy 270.51 148.59)
@@ -11930,16 +11501,6 @@
 			(type default)
 		)
 		(uuid "b46d190b-100e-49a8-bcfb-97089cd581f9")
-	)
-	(wire
-		(pts
-			(xy 165.1 232.41) (xy 172.72 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4bec771-f10e-4510-b70a-1e4be2fd4944")
 	)
 	(wire
 		(pts
@@ -12063,16 +11624,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 382.27) (xy 375.92 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c9545c-7aa1-49cb-9d6b-79e4e1f0800b")
-	)
-	(wire
-		(pts
 			(xy 52.07 93.98) (xy 44.45 93.98)
 		)
 		(stroke
@@ -12170,16 +11721,6 @@
 			(type default)
 		)
 		(uuid "bb5c9b12-22a8-4caa-b067-0f9e396d507e")
-	)
-	(wire
-		(pts
-			(xy 383.54 382.27) (xy 383.54 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba0da0a-dbda-4ebb-8ac6-62476e69b7c2")
 	)
 	(wire
 		(pts
@@ -13763,16 +13304,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 382.27) (xy 330.2 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e742c3de-c4ed-49fb-b6dc-6375e0912b8f")
-	)
-	(wire
-		(pts
 			(xy 342.9 280.67) (xy 335.28 280.67)
 		)
 		(stroke
@@ -15031,16 +14562,6 @@
 		)
 		(uuid "0f45014a-b024-4740-a5ca-8784da3e98f5")
 	)
-	(label "PWR_EN"
-		(at 330.2 386.969 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f7c3200-2955-4deb-910c-505e8a4fd929")
-	)
 	(label "CS_CHN_2"
 		(at 278.13 205.74 0)
 		(effects
@@ -16201,16 +15722,6 @@
 		)
 		(uuid "37320c1b-46ff-4192-bd00-d4e85e7906a5")
 	)
-	(label "VCCIO_EN"
-		(at 337.82 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37d9c8f7-7f05-43c7-b851-521e7c4bdf41")
-	)
 	(label "P28"
 		(at 193.04 184.15 0)
 		(effects
@@ -16340,16 +15851,6 @@
 			(justify right bottom)
 		)
 		(uuid "3cf69524-0963-49b0-9536-6c4d32cb0811")
-	)
-	(label "V2_E"
-		(at 375.92 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d40e361-9c20-4547-8a4f-7656a55ebaf0")
 	)
 	(label "P27"
 		(at 121.92 295.91 180)
@@ -17261,16 +16762,6 @@
 		)
 		(uuid "57f0c22f-95f8-4428-a3cd-844fabb8a28e")
 	)
-	(label "VS"
-		(at 360.68 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "581e5dbb-174a-4a34-a368-6c0698d426b1")
-	)
 	(label "P56"
 		(at 99.06 161.29 0)
 		(effects
@@ -17860,16 +17351,6 @@
 			(justify right bottom)
 		)
 		(uuid "6b61015e-e3c3-44b9-adde-e1cf9b230f88")
-	)
-	(label "PG_CARRIER"
-		(at 345.44 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bae52c6-acf6-4c36-95a9-70fc33d68f46")
 	)
 	(label "H1_N"
 		(at 44.45 50.8 180)
@@ -20731,16 +20212,6 @@
 		)
 		(uuid "cf09b66c-c45b-4788-b9e7-025bb4b86f0c")
 	)
-	(label "V1_E"
-		(at 368.3 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf243ccb-4b26-4461-b2c6-85d3b93179fc")
-	)
 	(label "P14"
 		(at 406.4 201.93 0)
 		(effects
@@ -20950,16 +20421,6 @@
 			(justify left bottom)
 		)
 		(uuid "d7a9904b-baab-4990-ac26-cac909bdb3ed")
-	)
-	(label "VBAT"
-		(at 383.54 387.35 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8b61785-6748-4832-b44d-2f9d480ca156")
 	)
 	(label "P13"
 		(at 99.06 204.47 0)
@@ -22066,73 +21527,7 @@
 		(uuid "d7edc353-4bdf-47ee-a226-5c25824f2e04")
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 383.54 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00031d89-3c06-45e8-a5f8-20ae3df16418")
-		(property "Reference" "TP14"
-			(at 381.254 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 382.27 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 383.54 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 383.54 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b3a8aae-17e4-4054-ae97-0d0e40afccdf")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 350.52 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22158,7 +21553,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 350.52 224.79 0)
 			(effects
 				(font
@@ -22182,16 +21577,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 342.392 240.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -22351,9 +21736,6 @@
 		(pin "54"
 			(uuid "84146add-2a77-440d-97d1-6cb68b8a3b28")
 		)
-		(pin "0"
-			(uuid "d03ca587-cc23-4c93-a97d-27e3362f3945")
-		)
 		(pin "1"
 			(uuid "ea6f7bff-4cd4-4d43-a8f2-931421e3fd3d")
 		)
@@ -22511,7 +21893,7 @@
 			(uuid "f4e56c05-0a7f-492c-858e-a01bcf24504e")
 		)
 		(pin "0"
-			(uuid "8ee26cb8-2825-46e7-8e73-658382d7989f")
+			(uuid "838ff721-f002-4d96-ad65-fe8c3b61f082")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -22523,7 +21905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 309.88 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22549,7 +21931,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 309.88 375.92 0)
 			(effects
 				(font
@@ -22589,7 +21971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 284.48 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22615,7 +21997,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 284.48 375.92 0)
 			(effects
 				(font
@@ -22655,136 +22037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 172.72 344.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1befd912-7042-42a9-8a93-7b9669b49e31")
-		(property "Reference" "#PWR0111"
-			(at 172.72 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 344.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f429e8ce-b2a6-493f-a455-f11543831162")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 353.06 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f4d416d-a93d-4563-85d9-12c19f2dedd2")
-		(property "Reference" "TP4"
-			(at 350.774 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 351.79 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 353.06 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 353.06 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57ef4962-246a-4a69-9763-c426e951f854")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 444.5 224.79 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -22810,7 +22063,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 444.5 224.79 0)
 			(effects
 				(font
@@ -22834,16 +22087,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 436.372 240.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -23003,9 +22246,6 @@
 		(pin "54"
 			(uuid "1e2054ff-8c76-41f8-802d-ffea10a5b872")
 		)
-		(pin "0"
-			(uuid "2de4777a-f7a9-42a9-b6e1-5450284446ef")
-		)
 		(pin "1"
 			(uuid "d0c75137-8baa-47b6-9dca-6b6f631270fc")
 		)
@@ -23163,7 +22403,7 @@
 			(uuid "a316d215-bb77-4890-9fb9-73dc342a9d39")
 		)
 		(pin "0"
-			(uuid "75578f14-7bb6-4734-b86c-855e967c70a6")
+			(uuid "5c4c9dfc-82cd-4a8a-bc94-3e1d2ebbad8a")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -23175,71 +22415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 172.72 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24076d38-9998-4e07-beda-ef23199b657d")
-		(property "Reference" "#PWR0109"
-			(at 172.72 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9cf9e9ec-adb8-4c46-8c69-e99cd83c8d64")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 386.08 232.41 90)
+		(lib_id "power:GND")
+		(at 398.78 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23247,7 +22424,7 @@
 		(dnp no)
 		(uuid "2da374c3-ddf4-4e27-b24b-ce4b4f6a8d21")
 		(property "Reference" "#PWR0117"
-			(at 386.08 232.41 0)
+			(at 398.78 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23256,7 +22433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.43 232.41 90)
+			(at 405.13 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23265,30 +22442,63 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 232.41 0)
+			(at 398.78 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 386.08 232.41 0)
+		(property "Datasheet" "~"
+			(at 398.78 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 386.08 232.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 397.51 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 400.05 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 402.59 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "e2c36262-5ed2-4450-8385-d613000aeccf")
 		)
 		(instances
@@ -23301,7 +22511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 234.5 384.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23328,7 +22538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 234.5 384.35 0)
 			(effects
 				(font
@@ -23365,8 +22575,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 386.08 344.17 90)
+		(lib_id "power:GND")
+		(at 398.78 345.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23374,7 +22584,7 @@
 		(dnp no)
 		(uuid "41d8c2dc-f5ae-47b8-940b-0d67caef1fe0")
 		(property "Reference" "#PWR0106"
-			(at 386.08 344.17 0)
+			(at 398.78 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +22593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.43 344.17 90)
+			(at 405.13 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23392,30 +22602,63 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 344.17 0)
+			(at 398.78 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 386.08 344.17 0)
+		(property "Datasheet" "~"
+			(at 398.78 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 386.08 344.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 397.51 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 400.05 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 402.59 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "47dd6db1-ba90-4342-8482-89a2702a4adc")
 		)
 		(instances
@@ -23428,69 +22671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:+5V_BAR")
-		(at 353.06 387.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4625d4e4-986c-4bc1-8b15-14a41aa6d1ca")
-		(property "Reference" "#PWR0105"
-			(at 353.06 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 353.06 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "79b39b6a-f12c-44b6-b3f3-476753d39d6d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 350.52 336.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23516,7 +22697,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 350.52 336.55 0)
 			(effects
 				(font
@@ -23540,16 +22721,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 342.392 352.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -23709,9 +22880,6 @@
 		(pin "54"
 			(uuid "0a7f5002-7109-491c-8b63-40aefd31a54a")
 		)
-		(pin "0"
-			(uuid "de182e8d-ded4-40c0-8acb-0745da07e844")
-		)
 		(pin "1"
 			(uuid "62e9f49c-d585-4ae1-b7aa-65cee819a547")
 		)
@@ -23869,7 +23037,7 @@
 			(uuid "a157bcc1-08a1-439a-bbbb-51488e86e4b2")
 		)
 		(pin "0"
-			(uuid "9ad4db04-11b4-49bf-8f5c-29217374d922")
+			(uuid "c2b67503-e4f6-44a4-bd61-afa71cd60db5")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -23881,7 +23049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 137.16 336.55 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -23907,7 +23075,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 137.16 336.55 0)
 			(effects
 				(font
@@ -23931,16 +23099,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 129.032 352.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -24100,9 +23258,6 @@
 		(pin "54"
 			(uuid "f4291729-54c9-4431-9f35-a9693151af34")
 		)
-		(pin "0"
-			(uuid "efca4a0c-37fd-43aa-aeeb-a4574ddafcd6")
-		)
 		(pin "1"
 			(uuid "046e9691-3e81-4137-b112-5cc51abbd2f5")
 		)
@@ -24260,7 +23415,7 @@
 			(uuid "3a00b099-5a5e-4a24-b5cf-00951d9f668a")
 		)
 		(pin "0"
-			(uuid "7a0b7194-9d52-4501-9c89-7c4546dedc32")
+			(uuid "b5d6c563-6efb-4c0b-b341-67b718aaf87b")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -24272,73 +23427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 368.3 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a139b78-c964-4f3a-8021-38610cb6bd10")
-		(property "Reference" "TP12"
-			(at 366.014 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 367.03 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 368.3 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 368.3 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10414aff-95eb-4e08-aef8-ce6f3579b543")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 137.16 224.79 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -24364,7 +23453,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 137.16 224.79 0)
 			(effects
 				(font
@@ -24388,16 +23477,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 129.032 240.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -24557,9 +23636,6 @@
 		(pin "54"
 			(uuid "a7707906-d1a6-4af8-8ce6-fac09a14f326")
 		)
-		(pin "0"
-			(uuid "43441eba-8c07-4d82-88db-7f4d57813ba6")
-		)
 		(pin "1"
 			(uuid "2701f7f0-6232-400b-8676-f99462dbbd05")
 		)
@@ -24717,7 +23793,7 @@
 			(uuid "a9926bc6-ca59-4581-9ce4-941b6ac67c96")
 		)
 		(pin "0"
-			(uuid "16a24946-1a30-4693-92ed-925f1e7d9bea")
+			(uuid "ae4b64ea-fc05-4e76-a40e-6c5d38f37428")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -24729,7 +23805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 462.28 113.03 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -24755,7 +23831,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 462.28 113.03 0)
 			(effects
 				(font
@@ -24779,16 +23855,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 454.152 129.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -24948,9 +24014,6 @@
 		(pin "54"
 			(uuid "48721422-18d3-4337-b4f1-64b161cb9c0c")
 		)
-		(pin "0"
-			(uuid "42e2bf8d-606f-456a-816b-79937dec81e7")
-		)
 		(pin "1"
 			(uuid "11de6b87-66bc-4946-9683-69c05a3374bb")
 		)
@@ -25108,7 +24171,7 @@
 			(uuid "029a8133-5429-4b15-80bc-7496ddc224ea")
 		)
 		(pin "0"
-			(uuid "247896a0-755c-4873-a2c2-65456f43526d")
+			(uuid "c12a3e25-a3ec-45a7-abf2-4fb13435d1ea")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -25120,73 +24183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 345.44 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cb51235-9211-4412-b673-1d0d5295cfe5")
-		(property "Reference" "TP3"
-			(at 343.154 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 344.17 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 345.44 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 345.44 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7caec5e0-f7b9-4eda-a49d-09491a34ae9c")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 43.18 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25212,7 +24209,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 43.18 224.79 0)
 			(effects
 				(font
@@ -25236,16 +24233,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 35.052 240.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -25405,9 +24392,6 @@
 		(pin "54"
 			(uuid "3ff98a36-c920-4f51-9000-1f25d1f2d25d")
 		)
-		(pin "0"
-			(uuid "6f6269e0-c84c-44ac-8d5a-1892bfd33536")
-		)
 		(pin "1"
 			(uuid "3aaf6a35-3f2a-4a64-a188-73aa7573edba")
 		)
@@ -25565,7 +24549,7 @@
 			(uuid "fbf7d219-656d-41d7-9649-8e71693d39b5")
 		)
 		(pin "0"
-			(uuid "4256af70-f14c-4a99-8ea5-f238cc9d2bb5")
+			(uuid "b49f5962-93a0-48a4-8d43-8671a0b3da81")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -25577,7 +24561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 294.64 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25603,7 +24587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 294.64 375.92 0)
 			(effects
 				(font
@@ -25643,73 +24627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 375.92 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60c66362-1ca5-4f0e-8ece-b6d7af325faf")
-		(property "Reference" "TP13"
-			(at 373.634 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 374.65 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 375.92 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 375.92 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87035dc5-d3f5-4897-80e1-a583ed58e31a")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 244.66 374.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25736,7 +24654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 244.66 374.19 0)
 			(effects
 				(font
@@ -25773,8 +24691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 78.74 232.41 90)
+		(lib_id "power:GND")
+		(at 91.44 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25782,7 +24700,7 @@
 		(dnp no)
 		(uuid "659c25e6-9a3c-417f-8e05-eb78ed3053b4")
 		(property "Reference" "#PWR0108"
-			(at 78.74 232.41 0)
+			(at 91.44 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25791,7 +24709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 232.41 90)
+			(at 97.79 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25800,30 +24718,63 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 232.41 0)
+			(at 91.44 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 78.74 232.41 0)
+		(property "Datasheet" "~"
+			(at 91.44 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 232.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 90.17 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 92.71 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 95.25 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "0cb7d332-7b70-4de8-aaf7-e0bcd7ffd244")
 		)
 		(instances
@@ -25836,7 +24787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 444.5 336.55 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -25862,7 +24813,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 444.5 336.55 0)
 			(effects
 				(font
@@ -25886,16 +24837,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 436.372 352.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -26055,9 +24996,6 @@
 		(pin "54"
 			(uuid "3d1c6e91-5198-4c91-8536-fec41ada29bb")
 		)
-		(pin "0"
-			(uuid "1bc49c21-d0d5-4e87-adc5-d04069fe9b57")
-		)
 		(pin "1"
 			(uuid "1f071552-6960-414b-9b57-18c866817d31")
 		)
@@ -26215,7 +25153,7 @@
 			(uuid "62015791-35f7-4105-8e89-0afafe1a675a")
 		)
 		(pin "0"
-			(uuid "4d78aaff-1e64-4466-933c-585d9420c190")
+			(uuid "72bf61c1-d842-4065-8ca9-f937e639e241")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -26227,8 +25165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 78.74 344.17 90)
+		(lib_id "power:GND")
+		(at 91.44 345.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26236,7 +25174,7 @@
 		(dnp no)
 		(uuid "67075701-ed8a-4b8d-ba46-1a84e963fbb3")
 		(property "Reference" "#PWR0110"
-			(at 78.74 344.17 0)
+			(at 91.44 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26245,7 +25183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 344.17 90)
+			(at 97.79 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26254,30 +25192,63 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 344.17 0)
+			(at 91.44 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 78.74 344.17 0)
+		(property "Datasheet" "~"
+			(at 91.44 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 344.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 90.17 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 92.71 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 95.25 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "5a976e5a-1f23-4f6a-a0f6-28d284c9587b")
 		)
 		(instances
@@ -26290,16 +25261,16 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 95.25 124.46 90)
+		(lib_id "power:GND")
+		(at 107.95 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "67e57aa7-caf1-4a3d-a2d7-ed58fefe1e70")
-		(property "Reference" "#PWR0114"
-			(at 95.25 124.46 0)
+		(uuid "68f506c1-984e-414f-b337-1b711c09f5cd")
+		(property "Reference" "#PWR014"
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26308,7 +25279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 124.46 90)
+			(at 114.3 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26317,43 +25288,76 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 124.46 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 95.25 124.46 0)
+		(property "Datasheet" "~"
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 95.25 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "ab9658d1-fefb-4baf-a37c-7a933166fd41")
+		(property "Manufacturer" "~"
+			(at 106.68 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 109.22 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 111.76 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b886bf2-4fd9-4934-af51-b1853e59b9d0")
 		)
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0114")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 43.18 336.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26379,7 +25383,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 43.18 336.55 0)
 			(effects
 				(font
@@ -26403,16 +25407,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 35.052 352.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -26572,9 +25566,6 @@
 		(pin "54"
 			(uuid "c11d9bd0-acde-4e43-bdef-9ca21560fe96")
 		)
-		(pin "0"
-			(uuid "02cf677e-285a-4db7-8174-a4a1f2d71189")
-		)
 		(pin "1"
 			(uuid "e29da29f-b8a8-4f72-9997-ba5dfa564c41")
 		)
@@ -26732,7 +25723,7 @@
 			(uuid "a229c50b-7db7-44ea-ac41-490720ccace5")
 		)
 		(pin "0"
-			(uuid "6efa6f04-e0ce-4ae3-91f6-c3147f7a6c19")
+			(uuid "0b709462-8eed-40ab-82b4-1355ae05fe08")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -26744,7 +25735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 234.5 374.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26771,7 +25762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 234.5 374.19 0)
 			(effects
 				(font
@@ -26808,7 +25799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 304.8 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26834,7 +25825,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 304.8 375.92 0)
 			(effects
 				(font
@@ -26874,7 +25865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 264.98 384.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26901,7 +25892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 264.98 384.35 0)
 			(effects
 				(font
@@ -26938,70 +25929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 497.84 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fcf6205-af52-42f9-b634-3f3a13ff5552")
-		(property "Reference" "#PWR0112"
-			(at 497.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 504.19 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 497.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 497.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 497.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ef8563a6-1171-4765-8963-d991b4f84a9d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 254.82 374.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27028,7 +25956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 254.82 374.19 0)
 			(effects
 				(font
@@ -27065,7 +25993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 360.68 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27091,7 +26019,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104"
+		(property "Footprint" "altium_import:PC104"
 			(at 360.68 113.03 0)
 			(effects
 				(font
@@ -27115,16 +26043,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SSW-126-01-G-D"
-			(at 352.552 129.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -27284,9 +26202,6 @@
 		(pin "54"
 			(uuid "bf81888a-39f9-4768-a5c8-b2fec9da0052")
 		)
-		(pin "0"
-			(uuid "2c907b33-ea69-412d-9156-f942d508c8c6")
-		)
 		(pin "1"
 			(uuid "66fb91f0-5769-4e25-a68c-e958d563347d")
 		)
@@ -27444,7 +26359,7 @@
 			(uuid "65e92001-99e2-401d-9f20-45810c9671f9")
 		)
 		(pin "0"
-			(uuid "e46354f6-e6c3-4372-bc94-41b4d48a2464")
+			(uuid "b73b43c3-a145-4580-acfe-c098223e4739")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -27456,7 +26371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 314.96 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27482,7 +26397,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 314.96 375.92 0)
 			(effects
 				(font
@@ -27522,7 +26437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_inverted_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_inverted_flatsat_platform_2.SchLib")
 		(at 59.69 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27548,7 +26463,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104_inverted"
+		(property "Footprint" "altium_import:PC104_INVERTED"
 			(at 59.69 116.84 0)
 			(effects
 				(font
@@ -27572,16 +26487,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "TSW-126-07-G-D"
-			(at 51.562 133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -27741,9 +26646,6 @@
 		(pin "54"
 			(uuid "d0099973-0a26-43a7-877a-8def826fc477")
 		)
-		(pin "0"
-			(uuid "a16bfcee-c842-48bb-872c-70e389fdc5a2")
-		)
 		(pin "1"
 			(uuid "08695354-ca28-4356-92ce-dfa4620460f4")
 		)
@@ -27901,7 +26803,7 @@
 			(uuid "82edd498-5f5e-450f-b5ec-2559d0e0e617")
 		)
 		(pin "0"
-			(uuid "9d14ecef-b0c3-49b5-ab99-3fec0daa33d1")
+			(uuid "1fd98902-89bf-4c62-8d70-8f2de829014b")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -27913,7 +26815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 289.56 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27939,7 +26841,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 289.56 375.92 0)
 			(effects
 				(font
@@ -27979,137 +26881,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 360.68 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b42cb538-ae68-4ac1-b041-a93a12c5e5da")
-		(property "Reference" "TP11"
-			(at 358.394 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 359.41 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 360.68 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 360.68 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a1ef724-da0b-418e-9058-726e5ab19108")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 201.93 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5811e11-5ad4-41e6-bfb8-3eb8cf13c11a")
-		(property "Reference" "#PWR0115"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ee04f51e-e275-4d5e-a57f-36ca594584d6")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 396.24 120.65 90)
+		(lib_id "power:GND")
+		(at 408.94 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28117,7 +26890,7 @@
 		(dnp no)
 		(uuid "b7e82532-09c2-4ad8-90cb-1daf53533532")
 		(property "Reference" "#PWR0113"
-			(at 396.24 120.65 0)
+			(at 408.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28126,7 +26899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 402.59 120.65 90)
+			(at 415.29 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28135,30 +26908,63 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 396.24 120.65 0)
+			(at 408.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 396.24 120.65 0)
+		(property "Datasheet" "~"
+			(at 408.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 396.24 120.65 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 408.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 407.67 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 410.21 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 412.75 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "a87ae18a-96a1-44e6-bc8e-68d9c86df5b3")
 		)
 		(instances
@@ -28171,7 +26977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 279.4 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28197,7 +27003,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 279.4 375.92 0)
 			(effects
 				(font
@@ -28237,133 +27043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 480.06 344.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc09f242-7eaf-40f2-811e-40a1255f36f9")
-		(property "Reference" "#PWR0107"
-			(at 480.06 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 486.41 344.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 480.06 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 480.06 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 480.06 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "65aab25e-4eed-4e86-82d1-0b9487c94208")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
-		(at 480.06 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be7e8e2b-4eab-45e8-8fae-cc24afea3d24")
-		(property "Reference" "#PWR0116"
-			(at 480.06 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 486.41 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 480.06 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 480.06 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 480.06 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "7553a98d-32b8-4dfb-ae04-3f34299975ba")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_PC104_inverted_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_PC104_inverted_flatsat_platform_2.SchLib")
 		(at 166.37 116.84 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -28389,7 +27069,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PC104_inverted"
+		(property "Footprint" "altium_import:PC104_INVERTED"
 			(at 166.37 116.84 0)
 			(effects
 				(font
@@ -28413,16 +27093,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "TSW-126-07-G-D"
-			(at 158.242 133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
@@ -28582,9 +27252,6 @@
 		(pin "54"
 			(uuid "2e8f469c-d287-4232-910b-b55fa8c23a46")
 		)
-		(pin "0"
-			(uuid "0c3a8c07-3e2f-4194-951d-5a63ba047360")
-		)
 		(pin "1"
 			(uuid "9bd3066e-e76b-4d90-b6bb-e700cd8ca998")
 		)
@@ -28742,7 +27409,7 @@
 			(uuid "db76f8fb-8df9-4745-a367-047205df063a")
 		)
 		(pin "0"
-			(uuid "3dae370a-ad43-4b3a-9b12-60920a1c7a2e")
+			(uuid "8daa835c-b605-46d5-8b80-da76e2fbf0bd")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -28754,7 +27421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 299.72 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28780,7 +27447,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "M3 hole"
+		(property "Footprint" "altium_import:M3 HOLE"
 			(at 299.72 375.92 0)
 			(effects
 				(font
@@ -28820,7 +27487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 244.66 384.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28847,7 +27514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 244.66 384.35 0)
 			(effects
 				(font
@@ -28884,7 +27551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 254.82 384.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28911,7 +27578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 254.82 384.35 0)
 			(effects
 				(font
@@ -28948,139 +27615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 330.2 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dab01194-e2b8-4c47-822e-0b32935dc335")
-		(property "Reference" "TP1"
-			(at 327.914 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 328.93 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 330.2 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 330.2 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bd0f0a5-e32c-4f58-861f-6d6cb033c298")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 337.82 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9488e02-97af-4d2c-ae69-9730d5896cc0")
-		(property "Reference" "TP2"
-			(at 335.534 374.777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 336.55 385.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "TEST POINT PTH"
-			(at 337.82 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 337.82 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eea0b9c1-a2da-4e66-a755-b62637eb39c7")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Fiducial 1.3_flatsat_platform_2.SchLib")
 		(at 264.98 374.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29107,7 +27642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial 1.3mm"
+		(property "Footprint" "altium_import:Fiducial 1.3mm"
 			(at 264.98 374.19 0)
 			(effects
 				(font

@@ -8,7 +8,10 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "SamacSys:root_0_NDS02V_SamacSys.SchLib"
+		(symbol "altium_import:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -31,7 +34,163 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:CC0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 100nF 50V 10% X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CC0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -6.858 2.286) (xy -6.858 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 0) (xy -10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 2.286) (xy -5.842 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.842 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "."
+					(at -5.08 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right bottom)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "altium_import:root_0_NDS02V_SamacSys.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:NDS02V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -237,174 +396,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "altium_import:root_0_NDS02V_SamacSys.SchLib_alt"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "S?"
+				(at -10.668 -3.302 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "NDS02V"
+				(at 6.858 -7.874 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:NDS02V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -422,7 +437,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 100nF 50V 10% X7R 0603"
+			(property "Description" "Switch"
+				(at 19.558 15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NDS02V*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -431,19 +455,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*CC0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib_1_0"
+			(symbol "root_0_NDS02V_SamacSys.SchLib_alt_1_0"
 				(polyline
 					(pts
-						(xy -6.858 2.286) (xy -6.858 -2.286)
+						(xy -5.08 -7.62) (xy -5.08 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -455,7 +470,30 @@
 				)
 				(polyline
 					(pts
-						(xy -6.858 0) (xy -10.16 0)
+						(xy -5.08 -7.62) (xy -2.946 -12.954)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -12.7)
+					(radius 0.33)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -15.24) (xy -5.08 -13.081)
 					)
 					(stroke
 						(width 0)
@@ -467,7 +505,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.842 2.286) (xy -5.842 -2.286)
+						(xy 0 -7.62) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -479,7 +517,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.842 0)
+						(xy 0 -7.62) (xy 2.134 -12.954)
 					)
 					(stroke
 						(width 0)
@@ -489,19 +527,33 @@
 						(type none)
 					)
 				)
-				(text "."
-					(at -5.08 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify right bottom)
+				(circle
+					(center 0 -12.7)
+					(radius 0.33)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 0 -13.081)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "2"
+					(at -5.08 0 270)
+					(length 5.08)
+					(name "COM_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -517,9 +569,27 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 180)
-					(length 2.54)
-					(name "1"
+					(at -5.08 -20.32 90)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "COM_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,205 +604,10 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U23"
-				(at 15.748 -12.7 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SN65HVD232D"
-				(at -15.24 -12.7 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SOIC127P599X175-8N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3 V CAN Transceiver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "SOIC-8 Texas Instruments"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SN65HVD232D/Texas%20Instruments/view-part/230614/?ref=snap"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "*"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART NUMBER" "SN65HVD232D"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC127P599X175-8N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib_1_0"
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -17.78 90)
+					(at 0 -20.32 90)
 					(length 5.08)
-					(name "RXD"
+					(name "NO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,8 +622,145 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "altium_import:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 11.938 13.716 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Value" "SN65HVD232D"
+				(at 0 -14.224 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:SN65HVD232D"
+				(at 22.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 22.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3 V CAN Transceiver"
+				(at 22.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "~"
+				(at 22.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "~"
+				(at 22.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "~"
+				(at 22.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib_1_0"
+				(rectangle
+					(start 12.7 12.7)
+					(end -12.7 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
-					(at 2.54 -17.78 90)
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "CANL"
 						(effects
@@ -766,7 +778,43 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 17.78 270)
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "TXD"
 						(effects
@@ -783,46 +831,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -17.78 90)
-					(length 5.08)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -17.78 90)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -833,54 +845,80 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" ""
-				(at 0 0 0)
+				(at 0 3.008 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at 0 1.758 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "altium_import:0805"
+				(at 22.098 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "~"
+				(at 22.098 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Description" "RES 120R OHM 1/8W 1% 0805"
-				(at 0 0 0)
+				(at 22.098 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*0805*"
-				(at 0 0 0)
+			(property "Manufacturer" "~"
+				(at 22.098 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "~"
+				(at 22.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "~"
+				(at 22.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -937,32 +975,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib_1"
+		(symbol "power:GND"
+			(power)
 			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U24"
-				(at 15.748 -12.7 90)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Value" "SN65HVD232D"
-				(at -15.24 -12.7 90)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SOIC127P599X175-8N"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -980,7 +1022,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3.3 V CAN Transceiver"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -989,107 +1031,7 @@
 					(hide yes)
 				)
 			)
-			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "SOIC-8 Texas Instruments"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SN65HVD232D/Texas%20Instruments/view-part/230614/?ref=snap"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "*"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=230614"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART NUMBER" "SN65HVD232D"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC127P599X175-8N*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1098,77 +1040,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib_1_1_0"
-				(rectangle
-					(start 12.7 12.7)
-					(end -12.7 -12.7)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
 					(stroke
 						(width 0)
-						(type solid)
-						(color 0 0 0 1)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at -7.62 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -17.78 90)
-					(length 5.08)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 17.78 270)
-					(length 5.08)
-					(name "TXD"
+					(at 0 0 270)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1176,42 +1066,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -17.78 90)
-					(length 5.08)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -17.78 90)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2269,7 +2123,7 @@
 		(uuid "fae60f1a-c97a-494c-82d1-0d8c085725d9")
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib")
 		(at 245.11 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2295,7 +2149,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CC0603"
+		(property "Footprint" "altium_import:CC0603"
 			(at 245.11 48.26 0)
 			(effects
 				(font
@@ -2358,34 +2212,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
-		(at 48.26 130.81 90)
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib_alt")
+		(at 34.29 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c6f13fa-c7f9-4f53-8fd2-79645fbb0941")
-		(property "Reference" "S5"
-			(at 53.086 128.422 90)
+		(fields_autoplaced yes)
+		(uuid "128eae10-c4e1-4dff-aa9c-9481c1cf1fc3")
+		(property "Reference" "S8"
+			(at 44.45 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "NDS02V"
-			(at 53.086 139.192 90)
+			(at 44.45 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
-			(at 48.26 130.81 0)
+		(property "Footprint" "altium_import:NDS02V"
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 130.81 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,117 +2256,37 @@
 			)
 		)
 		(property "Description" "Switch"
-			(at 48.26 130.81 0)
+			(at 18.796 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/NDS02V.pdf"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "7.05mm"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Apem"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NDS02V"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "642-NDS02V"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Apem/NDS02V?qs=Rt2YTNbomKgQBAMS%252Bs5rFQ%3D%3D"
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 48.26 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "aa379846-9ddf-4d67-80fa-9545beabde43")
-		)
-		(pin "2"
-			(uuid "e776d0aa-ab31-40a6-8cca-a0c92f358f53")
+			(uuid "321803d3-b224-4dc6-92aa-2e17df326f5d")
 		)
 		(pin "3"
-			(uuid "50ec9b5c-544e-4c3e-9655-19b03e067147")
+			(uuid "d922e5b9-66e3-4812-9c16-1f2805efac12")
+		)
+		(pin "2"
+			(uuid "d557b05d-7d9e-4f47-b5b6-45f1f55d2893")
 		)
 		(pin "4"
-			(uuid "c421f3b5-3547-4a10-8f44-35cce307e935")
+			(uuid "6415d3b0-86eb-4c2e-88a9-f8e8c989fe7b")
 		)
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
-					(reference "S5")
+					(reference "S8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib")
 		(at 41.91 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2539,7 +2312,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
+		(property "Footprint" "altium_import:NDS02V"
 			(at 41.91 77.47 0)
 			(effects
 				(font
@@ -2668,162 +2441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
-		(at 34.29 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ad608f8-b6e7-4e17-ae6f-7171eb3adc6f")
-		(property "Reference" "S9"
-			(at 38.608 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "NDS02V"
-			(at 42.672 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
-			(at 34.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch"
-			(at 34.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/NDS02V.pdf"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "7.05mm"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Apem"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NDS02V"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "642-NDS02V"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Apem/NDS02V?qs=Rt2YTNbomKgQBAMS%252Bs5rFQ%3D%3D"
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 34.29 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c11e80bd-9c6b-41b3-8f42-b3179bfa1600")
-		)
-		(pin "2"
-			(uuid "28519e04-c2e2-484f-905a-34ad1368dbf5")
-		)
-		(pin "3"
-			(uuid "220722a2-3e89-4b20-b701-cc66507da956")
-		)
-		(pin "4"
-			(uuid "650749ea-4248-4bcc-920d-611c103f5dae")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
-					(reference "S9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 153.67 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2854,25 +2472,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 175.768 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 175.768 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 175.768 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "81ca993e-32ad-491d-856a-a4c47a9a0972")
 		)
 		(instances
@@ -2885,162 +2536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
-		(at 34.29 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ff5f6e9-5ec2-44ac-9a9d-9fd08abc398d")
-		(property "Reference" "S8"
-			(at 39.37 147.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "NDS02V"
-			(at 42.926 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch"
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/NDS02V.pdf"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "7.05mm"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Apem"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NDS02V"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "642-NDS02V"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Apem/NDS02V?qs=Rt2YTNbomKgQBAMS%252Bs5rFQ%3D%3D"
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 34.29 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98e7ea21-c036-4477-90fa-731f9e9d1048")
-		)
-		(pin "2"
-			(uuid "857b236d-551a-44c6-89a0-b46684dd910c")
-		)
-		(pin "3"
-			(uuid "1ca05505-ab3a-45cc-869f-70806c72405b")
-		)
-		(pin "4"
-			(uuid "d7a7893c-2b2b-4dff-8699-ce9ac8145ece")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 251.46 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3072,25 +2568,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 273.558 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 273.558 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 273.558 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "465dbd1d-bf80-4c7b-b127-de39ea3640b1")
 		)
 		(instances
@@ -3103,7 +2632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_Cap_Cer_X7R_100nF_50V_0603_flatsat_platform_2.SchLib")
 		(at 257.81 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3129,7 +2658,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CC0603"
+		(property "Footprint" "altium_import:CC0603"
 			(at 257.81 48.26 0)
 			(effects
 				(font
@@ -3192,7 +2721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 153.67 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3223,25 +2752,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 153.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 175.768 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 175.768 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 175.768 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "d6cc57ba-ad23-4b8c-8423-59916929b111")
 		)
 		(instances
@@ -3254,36 +2816,147 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib_1")
-		(lib_id "flatsat_platform_2:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib")
-		(at 176.53 82.55 270)
-		(mirror x)
+		(lib_id "altium_import:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib")
+		(at 176.53 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8610842e-e557-46bc-a8ea-031dbeed0333")
-		(property "Reference" "U24"
-			(at 163.83 66.802 90)
+		(uuid "540307b8-562f-4a73-8bd1-90f12fc4eb44")
+		(property "Reference" "U23"
+			(at 188.468 24.384 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "SN65HVD232D"
-			(at 163.83 97.79 90)
+			(at 176.53 52.324 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "altium_import:SN65HVD232D"
+			(at 198.628 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "SOIC127P599X175-8N"
-			(at 176.53 82.55 0)
+		(property "Datasheet" "~"
+			(at 198.628 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V CAN Transceiver"
+			(at 198.628 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 198.628 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 198.628 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 198.628 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3d22212f-1ea4-4be6-88d7-5f325a370f44")
+		)
+		(pin "6"
+			(uuid "b912685b-de8f-49df-8868-a4c568d64d9a")
+		)
+		(pin "3"
+			(uuid "bc6c7041-d8a1-4e9a-9868-ce12a26de625")
+		)
+		(pin "1"
+			(uuid "23aa7099-5673-46bc-a1f3-b887b75b5c3b")
+		)
+		(pin "7"
+			(uuid "ea5a08f4-5562-41c9-a1dd-27d6889ca171")
+		)
+		(pin "2"
+			(uuid "6721bb2f-935a-4cfc-a79b-9b87e1d60464")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib_alt")
+		(at 48.26 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831b2f3b-c747-4cf6-a7c9-1cbc1ea841b3")
+		(property "Reference" "S5"
+			(at 58.42 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NDS02V"
+			(at 58.42 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "altium_import:NDS02V"
+			(at 48.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +2965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 82.55 0)
+			(at 48.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,132 +2973,140 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3 V CAN Transceiver"
-			(at 176.53 82.55 0)
+		(property "Description" "Switch"
+			(at 32.766 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOIC-8 Texas Instruments"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=230614"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SN65HVD232D/Texas%20Instruments/view-part/230614/?ref=snap"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=230614"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=230614"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SN65HVD232D"
-			(at 176.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "c211b293-a50a-4557-b807-14ec265de779")
+			(uuid "9b70579f-2814-40cc-8083-08b2dd95c13d")
 		)
 		(pin "3"
-			(uuid "d1841a7a-b478-4f9b-b322-7029f66038af")
-		)
-		(pin "7"
-			(uuid "d5e9e1d7-279b-4937-8cb9-a4c1aa19e21e")
-		)
-		(pin "6"
-			(uuid "6b744094-dafa-4d21-822e-9a274123431b")
-		)
-		(pin "4"
-			(uuid "ce781f0d-70c8-4007-aed8-079bfd4104ea")
+			(uuid "f6199057-f3bf-4c43-b9d0-0e99bbba66de")
 		)
 		(pin "2"
-			(uuid "5fbc2fa8-de5e-4a78-a5a6-e9082d4e266d")
+			(uuid "f1852d72-50bd-4812-a7bf-4de8d0becae7")
+		)
+		(pin "4"
+			(uuid "b22e9f8d-e304-48d7-b8ce-a8080f57500d")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib")
+		(at 176.53 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8631eaa3-9279-442e-96fd-92cf98b06dec")
+		(property "Reference" "U24"
+			(at 188.468 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "SN65HVD232D"
+			(at 176.53 96.774 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "altium_import:SN65HVD232D"
+			(at 198.628 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.628 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V CAN Transceiver"
+			(at 198.628 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 198.628 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 198.628 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 198.628 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7769aebc-9c11-49b2-8919-f1c546c0144f")
+		)
+		(pin "6"
+			(uuid "8795bf81-bc2f-4fab-94bc-f6d58fb2309b")
+		)
+		(pin "3"
+			(uuid "f5b7ed67-01bf-495c-b537-7111769df2ce")
+		)
+		(pin "1"
+			(uuid "8dba6e04-823f-445b-8227-28d252976784")
+		)
+		(pin "7"
+			(uuid "417f826d-bd44-4360-be77-6285a6c03f20")
+		)
+		(pin "2"
+			(uuid "555f83cf-0d75-49ce-a232-64d4b33566b5")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -3437,33 +3118,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib_alt")
 		(at 48.26 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "933a089d-18aa-4f9e-94c4-ebf1c40bb846")
+		(fields_autoplaced yes)
+		(uuid "9145732f-83fa-4b02-8390-c3db3e9ddef2")
 		(property "Reference" "S2"
-			(at 53.086 105.562 90)
+			(at 58.42 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "NDS02V"
-			(at 53.086 116.332 90)
+			(at 58.42 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
+		(property "Footprint" "altium_import:NDS02V"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -3482,105 +3162,25 @@
 			)
 		)
 		(property "Description" "Switch"
-			(at 48.26 107.95 0)
+			(at 32.766 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/NDS02V.pdf"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "7.05mm"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Apem"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NDS02V"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "642-NDS02V"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Apem/NDS02V?qs=Rt2YTNbomKgQBAMS%252Bs5rFQ%3D%3D"
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 48.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f14379b5-582a-4ddb-aa09-ae39516058b4")
-		)
-		(pin "2"
-			(uuid "bd0952d3-247c-4386-b508-9eae57e725ac")
+			(uuid "0dfba1c2-1af3-407e-87d0-b0641175b2d4")
 		)
 		(pin "3"
-			(uuid "06e525bf-5c8b-4faf-b06c-0a48d3a1db39")
+			(uuid "600706bc-82b5-4543-8bc9-9e815fabe19a")
+		)
+		(pin "2"
+			(uuid "aefc405a-0aba-476c-889b-1b4f2c667906")
 		)
 		(pin "4"
-			(uuid "c40c6a0e-cf68-4e52-910a-01c6fcc3e9d4")
+			(uuid "6173f3bc-e05f-4e1f-bebc-616f34c82270")
 		)
 		(instances
 			(project "flatsat_platform_2"
@@ -3592,7 +3192,81 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib_alt")
+		(at 34.29 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d488a61-94e8-4291-899d-1ecffef36d04")
+		(property "Reference" "S9"
+			(at 44.45 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NDS02V"
+			(at 44.45 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "altium_import:NDS02V"
+			(at 34.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch"
+			(at 18.796 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86fd65a8-b8cc-4ab1-9b03-3a17be78e249")
+		)
+		(pin "3"
+			(uuid "abae606e-225e-431d-aee9-c3250ff52a72")
+		)
+		(pin "2"
+			(uuid "5c42a5dc-40c7-4c40-8d50-d837d3140f83")
+		)
+		(pin "4"
+			(uuid "7b8a00ab-663b-48a0-bb10-9105fdf627b7")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib")
 		(at 76.2 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3618,30 +3292,33 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
-			(at 76.2 107.95 0)
+		(property "Footprint" "altium_import:0805"
+			(at 54.102 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 107.95 0)
+		(property "Datasheet" "~"
+			(at 54.102 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "RES 120R OHM 1/8W 1% 0805"
-			(at 76.2 107.95 0)
+			(at 54.102 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3665,6 +3342,36 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "~"
+			(at 54.102 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 54.102 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 54.102 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fc4ca28-e717-49d1-b08f-53afcdadd83e")
 		)
@@ -3681,7 +3388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 19.05 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3712,25 +3419,58 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 19.05 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 19.05 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
+		(property "Manufacturer" "~"
+			(at 41.148 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 41.148 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 41.148 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "72b65ea2-ca13-4ae0-afa0-0aedf25b658c")
 		)
 		(instances
@@ -3743,7 +3483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_1_R120R_1%_1/4W_0805_flatsat_platform_2.SchLib")
 		(at 76.2 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3769,30 +3509,33 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
-			(at 76.2 130.81 0)
+		(property "Footprint" "altium_import:0805"
+			(at 54.102 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 130.81 0)
+		(property "Datasheet" "~"
+			(at 54.102 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "RES 120R OHM 1/8W 1% 0805"
-			(at 76.2 130.81 0)
+			(at 54.102 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3816,6 +3559,36 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "~"
+			(at 54.102 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 54.102 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 54.102 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "087b6197-f826-49e5-a231-f41826578ecb")
 		)
@@ -3832,189 +3605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_mirrored_SN65HVD232D_flatsat_platform_2.SchLib")
-		(at 176.53 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f32c1e96-001b-4e48-bddf-30e10eeba84e")
-		(property "Reference" "U23"
-			(at 163.83 22.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SN65HVD232D"
-			(at 163.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "SOIC127P599X175-8N"
-			(at 176.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3 V CAN Transceiver"
-			(at 176.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOIC-8 Texas Instruments"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=230614"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SN65HVD232D/Texas%20Instruments/view-part/230614/?ref=snap"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=230614"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=230614"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "SN65HVD232D"
-			(at 176.53 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c8faf1f-257f-4245-8170-67dd0e1873cc")
-		)
-		(pin "3"
-			(uuid "9c589f70-c3aa-4d19-9d64-e6eb08b9c75d")
-		)
-		(pin "7"
-			(uuid "c0d9276a-fbad-49c1-bcaf-d6b89ecc7e43")
-		)
-		(pin "6"
-			(uuid "8faa6566-9a1c-4506-9e8a-ea6a2243ae79")
-		)
-		(pin "4"
-			(uuid "5f367798-4970-4e7d-a327-c383ce1fd500")
-		)
-		(pin "2"
-			(uuid "e4cb8781-e2ed-4794-9228-e76ef0c14a93")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/b2d44647-6d2b-42f4-acf9-f584c8a725c2"
-					(reference "U23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:root_0_NDS02V_SamacSys.SchLib")
+		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib")
 		(at 39.37 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4040,7 +3631,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "C__Users_icaro_Documents_AltiumLL_SamacSys.PcbLib:NDS02V"
+		(property "Footprint" "altium_import:NDS02V"
 			(at 39.37 33.02 0)
 			(effects
 				(font

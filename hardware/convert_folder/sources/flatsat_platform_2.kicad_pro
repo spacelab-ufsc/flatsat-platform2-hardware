@@ -467,7 +467,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -478,14 +478,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "All Nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -629,12 +628,20 @@
   },
   "sheets": [
     [
+      "aca72eef-01de-4c32-bcdd-ff44395ea3e5",
+      "fixed-3v3-converter1"
+    ],
+    [
       "b2d44647-6d2b-42f4-acf9-f584c8a725c2",
       "CAN"
     ],
     [
       "a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b",
       "PC104"
+    ],
+    [
+      "49e7c018-e125-40f5-b5d8-5320986f9db2",
+      "non-fixed-voltage-converter1"
     ],
     [
       "fd8561dc-965e-4da4-a400-e79c6297b87b",
@@ -649,8 +656,20 @@
       "power"
     ],
     [
+      "fc9eba0f-963f-4b27-b07a-eeaee98e5f24",
+      "fixed-3v3-converter"
+    ],
+    [
       "45150708-ee97-48a8-bfb4-3abd1aadda2b",
-      "sensors"
+      "voltage_sensors"
+    ],
+    [
+      "93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed",
+      "non-fixed-voltage-converter"
+    ],
+    [
+      "873f80e8-fc8a-4a99-bc70-34580f1e31b0",
+      "temp_sensors"
     ],
     [
       "8c88a7e1-4137-48d7-b926-b5e762e3852f",

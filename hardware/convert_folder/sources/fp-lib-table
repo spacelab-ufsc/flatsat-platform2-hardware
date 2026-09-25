@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../lib/footprints")(options "")(descr ""))
+  (lib (name "altium_import")(type "KiCad")(uri "${KIPRJMOD}/../altium_import/altium_import.pretty")(options "")(descr "Footprints convertidos do projeto Altium"))
+)

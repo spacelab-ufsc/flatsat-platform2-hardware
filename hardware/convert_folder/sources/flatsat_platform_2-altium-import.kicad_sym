@@ -5140,16 +5140,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
-			(at 0 0 0)
+		(property "Reference" "U?"
+			(at -16.51 11.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "INA219AID"
+			(at 17.272 -7.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5175,7 @@
 			)
 		)
 		(property "Description" "26V, 12-bit, i2c output current/voltage/power monitor 8-SOIC -40 to 125"
-			(at 0 0 0)
+			(at 2.54 -41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,16 +10568,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
-			(at 0 0 0)
+		(property "Reference" "S?"
+			(at -10.668 -3.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "NDS02V"
+			(at 6.858 -7.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10603,7 @@
 			)
 		)
 		(property "Description" "Switch"
-			(at 0 0 0)
+			(at 19.558 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15057,18 +15057,6 @@
 		)
 		(symbol "root_0_RL622-3R3K-RC_flatsat_platform_2.SchLib_1_0"
 			(arc
-				(start 0 5.08)
-				(mid 0.898 4.708)
-				(end 1.27 3.81)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start 1.27 3.81)
 				(mid 0.898 2.912)
 				(end 0 2.54)
@@ -15081,9 +15069,9 @@
 				)
 			)
 			(arc
-				(start 0 2.54)
-				(mid 0.898 2.168)
-				(end 1.27 1.27)
+				(start 0 5.08)
+				(mid 0.898 4.708)
+				(end 1.27 3.81)
 				(stroke
 					(width 0)
 					(type solid)
@@ -15105,9 +15093,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.898 -0.372)
-				(end 1.27 -1.27)
+				(start 0 2.54)
+				(mid 0.898 2.168)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -15129,9 +15117,9 @@
 				)
 			)
 			(arc
-				(start 0 -2.54)
-				(mid 0.898 -2.912)
-				(end 1.27 -3.81)
+				(start 0 0)
+				(mid 0.898 -0.372)
+				(end 1.27 -1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -15144,6 +15132,18 @@
 				(start 1.27 -3.81)
 				(mid 0.898 -4.708)
 				(end 0 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -2.54)
+				(mid 0.898 -2.912)
+				(end 1.27 -3.81)
 				(stroke
 					(width 0)
 					(type solid)
@@ -17322,16 +17322,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
-			(at 0 0 0)
+		(property "Reference" "U?"
+			(at -15.748 10.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "SN65HVD232D"
+			(at 16.256 -4.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17357,7 +17357,7 @@
 			)
 		)
 		(property "Description" "3.3 V CAN Transceiver"
-			(at 0 0 0)
+			(at -12.192 -42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)

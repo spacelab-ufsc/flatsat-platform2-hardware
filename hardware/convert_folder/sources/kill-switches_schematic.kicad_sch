@@ -8,172 +8,7 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SW-T3-2B-A-A3-S1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SW-T3-2B-A-A3-S1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flatsat_platform_2:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -199,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "B2B-XH-A-M(LF)(SN)"
+			(property "Footprint" "altium_import:B2B-XH-A-M(LF)(SN)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -549,7 +384,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_mirrored_0533980471_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_mirrored_0533980471_flatsat_platform_2.SchLib"
 			(pin_names
 				(hide yes)
 			)
@@ -572,7 +407,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:PICO BLADE 0532610471"
 				(at 0 0 0)
 				(effects
 					(font
@@ -764,7 +599,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib"
+		(symbol "altium_import:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib"
 			(pin_names
 				(hide yes)
 			)
@@ -787,7 +622,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:PICO BLADE 0532610671"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1020,6 +855,171 @@
 					(at 8.89 -25.4 90)
 					(length 5.08)
 					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "altium_import:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:SW-T3-2B-A-A3-S1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SW-T3-2B-A-A3-S1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SW-T3-2B-A-A3-S1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1816,7 +1816,7 @@
 		(uuid "fd161e4a-6c7f-4726-bdaf-e87427a2c792")
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
 		(at 166.37 77.47 270)
 		(mirror x)
 		(unit 1)
@@ -1843,7 +1843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PICO BLADE 0532610671"
+		(property "Footprint" "altium_import:PICO BLADE 0532610671"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_B2B-XH-A-M(LF)(SN)_flatsat_platform_2.SchLib")
 		(at 228.6 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2365,7 +2365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "B2B-XH-A-M(LF)(SN)"
+		(property "Footprint" "altium_import:B2B-XH-A-M(LF)(SN)"
 			(at 228.6 92.71 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_mirrored_53398-0671_flatsat_platform_2.SchLib")
 		(at 166.37 107.95 270)
 		(mirror x)
 		(unit 1)
@@ -2625,7 +2625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PICO BLADE 0532610671"
+		(property "Footprint" "altium_import:PICO BLADE 0532610671"
 			(at 166.37 107.95 0)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
+		(lib_id "altium_import:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
 		(at 66.04 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3146,7 +3146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SW-T3-2B-A-A3-S1"
+		(property "Footprint" "altium_import:SW-T3-2B-A-A3-S1"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -3192,7 +3192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "flatsat_platform_2:root_0_mirrored_0533980471_flatsat_platform_2.SchLib")
+		(lib_id "altium_import:root_0_mirrored_0533980471_flatsat_platform_2.SchLib")
 		(at 241.3 106.68 270)
 		(mirror x)
 		(unit 1)
@@ -3219,7 +3219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PICO BLADE 0532610471"
+		(property "Footprint" "altium_import:PICO BLADE 0532610471"
 			(at 241.3 106.68 0)
 			(effects
 				(font
@@ -3918,7 +3918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SW-T3-2B-A-A3-S1:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
+		(lib_id "altium_import:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
 		(at 66.04 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3944,7 +3944,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SW-T3-2B-A-A3-S1"
+		(property "Footprint" "altium_import:SW-T3-2B-A-A3-S1"
 			(at 66.04 100.33 0)
 			(effects
 				(font

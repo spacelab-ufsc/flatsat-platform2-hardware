@@ -1,0 +1,123 @@
+(footprint "SW-T3-2B-A-A3-S1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.385798 -1.178245 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e6fb5a4-334c-4d8d-ac40-9efce4b746ba")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SW-T3-2B-A-A3-S1"
+		(at -7.177998 30.05947 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e1b32d22-c0c5-4f60-822a-f5d96491c8c8")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ca40e47-8849-40ab-a865-9d52ed56c178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2b0aaa-cf17-4121-9646-7ddeffdaebaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.5995 -1.5995)
+		(size 2.843 1.093)
+		(drill 0.625)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01e11a25-60c3-41e4-a661-dc1f51b703d4")
+	)
+	(pad "2" thru_hole rect
+		(at 2.5995 -4.0355)
+		(size 2.843 1.093)
+		(drill 0.625)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b72d030-a865-4f16-b12d-f0da64084fa0")
+	)
+	(pad "3" thru_hole rect
+		(at 2.5995 -6.5355)
+		(size 2.843 1.093)
+		(drill 0.625)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94d341c2-9524-42a4-85bc-c98cc0b2a632")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.1")
+		(uuid "5b45a056-947e-4ffc-9105-6c01c0d653ec")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0 -8.2) (xy 5.2 -8.2) (xy 5.2 0) (xy 0 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/SW-T3-2B-A-A3-S1.stp"
+		(offset
+			(xyz 2.5372 4.10936 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
