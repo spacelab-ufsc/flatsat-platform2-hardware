@@ -8,285 +8,6 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "LED:IR26-21C_L110_TR8"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "IR26-21C_L110_TR8"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "IR LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*1206*3216Metric*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "altium_import:+5V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+5V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "altium_import:root_0_CPF0603F1K15C1_SamacSys.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -1444,6 +1165,673 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lib:BSS138"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P240X120-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Compact industry standard SOT-23 surface mount package.; 0.22 A, 50 V. RDS(ON) = 3.5  @ VGS = 10 V. RDS(ON) = 6.0  @ VGS = 4.5 V; Rugged and Reliable.; High density cell design for extremely low RDS(ON)."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-BSS138"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BSS138?qs=HK%252BeIG1iaahCeqBvjB4arg%3D%3D"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BSS138"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib:CRCW06031K00FKEAHP"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW06031K00FKEAHP"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CRCW06031K00FKEAHP.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CRCW Power Resistor 0603 0.25W 1K 1% Vishay CRCW Series Thick Film Power Resistor 0603 Case 1k +/-1% 0.25W +/-100ppm/K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW06031K00FKEAH"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06031K00FKEAHP?qs=FlFvgi4rxBx1%252B5DAse78lQ%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW06031K00FKEAHP"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW06031K00FKEAHP_1_0"
+				(polyline
+					(pts
+						(xy 11.43 -0.635) (xy 11.43 0.635) (xy 6.35 0.635) (xy 6.35 -0.635) (xy 11.43 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib:LTST-C190GKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C190GKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC1608X90N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Green Clear 569nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C190GKT"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C190GKT?qs=drxkyCeiWgbQzclgbojDOg%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C190GKT"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C190GKT_0_1"
+				(polyline
+					(pts
+						(xy 4.572 -0.762) (xy 3.048 -2.286) (xy 3.81 -2.286) (xy 3.048 -2.286) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.762) (xy 4.318 -2.286) (xy 5.08 -2.286) (xy 4.318 -2.286) (xy 4.318 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -1.27) (xy 8.89 1.27) (xy 6.35 0) (xy 8.89 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LTST-C190GKT_1_1"
+				(pin passive line
+					(at 3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1559,7 +1947,7 @@
 		(uuid "0f97cd00-490d-4424-b3f0-eb45b4023aee")
 	)
 	(junction
-		(at 226.06 191.77)
+		(at 196.85 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14bbc1a6-cc38-4cfe-a978-e1ffe167be70")
@@ -1577,10 +1965,10 @@
 		(uuid "31c428f6-8302-4ccd-8fad-18b20e3f720b")
 	)
 	(junction
-		(at 267.97 209.55)
+		(at 254 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a2e2161-8738-49f4-b5f8-66ffd2154970")
+		(uuid "40d6f333-35a6-42ba-81e8-d287cca0e8b2")
 	)
 	(junction
 		(at 311.15 191.77)
@@ -1595,10 +1983,22 @@
 		(uuid "4c9f4898-f586-432f-80b7-0a7d121c42ff")
 	)
 	(junction
+		(at 267.97 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "531e3c00-892d-4acf-8529-1c6c506d0bff")
+	)
+	(junction
 		(at 267.97 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69ac133b-ada8-4b3d-a6b1-3a6bfdc242c4")
+	)
+	(junction
+		(at 237.49 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72ee79c1-178a-4657-b44b-311cc06e21fe")
 	)
 	(junction
 		(at 334.01 201.93)
@@ -1607,7 +2007,7 @@
 		(uuid "7fc32922-244c-48b6-8fdc-67c1863816b2")
 	)
 	(junction
-		(at 229.87 204.47)
+		(at 200.66 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b227035-e145-4f0a-a7ec-c1bcd0ad856a")
@@ -1625,12 +2025,6 @@
 		(uuid "9f797a59-2015-4c40-993b-335679aa95fb")
 	)
 	(junction
-		(at 246.38 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bad34669-e24c-4ecb-a583-22f7f0cd0728")
-	)
-	(junction
 		(at 326.39 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1643,10 +2037,20 @@
 		(uuid "c206115f-5fd8-45ad-8a54-8aa104971213")
 	)
 	(junction
-		(at 233.68 191.77)
+		(at 204.47 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46f2f51-5efd-46f2-ae07-e6ae254ada38")
+	)
+	(wire
+		(pts
+			(xy 254 191.77) (xy 254 209.55)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "03dbe8b2-ade9-4842-9d6c-ad6b41e94161")
 	)
 	(wire
 		(pts
@@ -1677,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "05d5f894-15dc-45d2-8991-c93d2d60a869")
+	)
+	(wire
+		(pts
+			(xy 311.15 207.01) (xy 308.61 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0678e937-6e00-4507-8ebc-ab16aea4a10e")
 	)
 	(wire
 		(pts
@@ -1730,7 +2144,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 191.77) (xy 246.38 191.77)
+			(xy 204.47 191.77) (xy 254 191.77)
 		)
 		(stroke
 			(width 0.381)
@@ -1750,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 204.47) (xy 229.87 204.47)
+			(xy 196.85 204.47) (xy 200.66 204.47)
 		)
 		(stroke
 			(width 0)
@@ -1767,6 +2181,16 @@
 			(type default)
 		)
 		(uuid "289a74e2-4e2a-414e-b1e4-173b9b58a982")
+	)
+	(wire
+		(pts
+			(xy 237.49 204.47) (xy 237.49 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a83b9b-dbe0-4efb-b33c-399d7018002c")
 	)
 	(wire
 		(pts
@@ -1800,7 +2224,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 204.47) (xy 229.87 204.47)
+			(xy 267.97 209.55) (xy 267.97 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395f082f-945f-463f-937a-5be64522bd02")
+	)
+	(wire
+		(pts
+			(xy 204.47 204.47) (xy 200.66 204.47)
 		)
 		(stroke
 			(width 0)
@@ -1860,16 +2294,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 209.55) (xy 252.73 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a844dae-4b92-44e8-9a71-6fdbe34f3db0")
-	)
-	(wire
-		(pts
 			(xy 318.77 209.55) (xy 318.77 222.25)
 		)
 		(stroke
@@ -1877,16 +2301,6 @@
 			(type default)
 		)
 		(uuid "5e0fc0a0-9889-427a-9c79-ce5bea7f8675")
-	)
-	(wire
-		(pts
-			(xy 308.61 207.01) (xy 316.23 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62314925-c22b-490a-a865-f263daf9bfc7")
 	)
 	(wire
 		(pts
@@ -1900,16 +2314,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 209.55) (xy 252.73 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a8890e-a79b-4509-9f95-96759db92101")
-	)
-	(wire
-		(pts
 			(xy 311.15 194.31) (xy 311.15 191.77)
 		)
 		(stroke
@@ -1920,13 +2324,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 191.77) (xy 267.97 191.77)
+			(xy 254 242.57) (xy 254 246.38)
 		)
 		(stroke
-			(width 0.381)
+			(width 0)
 			(type default)
 		)
-		(uuid "7ca405a5-472e-418a-82af-adb359726905")
+		(uuid "72ad4763-4b78-44ee-8985-6a4e6c495765")
 	)
 	(wire
 		(pts
@@ -1940,26 +2344,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 204.47) (xy 246.38 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b6d758-3cc5-4482-a0f8-e0be6c48f12b")
-	)
-	(wire
-		(pts
-			(xy 260.35 204.47) (xy 270.51 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1608b4-b921-40c8-a14e-2f2b717f65f3")
-	)
-	(wire
-		(pts
 			(xy 326.39 222.25) (xy 334.01 222.25)
 		)
 		(stroke
@@ -1970,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 191.77) (xy 233.68 191.77)
+			(xy 196.85 191.77) (xy 204.47 191.77)
 		)
 		(stroke
 			(width 0.381)
@@ -1990,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 191.77) (xy 226.06 191.77)
+			(xy 190.5 191.77) (xy 196.85 191.77)
 		)
 		(stroke
 			(width 0.381)
@@ -2010,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 237.49) (xy 246.38 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af890712-ee51-43e2-aad6-aaca3c42c673")
+	)
+	(wire
+		(pts
 			(xy 311.15 199.39) (xy 311.15 196.85)
 		)
 		(stroke
@@ -2020,17 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 191.77) (xy 246.38 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b457eb54-e4dd-4782-ac8e-15dd495fdfe5")
-	)
-	(wire
-		(pts
-			(xy 233.68 194.31) (xy 233.68 191.77)
+			(xy 204.47 194.31) (xy 204.47 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 201.93) (xy 226.06 204.47)
+			(xy 196.85 201.93) (xy 196.85 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 201.93) (xy 233.68 204.47)
+			(xy 204.47 201.93) (xy 204.47 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2484,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 194.31) (xy 226.06 191.77)
+			(xy 227.33 204.47) (xy 237.49 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf02ddb-fd91-43eb-9147-fe6eae0c6786")
+	)
+	(wire
+		(pts
+			(xy 196.85 194.31) (xy 196.85 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2168,9 +2562,50 @@
 		)
 		(uuid "f89bdab1-e92b-4ec0-8283-f3de83a35a2c")
 	)
+	(wire
+		(pts
+			(xy 254 191.77) (xy 267.97 191.77)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "fa9fb954-eee7-4c75-bcb5-4b8ab37e740f")
+	)
+	(wire
+		(pts
+			(xy 237.49 204.47) (xy 270.51 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2aeeb2-e6c8-4274-869d-b2ee0f7cc9ba")
+	)
+	(label "V_{IN}"
+		(at 210.82 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41c66caa-e11f-4235-b855-891121b09a2d")
+	)
+	(hierarchical_label "VCCIO_EN"
+		(shape input)
+		(at 311.15 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f91da82-8beb-4eda-8abc-5fd856536ea9")
+	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
-		(at 219.71 191.77 180)
+		(at 190.5 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,6 +2613,17 @@
 			(justify right)
 		)
 		(uuid "37b9e4ef-0d16-428f-b6bd-7a9d4f0c0a81")
+	)
+	(hierarchical_label "PG_CARRIER"
+		(shape input)
+		(at 227.33 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cdcbb12-fa38-4f76-b70c-5215f913ea85")
 	)
 	(hierarchical_label "V_{OUT}"
 		(shape output)
@@ -2189,6 +2635,132 @@
 			(justify left)
 		)
 		(uuid "98761c1b-90b2-48d5-86fd-abe0151c2059")
+	)
+	(symbol
+		(lib_id "lib:CRCW06031K00FKEAHP")
+		(at 254 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0175db8b-e734-465c-8390-f3362e3dc078")
+		(property "Reference" "R9"
+			(at 255.27 213.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 255.27 215.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 350.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CRCW06031K00FKEAHP.pdf"
+			(at 450.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRCW Power Resistor 0603 0.25W 1K 1% Vishay CRCW Series Thick Film Power Resistor 0603 Case 1k +/-1% 0.25W +/-100ppm/K"
+			(at 254 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 650.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKEAH"
+			(at 750.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06031K00FKEAHP?qs=FlFvgi4rxBx1%252B5DAse78lQ%3D%3D"
+			(at 850.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 950.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06031K00FKEAHP"
+			(at 1050.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbbc55c6-06dc-4a3a-b634-5dadc6c146b7")
+		)
+		(pin "1"
+			(uuid "9ecb7b96-3258-4d0c-9f1a-e13119f39e46")
+		)
+		(instances
+			(project ""
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "altium_import:root_0_GRM188C81C106MA73D_Capacitor.SchLib")
@@ -2524,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 275.59 214.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2671,7 +3243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 204.47 0)
+		(at 200.66 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2679,7 +3251,7 @@
 		(dnp no)
 		(uuid "87e1a8d0-589e-4a89-ac51-1e592502473f")
 		(property "Reference" "#PWR01"
-			(at 229.87 204.47 0)
+			(at 200.66 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 210.82 90)
+			(at 200.66 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +3269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 204.47 0)
+			(at 200.66 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +3278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 204.47 0)
+			(at 200.66 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +3287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 204.47 0)
+			(at 200.66 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +3296,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 251.968 203.2 0)
+			(at 222.758 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +3306,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 251.968 205.74 0)
+			(at 222.758 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +3316,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 251.968 208.28 0)
+			(at 222.758 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,16 +3342,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:IR26-21C_L110_TR8")
-		(at 256.54 204.47 180)
+		(lib_id "lib:BSS138")
+		(at 246.38 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4792e89-ed01-400b-98da-fcaf8bec2287")
-		(property "Reference" "D3"
-			(at 257.302 201.168 0)
+		(fields_autoplaced yes)
+		(uuid "95ea4356-621c-4235-a2b9-c00f82f7464f")
+		(property "Reference" "Q1"
+			(at 257.81 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,8 +3360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IR26-21C_L110_TR8"
-			(at 265.176 207.264 0)
+		(property "Value" "BSS138"
+			(at 257.81 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,8 +3369,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 256.54 209.55 0)
+		(property "Footprint" "SOT95P240X120-3N"
+			(at 257.81 336.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 257.81 436.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Compact industry standard SOT-23 surface mount package.; 0.22 A, 50 V. RDS(ON) = 3.5  @ VGS = 10 V. RDS(ON) = 6.0  @ VGS = 4.5 V; Rugged and Reliable.; High density cell design for extremely low RDS(ON)."
+			(at 246.38 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,38 +3398,299 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-			(at 256.54 204.47 0)
+		(property "Height" "1.2"
+			(at 257.81 636.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-			(at 256.54 204.47 0)
+		(property "Mouser Part Number" "512-BSS138"
+			(at 257.81 736.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BSS138?qs=HK%252BeIG1iaahCeqBvjB4arg%3D%3D"
+			(at 257.81 836.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 257.81 936.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSS138"
+			(at 257.81 1036.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "948d4698-cd78-438b-9b56-27ed9522c4d7")
+			(uuid "a1902d38-ca2b-469a-9a03-74ac983a76a0")
+		)
+		(pin "3"
+			(uuid "527137ef-03d9-4cab-89c7-65e214032433")
 		)
 		(pin "2"
-			(uuid "9ec8ad04-8368-41f1-ba14-6e8c54bb672a")
+			(uuid "ba5bf6e2-b0aa-4864-b8a4-eb9f1bdfaecf")
+		)
+		(instances
+			(project ""
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:LTST-C190GKT")
+		(at 254 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97436eeb-80b6-4f09-86f9-9312c31c905b")
+		(property "Reference" "LED1"
+			(at 256.032 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C190GKT"
+			(at 257.81 224.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEDC1608X90N"
+			(at 347.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
+			(at 447.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Green Clear 569nm"
+			(at 254 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 647.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C190GKT"
+			(at 747.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C190GKT?qs=drxkyCeiWgbQzclgbojDOg%3D%3D"
+			(at 847.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 947.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190GKT"
+			(at 1047.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57127913-e40d-473e-91e7-89ead66a51b7")
+		)
+		(pin "2"
+			(uuid "e0b3064b-610b-4342-af0e-9e5f004b701d")
+		)
+		(instances
+			(project ""
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
+					(reference "LED1")
+					(unit 1)
+				)
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a975a0d9-3bbc-49f4-9b05-cd4e846054cb")
+		(property "Reference" "#PWR027"
+			(at 254 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 252.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 276.098 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 276.098 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 276.098 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0746d0be-bd2f-4ff3-af75-7695d8b0e8d4")
 		)
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
-					(reference "D3")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
-					(reference "D2")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3861,7 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_UMK107BJ105KA-T_Capacitor.SchLib")
-		(at 233.68 198.12 90)
+		(at 204.47 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3015,7 +3869,7 @@
 		(dnp no)
 		(uuid "c4d02013-6567-43b2-9eae-5376d8ad8010")
 		(property "Reference" "C31"
-			(at 235.458 199.136 90)
+			(at 206.248 199.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3878,7 @@
 			)
 		)
 		(property "Value" "Cbias"
-			(at 242.57 196.85 90)
+			(at 213.36 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3888,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:C0603_MD"
-			(at 233.68 198.12 0)
+			(at 204.47 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 198.12 0)
+			(at 204.47 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3906,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V 10% X5R 0603"
-			(at 233.68 198.12 0)
+			(at 204.47 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3915,7 @@
 			)
 		)
 		(property "MOUNT TYPE" "SMD"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3925,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3935,7 @@
 			)
 		)
 		(property "CATEGORY" "*"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3945,7 @@
 			)
 		)
 		(property "DIELECTRIC" "*"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3955,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3965,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "587-2400-1-ND"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3975,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 231.902 193.802 90)
+			(at 202.692 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3985,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 235.458 201.676 90)
+			(at 206.248 201.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +4014,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 219.71 0)
+		(at 267.97 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3168,7 +4022,7 @@
 		(dnp no)
 		(uuid "ddfe71e9-e225-4d8b-8a68-8dcad14aee0f")
 		(property "Reference" "#PWR02"
-			(at 252.73 219.71 0)
+			(at 267.97 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +4031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 226.06 0)
+			(at 267.97 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +4039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 219.71 0)
+			(at 267.97 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +4048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 219.71 0)
+			(at 267.97 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +4057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 219.71 0)
+			(at 267.97 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +4066,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 274.828 218.44 0)
+			(at 290.068 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +4076,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 274.828 220.98 0)
+			(at 290.068 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +4086,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 274.828 223.52 0)
+			(at 290.068 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,169 +4106,6 @@
 				)
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:root_0_RMCF0603FT3K57_Resistor.SchLib")
-		(at 246.38 199.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de792637-312f-4a63-8fb8-e65df056e270")
-		(property "Reference" "R12"
-			(at 247.904 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "RMCF0603FT3K57"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "altium_import:R0603_MD"
-			(at 246.38 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 3.57K OHM 1/10W 1% 0603"
-			(at 246.38 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT TYPE" "SMD"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "1%"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Newark"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "RMCF0603FT3K57CT-ND"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "89M6753"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.57k"
-			(at 247.904 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "POWER" "1/10W"
-			(at 245.491 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fd02f12-ac61-46ca-9dcf-48f774ee536c")
-		)
-		(pin "1"
-			(uuid "3fb5b665-5fde-4e76-a829-e2ba93d8effe")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3713,75 +4404,8 @@
 		)
 	)
 	(symbol
-		(lib_id "altium_import:+5V_BAR")
-		(at 316.23 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7dc30b3-5583-4108-9d57-6958990dfd38")
-		(property "Reference" "#PWR03"
-			(at 316.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 320.04 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "52fb2af6-1635-4762-b799-d30c86c6bced")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/fc9eba0f-963f-4b27-b07a-eeaee98e5f24"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "altium_import:root_0_UMK107BJ105KA-T_Capacitor.SchLib")
-		(at 226.06 198.12 90)
+		(at 196.85 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3789,7 +4413,7 @@
 		(dnp no)
 		(uuid "ffdf7876-5e37-4e34-82d8-7a77a2735b1b")
 		(property "Reference" "C10"
-			(at 227.838 199.136 90)
+			(at 198.628 199.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +4422,7 @@
 			)
 		)
 		(property "Value" "Cin"
-			(at 222.504 197.358 90)
+			(at 193.294 197.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +4432,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:C0603_MD"
-			(at 226.06 198.12 0)
+			(at 196.85 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +4441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 198.12 0)
+			(at 196.85 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +4450,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V 10% X5R 0603"
-			(at 226.06 198.12 0)
+			(at 196.85 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +4459,7 @@
 			)
 		)
 		(property "MOUNT TYPE" "SMD"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +4469,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4479,7 @@
 			)
 		)
 		(property "CATEGORY" "*"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +4489,7 @@
 			)
 		)
 		(property "DIELECTRIC" "*"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +4499,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +4509,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "587-2400-1-ND"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +4519,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 224.282 193.802 90)
+			(at 195.072 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +4529,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 227.838 201.676 90)
+			(at 198.628 201.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)

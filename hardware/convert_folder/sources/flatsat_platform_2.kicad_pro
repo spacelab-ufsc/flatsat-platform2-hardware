@@ -629,7 +629,7 @@
   "sheets": [
     [
       "aca72eef-01de-4c32-bcdd-ff44395ea3e5",
-      "fixed-3v3-converter1"
+      "fixed-bank-13-converter"
     ],
     [
       "b2d44647-6d2b-42f4-acf9-f584c8a725c2",
@@ -641,7 +641,7 @@
     ],
     [
       "49e7c018-e125-40f5-b5d8-5320986f9db2",
-      "non-fixed-voltage-converter1"
+      "non-fixed-bank-35-converter"
     ],
     [
       "fd8561dc-965e-4da4-a400-e79c6297b87b",
@@ -657,7 +657,7 @@
     ],
     [
       "fc9eba0f-963f-4b27-b07a-eeaee98e5f24",
-      "fixed-3v3-converter"
+      "fixed-VS-converter"
     ],
     [
       "45150708-ee97-48a8-bfb4-3abd1aadda2b",
@@ -665,7 +665,7 @@
     ],
     [
       "93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed",
-      "non-fixed-voltage-converter"
+      "non-fixed-bank-34-converter"
     ],
     [
       "873f80e8-fc8a-4a99-bc70-34580f1e31b0",
