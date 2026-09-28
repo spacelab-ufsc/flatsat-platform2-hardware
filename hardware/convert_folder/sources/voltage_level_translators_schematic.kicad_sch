@@ -2328,16 +2328,6 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 232.41) (xy 552.45 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494d7e98-15fa-40da-94d7-cee9d16d912a")
-	)
-	(wire
-		(pts
 			(xy 267.97 52.07) (xy 262.89 52.07)
 		)
 		(stroke
@@ -2466,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "613f2741-0531-4d39-95e0-11bc1c856ed2")
+	)
+	(wire
+		(pts
+			(xy 544.83 232.41) (xy 552.45 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a90c84-530f-437d-a830-a02e6e31cf94")
 	)
 	(wire
 		(pts
@@ -7033,7 +7033,7 @@
 		(dnp no)
 		(uuid "859d357e-bb4d-4ec5-8f64-5a4d97323435")
 		(property "Reference" "R30"
-			(at 62.484 318.262 90)
+			(at 62.23 310.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7042,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 59.944 318.262 90)
+			(at 59.69 310.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)

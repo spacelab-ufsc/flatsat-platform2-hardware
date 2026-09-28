@@ -1558,230 +1558,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "altium_import:root_2_TSW-101-05-T-S_flatsat_platform_2.SchLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "altium_import:PIN BAR 1 2.54mm 180 GRAUS - Hide"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER 1POS .100\" SNGL TIN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PIN{space}BAR{space}1{space}2.54mm{space}180{space}GRAUS{space}-{space}Hide*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_2_TSW-101-05-T-S_flatsat_platform_2.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2145,7 +1921,7 @@
 		)
 	)
 	(bus_alias "TEMP_SPI_BUS"
-		(members "CLK_CHN_3" "CS_CHN_3" "MISO_CHN_3" "MOSI_CHN_3")
+		(members "CLK_CHN_3" "CS_CHN_3" "MISO_CHN_3" "MOSI_CHN_3" "LTC_ITR")
 	)
 	(rectangle
 		(start 173.228 94.361)
@@ -2401,6 +2177,15 @@
 		(uuid "db97a74e-0119-4586-b496-82c841f97cc7")
 	)
 	(bus_entry
+		(at 391.16 185.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c96038f-5127-4d68-9c2b-113fdb3bd301")
+	)
+	(bus_entry
 		(at 391.16 182.88)
 		(size 2.54 2.54)
 		(stroke
@@ -2538,16 +2323,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 143.51) (xy 257.81 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151867d5-b2ee-4227-aa88-b04b5e26d24f")
-	)
-	(wire
-		(pts
 			(xy 261.62 245.11) (xy 256.54 245.11)
 		)
 		(stroke
@@ -2655,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "1e485eb7-3a96-4068-a718-eb8dc6bcfb15")
+	)
+	(wire
+		(pts
+			(xy 393.7 187.96) (xy 398.78 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2086ead0-5152-4882-aa18-e2cfa4daf4f7")
 	)
 	(wire
 		(pts
@@ -3246,6 +3031,16 @@
 		)
 		(uuid "8e2349b6-9cd1-42a6-9f0c-3097bdddad14")
 	)
+	(bus
+		(pts
+			(xy 391.16 182.88) (xy 391.16 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7aeaef-06b6-49d5-89e3-e729a777bcf0")
+	)
 	(wire
 		(pts
 			(xy 262.89 270.51) (xy 242.57 270.51)
@@ -3365,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "a29eeea9-ec7f-48da-887f-efb8d6d83e10")
-	)
-	(wire
-		(pts
-			(xy 257.81 156.21) (xy 260.35 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7212a36-5c92-49ae-80bf-c6b2b3ed860e")
 	)
 	(wire
 		(pts
@@ -4037,7 +3822,7 @@
 		(uuid "62f9812e-9b51-4203-955e-8ae765640c53")
 	)
 	(label "LTC_ITR"
-		(at 255.27 143.51 0)
+		(at 257.81 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,6 +3870,16 @@
 			(justify left bottom)
 		)
 		(uuid "81d5dd78-6385-478c-8585-3bb3fdfb16cf")
+	)
+	(label "LTC_ITR"
+		(at 398.78 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8efaf899-15f4-42c0-ba10-5e5284800a3a")
 	)
 	(label "CH7"
 		(at 204.47 135.89 0)
@@ -4706,6 +4501,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:CC1210"
@@ -5311,243 +5107,6 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/873f80e8-fc8a-4a99-bc70-34580f1e31b0"
 					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:root_2_TSW-101-05-T-S_flatsat_platform_2.SchLib")
-		(at 265.43 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74bbbd59-a067-4315-b7fc-7fbfa459f136")
-		(property "Reference" "CN14"
-			(at 265.176 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TSW-101-05-T-S"
-			(at 259.842 153.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "altium_import:PIN BAR 1 2.54mm 180 GRAUS - Hide"
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER 1POS .100\" SNGL TIN"
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "N OF POSITIONS" "2"
-			(at 256.286 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 256.286 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT TYPE" "PTH"
-			(at 256.286 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec Inc"
-			(at 256.286 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Farnell"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "1925384"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Newark"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "84T5043"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" "Digi-Key"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" "SAM1019-02-ND"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 4" "Arrow"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 4" "T9xGEsh_w6igb0LY4EP_nwsWhIkhCEmR3qLYTGm2XzA"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 5" "Digi-Key"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 5" "SAM1019-01-ND"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 6" "Newark"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 6" "69X6269"
-			(at 252.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "TSW-101-05-T-S"
-			(at 260.096 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96c96117-ac75-4748-8ca0-c859b4984a7c")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/873f80e8-fc8a-4a99-bc70-34580f1e31b0"
-					(reference "CN14")
 					(unit 1)
 				)
 			)

@@ -544,7 +544,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "IC?"
 				(at 0 3.516 0)
 				(do_not_autoplace)
 				(effects
@@ -553,7 +553,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TPS74401RGWRM3"
 				(at 0 2.266 0)
 				(do_not_autoplace)
 				(effects
@@ -624,12 +624,12 @@
 			)
 			(symbol "root_0_TPS74401RGWRM3_SamacSys.SchLib_1_0"
 				(rectangle
-					(start 22.86 -27.94)
-					(end 0 0)
+					(start 0 0)
+					(end 22.86 -27.94)
 					(stroke
 						(width 0)
 						(type solid)
-						(color 128 0 0 1)
+						(color 0 0 0 1)
 					)
 					(fill
 						(type background)
@@ -1647,7 +1647,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P240X120-3N"
+			(property "Footprint" "lib:BSS138"
 				(at 11.43 -98.73 0)
 				(effects
 					(font
@@ -1952,7 +1952,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "RESC1608X55N"
+			(property "Footprint" "lib:CRCW06031K00FKEAHP"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -2108,7 +2108,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LEDC1608X90N"
+			(property "Footprint" "lib:LTST-C190GKT"
 				(at 12.7 -93.65 0)
 				(effects
 					(font
@@ -3994,8 +3994,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71a4dbd1-f2e8-43e5-a612-7ccbfff93cf3")
-		(property "Reference" "8"
-			(at 287.02 168.91 0)
+		(property "Reference" "IC8"
+			(at 288.29 167.894 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4003,8 +4003,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 287.02 194.31 0)
+		(property "Value" "TPS74401RGWRM3"
+			(at 300.228 193.294 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4138,11 +4138,11 @@
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/49e7c018-e125-40f5-b5d8-5320986f9db2"
-					(reference "8")
+					(reference "IC8")
 					(unit 1)
 				)
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
-					(reference "1")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4460,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Value" "BSS138"
@@ -4469,10 +4469,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SOT95P240X120-3N"
+		(property "Footprint" "lib:BSS138"
 			(at 269.24 315.9 0)
 			(effects
 				(font
@@ -4737,24 +4737,24 @@
 		(fields_autoplaced yes)
 		(uuid "b9d9b3bf-3d97-4d15-9d8e-36d3f7648be3")
 		(property "Reference" "R35"
-			(at 266.7 193.0399 90)
+			(at 266.7 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Value" "1K"
-			(at 266.7 195.5799 90)
+		(property "Value" "CRCW06031K00FKEAHP"
+			(at 266.7 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "lib:CRCW06031K00FKEAHP"
 			(at 361.62 189.23 0)
 			(effects
 				(font
@@ -5376,25 +5376,24 @@
 		(dnp no)
 		(uuid "db2f27f1-f94d-46f0-bd27-07eafe2376ef")
 		(property "Reference" "LED3"
-			(at 267.462 201.93 90)
+			(at 267.462 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "LTST-C190GKT"
-			(at 269.24 204.4699 90)
+			(at 269.24 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LEDC1608X90N"
+		(property "Footprint" "lib:LTST-C190GKT"
 			(at 359.08 198.12 0)
 			(effects
 				(font

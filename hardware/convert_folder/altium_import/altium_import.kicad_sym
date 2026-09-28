@@ -15222,7 +15222,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "IC?"
 			(at 0 3.516 0)
 			(do_not_autoplace)
 			(effects
@@ -15231,7 +15231,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS74401RGWRM3"
 			(at 0 2.266 0)
 			(do_not_autoplace)
 			(effects
@@ -15302,12 +15302,12 @@
 		)
 		(symbol "root_0_TPS74401RGWRM3_SamacSys.SchLib_1_0"
 			(rectangle
-				(start 22.86 -27.94)
-				(end 0 0)
+				(start 0 0)
+				(end 22.86 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
-					(color 128 0 0 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type background)
