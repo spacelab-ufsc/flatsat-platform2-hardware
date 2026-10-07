@@ -2349,7 +2349,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "TP?"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2363,6 +2363,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "altium_import:TEST POINT PTH"
@@ -4416,6 +4417,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "root_2_5-146285-2_Connector.SchLib_1"
 			(pin_names
 				(hide yes)
@@ -4793,6 +4895,12 @@
 		(uuid "edf12d49-3b72-452e-9b43-978d2b40a1ab")
 	)
 	(junction
+		(at 135.89 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081c89c6-2029-4a11-95e7-12c33d0db46f")
+	)
+	(junction
 		(at 36.83 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4857,6 +4965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47074eae-c7cf-4b75-a7e5-dfad06760fa8")
+	)
+	(junction
+		(at 273.05 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5266378f-cc87-42a0-ae55-c94d96ead3e5")
 	)
 	(junction
 		(at 387.35 81.28)
@@ -4991,6 +5105,12 @@
 		(uuid "a3362d6d-f9cd-4e87-be1e-4c0f12c11362")
 	)
 	(junction
+		(at 297.18 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37768c7-6fd1-4fea-8bf3-408a48bd3993")
+	)
+	(junction
 		(at 382.27 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,6 +5127,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd400ef3-f2ee-4e18-84fc-a1220ab52963")
+	)
+	(junction
+		(at 127 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c20cad84-2c56-4c12-b4da-49952bbc4133")
 	)
 	(junction
 		(at 389.89 104.14)
@@ -5142,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 138.43) (xy 279.4 138.43)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "02e88608-efad-44a2-94f7-e340b7263c59")
+	)
+	(wire
+		(pts
 			(xy 55.88 64.77) (xy 58.42 64.77)
 		)
 		(stroke
@@ -5272,6 +5408,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 196.85) (xy 135.89 196.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "19c4dc22-f316-4d4a-9beb-b955c2167d42")
+	)
+	(wire
+		(pts
 			(xy 88.9 44.45) (xy 88.9 46.99)
 		)
 		(stroke
@@ -5352,6 +5498,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 196.85) (xy 144.78 196.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "29093b61-3e3b-4248-981f-680b29112e04")
+	)
+	(wire
+		(pts
 			(xy 394.97 58.42) (xy 392.43 58.42)
 		)
 		(stroke
@@ -5402,7 +5558,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 196.85) (xy 144.78 196.85)
+			(xy 123.19 196.85) (xy 127 196.85)
 		)
 		(stroke
 			(width 0.381)
@@ -5429,6 +5585,16 @@
 			(type default)
 		)
 		(uuid "3381dcfe-4669-4cc3-bdaf-b77d052c2d5a")
+	)
+	(wire
+		(pts
+			(xy 127 191.77) (xy 127 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362f591b-03ee-47b7-a4a6-35e396cc2b19")
 	)
 	(wire
 		(pts
@@ -5569,6 +5735,16 @@
 			(type default)
 		)
 		(uuid "4f327310-b1ce-433a-a7cd-1b020134c228")
+	)
+	(wire
+		(pts
+			(xy 297.18 138.43) (xy 299.72 138.43)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "50c0bce8-b137-47a8-9253-af478452d887")
 	)
 	(wire
 		(pts
@@ -5902,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 138.43) (xy 299.72 138.43)
+			(xy 287.02 138.43) (xy 297.18 138.43)
 		)
 		(stroke
 			(width 0.381)
@@ -6532,6 +6708,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 133.35) (xy 297.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e78129-ddba-4066-ada8-08e7a241013e")
+	)
+	(wire
+		(pts
 			(xy 394.97 78.74) (xy 394.97 81.28)
 		)
 		(stroke
@@ -6639,6 +6825,16 @@
 			(type default)
 		)
 		(uuid "e49289bc-76c2-4cfb-b369-81db4f709150")
+	)
+	(wire
+		(pts
+			(xy 224.79 207.01) (xy 224.79 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e832adea-2d0e-467b-8bd5-fe56ddeddbfe")
 	)
 	(wire
 		(pts
@@ -6762,7 +6958,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 138.43) (xy 279.4 138.43)
+			(xy 266.7 138.43) (xy 273.05 138.43)
 		)
 		(stroke
 			(width 0.381)
@@ -6811,7 +7007,7 @@
 		(uuid "291f136c-7698-4b4d-8795-988f5c3487ad")
 	)
 	(label "VCCIO_{35}"
-		(at 133.35 114.3 0)
+		(at 148.59 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6821,7 +7017,7 @@
 		(uuid "398bfb90-51cd-4c8a-96e9-c98e4de32f4c")
 	)
 	(label "VCCIO_{13}"
-		(at 133.35 231.14 0)
+		(at 148.59 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6831,7 +7027,7 @@
 		(uuid "3df1b5c7-c68f-42e1-8ec8-a0a0e71d93e1")
 	)
 	(label "VCCIO_{34}"
-		(at 133.35 146.05 0)
+		(at 148.59 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6901,7 +7097,7 @@
 		(uuid "ac8586c9-c628-4172-9a00-e71d202dbbb9")
 	)
 	(label "VS"
-		(at 133.35 196.85 0)
+		(at 148.59 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,6 +8258,71 @@
 		)
 	)
 	(symbol
+		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
+		(at 297.18 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f4d416d-a93d-4563-85d9-12c19f2dedd2")
+		(property "Reference" "TP4"
+			(at 297.18 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 295.91 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "altium_import:TEST POINT PTH"
+			(at 297.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST POINT PAD"
+			(at 297.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ef4962-246a-4a69-9763-c426e951f854")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 102.87 0)
 		(unit 1)
@@ -8342,6 +8603,72 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "372252f8-c54a-4114-8819-0031dc4fc666")
+		(property "Reference" "#FLG02"
+			(at 135.89 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be0b7bd7-2f9e-4ae2-a236-8f85a90efb4b")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9051,21 +9378,20 @@
 		(dnp no)
 		(uuid "4a139b78-c964-4f3a-8021-38610cb6bd10")
 		(property "Reference" "TP12"
-			(at 425.704 62.357 90)
+			(at 425.704 62.357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "~"
-			(at 426.72 72.898 90)
+			(at 426.72 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"
@@ -9937,21 +10263,20 @@
 		(dnp no)
 		(uuid "60c66362-1ca5-4f0e-8ece-b6d7af325faf")
 		(property "Reference" "TP13"
-			(at 433.324 62.357 90)
+			(at 433.324 62.357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "~"
-			(at 434.34 72.898 90)
+			(at 434.34 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"
@@ -10146,6 +10471,72 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 273.05 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6553ecba-4dc5-4302-b943-3a4ea896e6df")
+		(property "Reference" "#FLG01"
+			(at 273.05 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 273.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "005b65d6-3366-462f-83d8-ad720a589ff8")
+		)
+		(instances
+			(project ""
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11197,6 +11588,101 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 224.79 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e175a51-3991-40d4-b818-b1fe602a6a1d")
+		(property "Reference" "#PWR035"
+			(at 224.79 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 246.888 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 246.888 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 246.888 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a8dc15-2416-4de8-ba5d-aec65bd43f0a")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:RDNP_0805")
 		(at 101.6 64.77 90)
 		(mirror x)
@@ -11786,6 +12272,72 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8abc94ff-a887-4db7-9c65-239dad27783f")
+		(property "Reference" "#FLG03"
+			(at 224.79 205.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.79 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f49e22-55f5-4f57-b165-64c5395b0858")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -14369,6 +14921,71 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
+		(at 127 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b42cb538-ae68-4ac1-b041-a93a12c5e5da")
+		(property "Reference" "TP11"
+			(at 127 185.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.73 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "altium_import:TEST POINT PTH"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST POINT PAD"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1ef724-da0b-418e-9058-726e5ab19108")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "TP11")
 					(unit 1)
 				)
 			)

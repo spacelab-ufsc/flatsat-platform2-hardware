@@ -8,111 +8,6 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "altium_import:+5V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+5V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -123,7 +18,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "TP?"
 				(at 0 0 0)
 				(effects
 					(font
@@ -137,6 +32,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "altium_import:TEST POINT PTH"
@@ -1334,16 +1230,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 80.01) (xy 255.27 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c40a494-7c1d-46d8-939e-5c632f607c68")
-	)
-	(wire
-		(pts
 			(xy 209.55 179.07) (xy 210.82 179.07)
 		)
 		(stroke
@@ -2374,16 +2260,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 80.01) (xy 247.65 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b79b691d-f041-491d-b3fd-629755db0202")
-	)
-	(wire
-		(pts
 			(xy 297.18 231.14) (xy 299.72 231.14)
 		)
 		(stroke
@@ -3312,16 +3188,6 @@
 		)
 		(uuid "4b5f8cd8-eb6e-40ed-a38b-70319f646e79")
 	)
-	(label "VS"
-		(at 255.27 85.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5262d4eb-8bb9-4162-b53f-31072603dccb")
-	)
 	(label "H2-36"
 		(at 339.09 256.54 0)
 		(effects
@@ -4244,134 +4110,6 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 247.65 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f4d416d-a93d-4563-85d9-12c19f2dedd2")
-		(property "Reference" "TP4"
-			(at 245.364 72.517 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 246.38 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "altium_import:TEST POINT PTH"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57ef4962-246a-4a69-9763-c426e951f854")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:+5V_BAR")
-		(at 247.65 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4625d4e4-986c-4bc1-8b15-14a41aa6d1ca")
-		(property "Reference" "#PWR0105"
-			(at 247.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 247.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "79b39b6a-f12c-44b6-b3f3-476753d39d6d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
 		(at 240.03 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4380,21 +4118,20 @@
 		(dnp no)
 		(uuid "4cb51235-9211-4412-b673-1d0d5295cfe5")
 		(property "Reference" "TP3"
-			(at 237.744 72.517 90)
+			(at 237.744 72.517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "~"
-			(at 238.76 83.058 90)
+			(at 238.76 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"
@@ -4438,72 +4175,6 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
-		(at 255.27 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b42cb538-ae68-4ac1-b041-a93a12c5e5da")
-		(property "Reference" "TP11"
-			(at 252.984 72.517 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 254 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "altium_import:TEST POINT PTH"
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PAD"
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a1ef724-da0b-418e-9058-726e5ab19108")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:root_0_Test Point PTH_flatsat_platform_2.SchLib")
 		(at 224.79 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4512,21 +4183,20 @@
 		(dnp no)
 		(uuid "dab01194-e2b8-4c47-822e-0b32935dc335")
 		(property "Reference" "TP1"
-			(at 222.504 72.517 90)
+			(at 222.504 72.517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "~"
-			(at 223.52 83.058 90)
+			(at 223.52 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"
@@ -4578,21 +4248,20 @@
 		(dnp no)
 		(uuid "e9488e02-97af-4d2c-ae69-9730d5896cc0")
 		(property "Reference" "TP2"
-			(at 230.124 72.517 90)
+			(at 230.124 72.517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "~"
-			(at 231.14 83.058 90)
+			(at 231.14 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"

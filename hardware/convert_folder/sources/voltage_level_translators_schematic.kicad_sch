@@ -8,132 +8,6 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "altium_import:RDNP_0805"
 			(pin_numbers
 				(hide yes)
@@ -773,222 +647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "altium_import:root_0_ISL83483IBZ_flatsat_platform_2.SchLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "altium_import:SOIC127P600X175-8N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1/1 Transceiver Half RS422, RS485 8-SOIC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC127P600X175-8N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_ISL83483IBZ_flatsat_platform_2.SchLib_1_0"
-				(rectangle
-					(start 10.16 -10.16)
-					(end -7.62 10.16)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 15.24 270)
-					(length 5.08)
-					(name "RO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 15.24 270)
-					(length 5.08)
-					(name "~{RE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 5.08)
-					(name "A/Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "B/Z"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 15.24 270)
-					(length 5.08)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 15.24 270)
-					(length 5.08)
-					(name "DE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -15.24 90)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "altium_import:root_0_TMP112AIDRLT_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -1155,6 +813,266 @@
 					(at 10.16 -17.78 90)
 					(length 5.08)
 					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib:THVD1450DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "THVD1450DR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "lib:THVD1450DR"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/thvd1450"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3-V to 5-V RS-485 Transceivers With +/-16-kV IEC ESD Protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-THVD1450DR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DR?qs=chTDxNqvsymGDnwVnRgduw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "THVD1450DR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "THVD1450DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,7 +1368,7 @@
 		(uuid "87e0df56-8e4d-48fd-a35f-b76a280931e7")
 	)
 	(junction
-		(at 262.89 49.53)
+		(at 265.43 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0034119d-550a-4761-82c7-8de5878a8aa9")
@@ -1474,10 +1392,10 @@
 		(uuid "13eb8ace-40cc-4965-b78e-71cc6ef2c7a7")
 	)
 	(junction
-		(at 46.99 81.28)
+		(at 46.99 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2045bdd6-aaca-48a7-bcfa-128bc64481e1")
+		(uuid "18696952-9a7c-4abe-9dcb-cdb3657e5a45")
 	)
 	(junction
 		(at 57.15 365.76)
@@ -1496,18 +1414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4f835e-281e-467f-8e26-8254ccd5468e")
-	)
-	(junction
-		(at 46.99 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43bfb0dd-a552-406a-8409-dc6a60d4c50e")
-	)
-	(junction
-		(at 46.99 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44408859-1a59-4e72-8f3d-ed0c166fe9a8")
 	)
 	(junction
 		(at 57.15 142.24)
@@ -1534,16 +1440,16 @@
 		(uuid "64d2da1c-05ad-4733-90b0-1d6c04584ac3")
 	)
 	(junction
-		(at 46.99 307.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "662be7a2-d15a-4953-8b94-403b6e818405")
-	)
-	(junction
 		(at 57.15 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69397f97-7f90-4f1a-b2c1-942fbdf37980")
+	)
+	(junction
+		(at 46.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f5f228-6fb3-4edd-81a1-d6a744a868dc")
 	)
 	(junction
 		(at 57.15 307.34)
@@ -1552,22 +1458,16 @@
 		(uuid "86cf5237-ac78-41ab-ad1d-1a8661081629")
 	)
 	(junction
-		(at 46.99 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b35cdd4-98ee-4cb0-b429-b056eb04e6e6")
-	)
-	(junction
-		(at 46.99 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be24f38-2a29-46aa-b56d-8e6e0871c726")
-	)
-	(junction
 		(at 57.15 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a221664e-ef0d-4b51-b860-b502ae675ba9")
+	)
+	(junction
+		(at 46.99 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc14c2e-d458-45c7-a9f2-a4d1122502b5")
 	)
 	(junction
 		(at 57.15 231.14)
@@ -1594,6 +1494,18 @@
 		(uuid "c68bcbb0-e5fa-447f-85ef-77efe5d11034")
 	)
 	(junction
+		(at 46.99 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb88aab-82ab-457d-ad07-5801718b4dfe")
+	)
+	(junction
+		(at 46.99 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cea64e8d-b680-4e45-85c5-c5218ea49c72")
+	)
+	(junction
 		(at 57.15 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1604,12 +1516,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4cf17eb-b155-4954-ba04-34c0dd875e51")
-	)
-	(junction
-		(at 46.99 350.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d77168d3-75a5-4e51-8fd1-fe3f95981597")
 	)
 	(junction
 		(at 57.15 91.44)
@@ -1624,10 +1530,22 @@
 		(uuid "dfdbe1dc-9e92-423c-b1dc-4d9cfc29cf95")
 	)
 	(junction
-		(at 262.89 83.82)
+		(at 46.99 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed107d3d-8e27-4da6-89ad-5b25fc547a2d")
+	)
+	(junction
+		(at 265.43 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee9d3605-0a4c-4642-a3e1-19729640ce59")
+	)
+	(junction
+		(at 46.99 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75cd2b8-48a1-4685-9496-ef8e434dd3b6")
 	)
 	(no_connect
 		(at 509.27 240.03)
@@ -1818,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 78.74) (xy 267.97 78.74)
+			(xy 265.43 78.74) (xy 270.51 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1888,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 49.53) (xy 313.69 49.53)
+			(xy 295.91 46.99) (xy 311.15 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2088,7 +2006,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 57.15) (xy 341.63 57.15)
+			(xy 46.99 76.2) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a95fa40-cc91-4541-9e2d-7a285df112ba")
+	)
+	(wire
+		(pts
+			(xy 311.15 54.61) (xy 339.09 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2138,6 +2066,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 302.26) (xy 46.99 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3ba4cf-5127-42ff-b80a-1355cee4e036")
+	)
+	(wire
+		(pts
 			(xy 64.77 266.7) (xy 64.77 271.78)
 		)
 		(stroke
@@ -2158,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 54.61) (xy 250.19 54.61)
+			(xy 270.51 52.07) (xy 252.73 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2218,23 +2156,13 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 78.74) (xy 341.63 82.55)
+			(xy 339.09 76.2) (xy 339.09 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3bb64ee5-ec34-4a67-8865-390c9556a15e")
-	)
-	(wire
-		(pts
-			(xy 262.89 86.36) (xy 262.89 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c5a75b1-03b5-41de-91be-7755d63354f1")
 	)
 	(wire
 		(pts
@@ -2288,6 +2216,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 210.82) (xy 46.99 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43db83e9-4486-40b2-8a30-5f8d2fd1e40b")
+	)
+	(wire
+		(pts
 			(xy 46.99 91.44) (xy 46.99 81.28)
 		)
 		(stroke
@@ -2298,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 46.99) (xy 250.19 46.99)
+			(xy 270.51 46.99) (xy 252.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 52.07) (xy 262.89 52.07)
+			(xy 270.51 49.53) (xy 265.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 86.36) (xy 262.89 86.36)
+			(xy 270.51 83.82) (xy 265.43 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 49.53) (xy 250.19 49.53)
+			(xy 265.43 49.53) (xy 252.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2456,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "613f2741-0531-4d39-95e0-11bc1c856ed2")
+	)
+	(wire
+		(pts
+			(xy 46.99 256.54) (xy 46.99 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6145e8ae-c08c-4a37-abe0-f384110d179c")
 	)
 	(wire
 		(pts
@@ -2486,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "63431e61-440f-4d2e-845a-df47ff2e6400")
+	)
+	(wire
+		(pts
+			(xy 46.99 121.92) (xy 46.99 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6426d36f-fdae-4f99-96ba-6283381d7d83")
 	)
 	(wire
 		(pts
@@ -2600,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 78.74) (xy 341.63 78.74)
+			(xy 311.15 76.2) (xy 339.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 44.45) (xy 267.97 44.45)
+			(xy 265.43 44.45) (xy 270.51 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 88.9) (xy 250.19 88.9)
+			(xy 270.51 86.36) (xy 252.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 44.45) (xy 341.63 48.26)
+			(xy 339.09 41.91) (xy 339.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 86.36) (xy 313.69 91.44)
+			(xy 311.15 83.82) (xy 311.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2830,17 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 52.07) (xy 262.89 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892b6cbb-4905-4bbf-8c6b-a1d7e98bbe68")
-	)
-	(wire
-		(pts
-			(xy 298.45 44.45) (xy 306.07 44.45)
+			(xy 295.91 44.45) (xy 303.53 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 83.82) (xy 262.89 78.74)
+			(xy 265.43 83.82) (xy 265.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 81.28) (xy 250.19 81.28)
+			(xy 270.51 81.28) (xy 252.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 52.07) (xy 313.69 52.07)
+			(xy 295.91 49.53) (xy 311.15 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 57.15) (xy 300.99 57.15)
+			(xy 295.91 52.07) (xy 298.45 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 91.44) (xy 341.63 91.44)
+			(xy 311.15 88.9) (xy 339.09 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 78.74) (xy 306.07 78.74)
+			(xy 295.91 78.74) (xy 303.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 57.15) (xy 341.63 50.8)
+			(xy 339.09 54.61) (xy 339.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 49.53) (xy 313.69 44.45)
+			(xy 311.15 46.99) (xy 311.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 86.36) (xy 313.69 86.36)
+			(xy 295.91 83.82) (xy 311.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3463,13 +3411,23 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 91.44) (xy 300.99 96.52)
+			(xy 298.45 86.36) (xy 298.45 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca3a3daa-260b-472b-b030-b29701de3263")
+	)
+	(wire
+		(pts
+			(xy 46.99 345.44) (xy 46.99 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca648ce4-f16b-4c5c-93bd-20d992f1d58c")
 	)
 	(wire
 		(pts
@@ -3483,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 44.45) (xy 341.63 44.45)
+			(xy 311.15 41.91) (xy 339.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3573,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 49.53) (xy 262.89 44.45)
+			(xy 265.43 49.53) (xy 265.43 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3583,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 91.44) (xy 300.99 91.44)
+			(xy 295.91 86.36) (xy 298.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3593,7 +3551,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 83.82) (xy 313.69 78.74)
+			(xy 46.99 167.64) (xy 46.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3025606-1aef-44c9-b4ab-38c3ec41d976")
+	)
+	(wire
+		(pts
+			(xy 311.15 81.28) (xy 311.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3623,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 57.15) (xy 300.99 62.23)
+			(xy 298.45 52.07) (xy 298.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 52.07) (xy 313.69 57.15)
+			(xy 311.15 49.53) (xy 311.15 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3674,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 83.82) (xy 313.69 83.82)
+			(xy 295.91 81.28) (xy 311.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 83.82) (xy 250.19 83.82)
+			(xy 265.43 83.82) (xy 252.73 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3774,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 91.44) (xy 341.63 85.09)
+			(xy 339.09 88.9) (xy 339.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3913,7 +3881,7 @@
 		(uuid "234de9dc-b742-4e41-aeb3-f964e7ae6702")
 	)
 	(label "TX_CHN_3"
-		(at 250.19 46.99 0)
+		(at 252.73 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,7 +3911,7 @@
 		(uuid "24b4968c-819a-4ccf-8dc5-58e3cae06535")
 	)
 	(label "RS485_01_N"
-		(at 320.04 57.15 0)
+		(at 317.5 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4023,7 +3991,7 @@
 		(uuid "4629d9ee-4c26-4d0a-9142-50ec480bdab9")
 	)
 	(label "TX_CHN_4"
-		(at 250.19 81.28 0)
+		(at 252.73 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4083,7 +4051,7 @@
 		(uuid "5d5a0dce-2b3b-4f73-be0a-114bdc4a9c97")
 	)
 	(label "RS485_02_N"
-		(at 320.04 91.44 0)
+		(at 317.5 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4081,7 @@
 		(uuid "6324f0d6-1166-47aa-84ca-b8df2ddb681e")
 	)
 	(label "T/R_CHN_4"
-		(at 250.19 83.82 0)
+		(at 252.73 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4123,7 +4091,7 @@
 		(uuid "63e90364-ae52-485c-b638-474ed5fb6372")
 	)
 	(label "RX_CHN_3"
-		(at 250.19 54.61 0)
+		(at 252.73 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4143,7 +4111,7 @@
 		(uuid "64c8b916-b93f-46b5-9f89-b78107f0f114")
 	)
 	(label "RS485_01_P"
-		(at 320.04 44.45 0)
+		(at 317.5 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4193,7 +4161,7 @@
 		(uuid "7221e454-71d1-49ac-8356-7c942109713f")
 	)
 	(label "T/R_CHN_3"
-		(at 250.19 49.53 0)
+		(at 252.73 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4413,7 +4381,7 @@
 		(uuid "cd496a02-2184-4402-ae68-c9dcdbd2ff7e")
 	)
 	(label "RS485_02_P"
-		(at 320.04 78.74 0)
+		(at 317.5 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4523,7 +4491,7 @@
 		(uuid "e92a8c43-ebc9-4045-8452-5586d7f49d73")
 	)
 	(label "RX_CHN_4"
-		(at 250.19 88.9 0)
+		(at 252.73 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4681,7 +4649,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 306.07 78.74 0)
+		(at 303.53 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4802,7 +4770,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 306.07 44.45 0)
+		(at 303.53 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5030,76 +4998,6 @@
 			(justify left)
 		)
 		(uuid "fa66694e-404f-414c-ad3f-73696f46cbe7")
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 304.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06717df2-13fe-4994-b78b-982c9c3c53a0")
-		(property "Reference" "NT6"
-			(at 48.26 303.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 306.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba12ebd5-3016-416a-8e7b-236e85d9f625")
-		)
-		(pin "1"
-			(uuid "764bec41-9c95-46eb-b964-c9dc61ee33f8")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "altium_import:RDNP_0805")
@@ -5583,6 +5481,144 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:THVD1450DR")
+		(at 270.51 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ce93e6-bbba-4383-b218-2c6afae2cdb7")
+		(property "Reference" "U25"
+			(at 283.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THVD1450DR"
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:THVD1450DR"
+			(at 292.1 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/thvd1450"
+			(at 292.1 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3-V to 5-V RS-485 Transceivers With +/-16-kV IEC ESD Protection"
+			(at 270.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 292.1 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-THVD1450DR"
+			(at 292.1 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DR?qs=chTDxNqvsymGDnwVnRgduw%3D%3D"
+			(at 292.1 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 292.1 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "THVD1450DR"
+			(at 292.1 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5f742137-97d1-4757-b2b8-2071a8c27874")
+		)
+		(pin "6"
+			(uuid "928d4482-826d-49c1-966d-84fdd31a432f")
+		)
+		(pin "7"
+			(uuid "a0d22468-131d-40b1-a424-47ad08d3b245")
+		)
+		(pin "1"
+			(uuid "078e5d03-8ad7-4467-94a3-ad7417411c8b")
+		)
+		(pin "5"
+			(uuid "93bab05a-26ee-4708-a0ae-2eabdc37679d")
+		)
+		(pin "3"
+			(uuid "1e29dbf7-5ce2-4377-9297-8384a77b8dfc")
+		)
+		(pin "2"
+			(uuid "105b45b6-9ae5-474b-b15d-2c8d9b6d609f")
+		)
+		(pin "4"
+			(uuid "3d999e3f-ecaf-43b8-8bed-c28e4efe3b56")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_TMP112AIDRLT_flatsat_platform_2.SchLib")
 		(at 527.05 242.57 90)
 		(unit 1)
@@ -5664,78 +5700,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a5838c9-016e-4ee4-9aaa-7b85fcb03d49")
-		(property "Reference" "NT3"
-			(at 48.26 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbe4b52f-6634-4b29-9617-fc97a5647a29")
-		)
-		(pin "1"
-			(uuid "c12c693d-9427-4b18-89ee-99a5cdced076")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
-		(at 346.71 53.34 90)
+		(at 344.17 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5743,7 +5709,7 @@
 		(dnp no)
 		(uuid "3cc9d100-215a-4099-a5e0-8d869e5793be")
 		(property "Reference" "J2"
-			(at 346.456 45.466 90)
+			(at 343.916 42.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5718,7 @@
 			)
 		)
 		(property "Value" "5-146280-2"
-			(at 346.456 56.134 90)
+			(at 343.916 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
-			(at 346.71 53.34 0)
+			(at 344.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 53.34 0)
+			(at 344.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5745,7 @@
 			)
 		)
 		(property "Description" "02 MODII HDR SRST B/A .100CL"
-			(at 346.71 53.34 0)
+			(at 344.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5754,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5764,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5774,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5784,7 @@
 			)
 		)
 		(property "PRODUCT_TYPE" "Connector"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +5794,7 @@
 			)
 		)
 		(property "EU_ROHS_COMPLIANCE" "Compliant"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +5804,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5814,7 @@
 			)
 		)
 		(property "NUMBER_OF_POSITIONS" "2"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5824,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5834,7 @@
 			)
 		)
 		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5844,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5854,7 @@
 			)
 		)
 		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5864,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "5-146280-2"
-			(at 346.71 53.34 90)
+			(at 344.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +5985,7 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
-		(at 346.71 87.63 90)
+		(at 344.17 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6027,7 +5993,7 @@
 		(dnp no)
 		(uuid "446b392b-06e8-4eb5-b4d8-d1fc49568746")
 		(property "Reference" "J1"
-			(at 346.456 79.756 90)
+			(at 343.916 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6002,7 @@
 			)
 		)
 		(property "Value" "5-146280-2"
-			(at 346.456 90.424 90)
+			(at 343.916 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6011,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
-			(at 346.71 87.63 0)
+			(at 344.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 87.63 0)
+			(at 344.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6029,7 @@
 			)
 		)
 		(property "Description" "02 MODII HDR SRST B/A .100CL"
-			(at 346.71 87.63 0)
+			(at 344.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6038,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6048,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6058,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6068,7 @@
 			)
 		)
 		(property "PRODUCT_TYPE" "Connector"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6078,7 @@
 			)
 		)
 		(property "EU_ROHS_COMPLIANCE" "Compliant"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6088,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6098,7 @@
 			)
 		)
 		(property "NUMBER_OF_POSITIONS" "2"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6108,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6118,7 @@
 			)
 		)
 		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6128,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6138,7 @@
 			)
 		)
 		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6148,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "5-146280-2"
-			(at 346.71 87.63 90)
+			(at 344.17 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,148 +6173,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5153c49f-9b7a-4b51-ac97-ff5a50cc7f71")
-		(property "Reference" "NT2"
-			(at 48.26 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e5355b6-c4d5-4d05-a77d-b513f9987f01")
-		)
-		(pin "1"
-			(uuid "7d480493-b6a6-49f0-9397-05fef326285a")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 213.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "562204fc-75e6-45ac-b2c4-3f904ca47bb9")
-		(property "Reference" "NT4"
-			(at 48.26 212.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 214.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80cf60e9-aef3-4233-9fcd-e491306a145f")
-		)
-		(pin "1"
-			(uuid "24f7c17a-b7a5-4a6b-9705-272f6cb3d7e7")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 300.99 96.52 0)
+		(at 298.45 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6356,7 +6182,7 @@
 		(dnp no)
 		(uuid "563ef424-9a46-4eb3-86c0-ce04991cbb98")
 		(property "Reference" "#PWR0177"
-			(at 300.99 96.52 0)
+			(at 298.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 300.99 102.87 0)
+			(at 298.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 96.52 0)
+			(at 298.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 96.52 0)
+			(at 298.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 96.52 0)
+			(at 298.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6226,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 323.088 95.25 0)
+			(at 320.548 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6236,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 323.088 97.79 0)
+			(at 320.548 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6246,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 323.088 100.33 0)
+			(at 320.548 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 300.99 62.23 0)
+		(at 298.45 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6451,7 +6277,7 @@
 		(dnp no)
 		(uuid "63aec9d3-15da-499c-89d5-8fa338ad6c58")
 		(property "Reference" "#PWR0183"
-			(at 300.99 62.23 0)
+			(at 298.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 300.99 68.58 0)
+			(at 298.45 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 62.23 0)
+			(at 298.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 62.23 0)
+			(at 298.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 62.23 0)
+			(at 298.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6321,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 323.088 60.96 0)
+			(at 320.548 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6331,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 323.088 63.5 0)
+			(at 320.548 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6341,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 323.088 66.04 0)
+			(at 320.548 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,163 +7129,6 @@
 		)
 	)
 	(symbol
-		(lib_id "altium_import:root_0_ISL83483IBZ_flatsat_platform_2.SchLib")
-		(at 283.21 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0dcd3f8-d7da-4c8b-9541-a7eab807d9bd")
-		(property "Reference" "U25"
-			(at 273.05 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "ISL83483IBZ"
-			(at 273.05 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "altium_import:SOIC127P600X175-8N"
-			(at 283.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/1 Transceiver Half RS422, RS485 8-SOIC"
-			(at 283.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f2ad5475-c007-47b8-bba8-7b2de045c449")
-		)
-		(pin "4"
-			(uuid "105fa0cc-5c16-4d6b-89be-def4bdbe0867")
-		)
-		(pin "2"
-			(uuid "f034c66e-999f-478a-b577-010284135101")
-		)
-		(pin "1"
-			(uuid "6aec6c64-8c54-4bfa-b3f3-1293d8a8fde4")
-		)
-		(pin "8"
-			(uuid "13aae738-e176-41ad-8832-7ef731b7d14e")
-		)
-		(pin "7"
-			(uuid "7b650411-62da-41c0-8cad-08e647897f8b")
-		)
-		(pin "6"
-			(uuid "7f7bfc90-0b14-4a9a-81cd-8a5a42ac0cb6")
-		)
-		(pin "5"
-			(uuid "57caa20a-a3d5-4cde-a1a2-f3f6f26f5f73")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "U25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 259.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3ea2e45-c5d6-4078-af14-ce3acdd0ff8c")
-		(property "Reference" "NT5"
-			(at 48.26 257.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 260.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c86cbf6a-2b86-4359-a1a3-7b1e3199f7d6")
-		)
-		(pin "1"
-			(uuid "70307f69-0e5e-4a4d-8d8a-94917fd79347")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "altium_import:root_0_INA219AID_flatsat_platform_2.SchLib")
 		(at 105.41 264.16 90)
 		(unit 1)
@@ -7888,163 +7557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "altium_import:root_0_ISL83483IBZ_flatsat_platform_2.SchLib")
-		(at 283.21 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b41c1254-ebb9-47cd-95ae-0758bc402230")
-		(property "Reference" "U22"
-			(at 273.05 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "ISL83483IBZ"
-			(at 273.05 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "altium_import:SOIC127P600X175-8N"
-			(at 283.21 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/1 Transceiver Half RS422, RS485 8-SOIC"
-			(at 283.21 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5a2f20d2-d369-4d51-a9c8-71317321b3d0")
-		)
-		(pin "4"
-			(uuid "318eaa13-a1b8-4e57-94be-4201193a0591")
-		)
-		(pin "2"
-			(uuid "03f2abdc-b696-42c0-a218-eeeeadfb9a0d")
-		)
-		(pin "1"
-			(uuid "a2785c35-21e3-4273-aad7-dc1e25390128")
-		)
-		(pin "8"
-			(uuid "de579a53-2d9c-4eff-a627-7f8e69e5bede")
-		)
-		(pin "7"
-			(uuid "135a3027-b1b1-4ac0-afd0-26327f088dd0")
-		)
-		(pin "6"
-			(uuid "40b78667-8b7a-474e-a315-900de32c0cff")
-		)
-		(pin "5"
-			(uuid "5bcd443e-b57c-4fc2-afd7-4d2b01dbaeeb")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be3dc4eb-0a18-4bca-8b29-67fb903fa2c2")
-		(property "Reference" "NT1"
-			(at 48.26 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c2b799b-d5b9-499c-94a1-49362d4dd3d3")
-		)
-		(pin "1"
-			(uuid "5535dce0-66e8-4e93-b17d-e0b2724d55dd")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "altium_import:root_0_INA219AID_flatsat_platform_2.SchLib")
 		(at 105.41 83.82 90)
 		(unit 1)
@@ -8158,6 +7670,144 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:THVD1450DR")
+		(at 270.51 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c905cbda-1a6e-4610-be01-6e8ea3438c78")
+		(property "Reference" "U22"
+			(at 283.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THVD1450DR"
+			(at 283.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:THVD1450DR"
+			(at 292.1 139.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/thvd1450"
+			(at 292.1 239.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3-V to 5-V RS-485 Transceivers With +/-16-kV IEC ESD Protection"
+			(at 270.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 292.1 439.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-THVD1450DR"
+			(at 292.1 539.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DR?qs=chTDxNqvsymGDnwVnRgduw%3D%3D"
+			(at 292.1 639.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 292.1 739.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "THVD1450DR"
+			(at 292.1 839.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "170425af-518f-4487-b130-ba883dcea8eb")
+		)
+		(pin "6"
+			(uuid "3bdc331b-01a4-4093-8ded-42d60751fc5c")
+		)
+		(pin "7"
+			(uuid "97b06159-1e69-4c58-b507-34fc5e0cf399")
+		)
+		(pin "1"
+			(uuid "ca57e525-af1d-4750-9acf-3f26dd2e6431")
+		)
+		(pin "5"
+			(uuid "cc6a31a6-44de-4f6c-b9e5-765bb90ab61c")
+		)
+		(pin "3"
+			(uuid "a0e5159b-ba21-43af-a039-ffbcad7e28dc")
+		)
+		(pin "2"
+			(uuid "99390caf-1b86-4890-b886-58e5e821f97f")
+		)
+		(pin "4"
+			(uuid "0f508f53-2d06-436a-b041-9339dcad3e3d")
+		)
+		(instances
+			(project ""
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -8396,76 +8046,6 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 46.99 347.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6fddd82-a481-40e4-98c5-067ed951256e")
-		(property "Reference" "NT7"
-			(at 48.26 346.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 48.26 349.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 46.99 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50ca987e-c5d1-4b09-bef2-b7fe66fd67dc")
-		)
-		(pin "1"
-			(uuid "f66bd24f-56eb-4761-85c7-b7965961eabd")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
-					(reference "NT7")
 					(unit 1)
 				)
 			)

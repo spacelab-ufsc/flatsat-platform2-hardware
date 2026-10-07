@@ -8,6 +8,274 @@
 		(title "Microzed Interface")
 	)
 	(lib_symbols
+		(symbol "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "02 MODII HDR SRST B/A .100CL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PIN{space}BAR{space}2{space}2.54mm{space}180{space}GRAUS*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_5-146280-2_flatsat_platform_2.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.778) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "altium_import:root_0_CL10B103KB8NNNC_Capacitor.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -298,235 +566,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "altium_import:root_0_NDS02V_SamacSys.SchLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "altium_import:NDS02V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*NDS02V*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_NDS02V_SamacSys.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy -2.946 -12.954)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -12.7)
-					(radius 0.33)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -15.24) (xy -5.08 -13.081)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 2.134 -12.954)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -12.7)
-					(radius 0.33)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -15.24) (xy 0 -13.081)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 270)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 90)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2498,12 +2537,6 @@
 		(uuid "73e35e33-f14d-4399-8bd3-e8e2c155925e")
 	)
 	(junction
-		(at 326.39 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81932261-ac1d-4dac-ba1d-ea240e3e6990")
-	)
-	(junction
 		(at 347.98 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2514,6 +2547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32800d8-f693-4e63-96f5-138f335ba2f1")
+	)
+	(junction
+		(at 326.39 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72e1bfb-816e-45de-a22e-8bfb6f6df25a")
 	)
 	(junction
 		(at 260.35 130.81)
@@ -2579,16 +2618,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 135.89) (xy 307.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a1339e-4550-4ffa-8161-a9e0a68eadc1")
-	)
-	(wire
-		(pts
 			(xy 248.92 184.15) (xy 281.94 184.15)
 		)
 		(stroke
@@ -2606,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "1b4e95f1-8530-4729-bd4e-ce4e8bfe424f")
-	)
-	(wire
-		(pts
-			(xy 303.53 130.81) (xy 307.34 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d024fa0-2e30-424f-9db4-ac9d5ec2b2e0")
 	)
 	(wire
 		(pts
@@ -2659,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 143.51) (xy 260.35 135.89)
+			(xy 260.35 147.32) (xy 260.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 135.89) (xy 260.35 135.89)
+			(xy 260.35 135.89) (xy 290.83 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 143.51) (xy 317.5 143.51)
+			(xy 326.39 147.32) (xy 317.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2869,6 +2888,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 135.89) (xy 326.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e31dfdf-5700-45e7-85cf-2c70440f0298")
+	)
+	(wire
+		(pts
 			(xy 322.58 186.69) (xy 320.04 186.69)
 		)
 		(stroke
@@ -2909,6 +2938,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 130.81) (xy 307.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07ce9fa-4183-434a-9842-e549eab850f0")
+	)
+	(wire
+		(pts
 			(xy 215.9 173.99) (xy 215.9 171.45)
 		)
 		(stroke
@@ -2929,7 +2968,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 130.81) (xy 260.35 130.81)
+			(xy 260.35 130.81) (xy 290.83 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 143.51) (xy 307.34 143.51)
+			(xy 260.35 147.32) (xy 307.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3079,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 135.89) (xy 326.39 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef03c61-6367-4077-9e25-9721d0874d73")
-	)
-	(wire
-		(pts
 			(xy 326.39 130.81) (xy 326.39 135.89)
 		)
 		(stroke
@@ -3109,13 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 143.51) (xy 326.39 148.59)
+			(xy 326.39 147.32) (xy 326.39 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8add37f-9abd-4cf9-87f2-40d0c82451f2")
+		(uuid "d2307d31-77f8-4edb-b09e-587d59f4b37e")
 	)
 	(wire
 		(pts
@@ -3156,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "f3e0b23b-369c-420c-a563-a441fa71bb53")
+	)
+	(wire
+		(pts
+			(xy 293.37 135.89) (xy 307.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f775f78d-37cd-484a-8e75-8bd2fada866e")
 	)
 	(wire
 		(pts
@@ -3827,165 +3866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "altium_import:root_0_NDS02V_SamacSys.SchLib")
-		(at 283.21 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6983a1a9-1cce-4641-ad05-b3fc85ba8346")
-		(property "Reference" "S1"
-			(at 288.036 128.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "NDS02V"
-			(at 288.036 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "altium_import:NDS02V"
-			(at 283.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch"
-			(at 283.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/NDS02V.pdf"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "7.05mm"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Apem"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NDS02V"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "642-NDS02V"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Apem/NDS02V?qs=Rt2YTNbomKgQBAMS%252Bs5rFQ%3D%3D"
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 283.21 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c15ef3e-1f13-4dce-bdce-57e692c7368e")
-		)
-		(pin "2"
-			(uuid "f124451c-60c9-4941-a97d-24d9fa6b8c13")
-		)
-		(pin "3"
-			(uuid "17965a51-e2bc-43f7-922e-20a3228f9f3b")
-		)
-		(pin "4"
-			(uuid "fb902294-32ec-4f03-84fb-d5a9d59b929d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/49e7c018-e125-40f5-b5d8-5320986f9db2"
-					(reference "S1")
-					(unit 1)
-				)
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "altium_import:root_0_TPS74401RGWRM3_SamacSys.SchLib")
 		(at 287.02 191.77 90)
 		(unit 1)
@@ -3995,7 +3875,7 @@
 		(dnp no)
 		(uuid "71a4dbd1-f2e8-43e5-a612-7ccbfff93cf3")
 		(property "Reference" "IC8"
-			(at 288.29 167.894 90)
+			(at 288.29 167.894 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4004,7 +3884,7 @@
 			)
 		)
 		(property "Value" "TPS74401RGWRM3"
-			(at 300.228 193.294 90)
+			(at 300.228 193.294 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4142,7 +4022,7 @@
 					(unit 1)
 				)
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
-					(reference "IC1")
+					(reference "IC66")
 					(unit 1)
 				)
 			)
@@ -4445,6 +4325,199 @@
 		)
 	)
 	(symbol
+		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
+		(at 295.91 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83fa69a6-432b-4a1d-b51f-8b82cdb81969")
+		(property "Reference" "J7"
+			(at 288.036 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "5-146280-2"
+			(at 298.704 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
+			(at 295.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "02 MODII HDR SRST B/A .100CL"
+			(at 295.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PRODUCT_TYPE" "Connector"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" "Compliant"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER_OF_POSITIONS" "2"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "5-146280-2"
+			(at 295.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd3ab47-10e5-40ab-89bb-b8042c867a92")
+		)
+		(pin "2"
+			(uuid "6c795236-0dff-4f25-a463-237eeb190227")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/49e7c018-e125-40f5-b5d8-5320986f9db2"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:BSS138")
 		(at 257.81 217.17 0)
 		(unit 1)
@@ -4575,7 +4648,7 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_1_ERJ-H3ED3652V_SamacSys.SchLib")
-		(at 317.5 143.51 180)
+		(at 317.5 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4583,7 +4656,7 @@
 		(dnp no)
 		(uuid "9ce2b476-fbae-46c4-9876-41ea1b95f05b")
 		(property "Reference" "R20"
-			(at 307.5 143.51 0)
+			(at 307.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4665,7 @@
 			)
 		)
 		(property "Value" "ERJ-H3ED3652V"
-			(at 309.626 146.939 0)
+			(at 309.626 150.749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4675,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:R0603_HD"
-			(at 317.5 143.51 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 143.51 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4693,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 317.5 143.51 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4702,7 @@
 			)
 		)
 		(property "DATASHEET LINK" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4712,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Panasonic"
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4722,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "ERJ-H3ED3652V"
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4732,7 @@
 			)
 		)
 		(property "MOUSER PART NUMBER" ""
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4742,7 @@
 			)
 		)
 		(property "MOUSER PRICE/STOCK" ""
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4752,7 @@
 			)
 		)
 		(property "ARROW PART NUMBER" ""
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4762,7 @@
 			)
 		)
 		(property "ARROW PRICE/STOCK" ""
-			(at 306.832 142.621 0)
+			(at 306.832 146.431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4772,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "37K5"
-			(at 315 143.51 0)
+			(at 315 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,6 +4920,200 @@
 				)
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
+		(at 295.91 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c17759f5-4942-4482-bd3e-58c7e327a85d")
+		(property "Reference" "J17"
+			(at 288.036 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "5-146280-2"
+			(at 298.704 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
+			(at 295.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "02 MODII HDR SRST B/A .100CL"
+			(at 295.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PRODUCT_TYPE" "Connector"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" "Compliant"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER_OF_POSITIONS" "2"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "5-146280-2"
+			(at 295.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "652f93e9-6585-41ac-847f-a363056d6aca")
+		)
+		(pin "2"
+			(uuid "e52d4fa5-552b-4f27-a72c-92b4c16a24a2")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/49e7c018-e125-40f5-b5d8-5320986f9db2"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/93ce5ee5-515b-44f0-a5c2-2f4d8eca03ed"
+					(reference "J18")
 					(unit 1)
 				)
 			)

@@ -5263,7 +5263,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "IC?"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "THVD1450DR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15704,7 +15704,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "TP?"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15718,6 +15718,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "altium_import:TEST POINT PTH"
