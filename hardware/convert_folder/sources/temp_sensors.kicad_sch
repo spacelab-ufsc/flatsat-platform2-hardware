@@ -1081,6 +1081,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "lib:PCC-SMP-V-K-5"
+				(at 10.668 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Soquete de termopar especial PCCS para placa de circuito em série"
+				(at 0.762 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PCC-SMP-V-K*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_1_0"
+				(rectangle
+					(start 2.54 20.32)
+					(end 15.24 2.54)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -1.27 7.62 0)
+					(length 3.81)
+					(name "shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 27.94 270)
+					(length 7.62)
+					(name "negative"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 27.94 270)
+					(length 7.62)
+					(name "positive"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "altium_import:root_1_Cap_Cer_X7R_0.1uF_25V_0805_flatsat_platform_2.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -1649,266 +1779,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "altium_import:PCC-SMP-V-K"
-				(at 10.668 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Soquete de termopar especial PCCS para placa de circuito em série"
-				(at 0.762 -13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PCC-SMP-V-K*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_1_1_0"
-				(rectangle
-					(start 2.54 20.32)
-					(end 15.24 2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -1.27 7.62 0)
-					(length 3.81)
-					(name "shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 27.94 270)
-					(length 7.62)
-					(name "negative"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 27.94 270)
-					(length 7.62)
-					(name "positive"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "altium_import:PCC-SMP-V-K"
-				(at 10.668 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Soquete de termopar especial PCCS para placa de circuito em série"
-				(at 0.762 -13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PCC-SMP-V-K*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2_1_0"
-				(rectangle
-					(start 2.54 20.32)
-					(end 15.24 2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -1.27 7.62 0)
-					(length 3.81)
-					(name "shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 27.94 270)
-					(length 7.62)
-					(name "negative"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 27.94 270)
-					(length 7.62)
-					(name "positive"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4403,7 +4273,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 289.56 255.27 90)
 		(unit 1)
@@ -4431,7 +4300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 296.926 244.602 0)
 			(effects
 				(font
@@ -5481,7 +5350,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 290.83 278.13 90)
 		(unit 1)
@@ -5509,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 298.196 267.462 0)
 			(effects
 				(font
@@ -5650,7 +5518,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 346.71 278.13 90)
 		(unit 1)
@@ -5678,7 +5545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 354.076 267.462 0)
 			(effects
 				(font
@@ -6188,7 +6055,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 232.41 254 90)
 		(unit 1)
@@ -6216,7 +6082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 239.776 243.332 0)
 			(effects
 				(font
@@ -6262,7 +6128,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 233.68 278.13 90)
 		(unit 1)
@@ -6290,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 241.046 267.462 0)
 			(effects
 				(font
@@ -6336,7 +6201,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 345.44 229.87 90)
 		(unit 1)
@@ -6364,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 352.806 219.202 0)
 			(effects
 				(font
@@ -7031,7 +6895,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_2")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 346.71 255.27 90)
 		(unit 1)
@@ -7059,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 354.076 244.602 0)
 			(effects
 				(font
@@ -7589,7 +7452,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib_1")
 		(lib_id "altium_import:root_0_PCC-SMP-V-K_Thermocouple_connector.SchLib")
 		(at 346.71 203.2 90)
 		(unit 1)
@@ -7617,7 +7479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 354.076 192.532 0)
 			(effects
 				(font

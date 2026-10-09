@@ -1,4 +1,4 @@
-89461200798597
+91252712884295
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106818,6 +106818,13 @@ LTST-C190GKT
 LED
 0
 2
+2
+lib
+PCC-SMP-V-K-5
+Omega PCC-SMP-V miniature thermocouple socket, vertical mount (body stands on its 6.3 mm side, plug enters parallel to the board), 2 contacts + mounting bracket, 4x d1.77 mm holes. Dimensions from the Omega/Newport PCC-OST/PCC-SMP datasheet. Pad 1 = +, pad 2 = -. Plug enters from the -X side. https://assets.omega.com/spec/PCC-OST-SMP_spec.pdf
+thermocouple connector miniature SMP PCC-SMP-V vertical Omega Newport
+0
+4
 2
 lib
 RES0402

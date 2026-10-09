@@ -14812,7 +14812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "altium_import:PCC-SMP-V-K"
+		(property "Footprint" "lib:PCC-SMP-V-K-5"
 			(at 10.668 -7.366 0)
 			(effects
 				(font
