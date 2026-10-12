@@ -11757,16 +11757,6 @@
 		)
 		(uuid "3924aebe-ff4c-4aba-aaa0-2f3ae81034ef")
 	)
-	(label "VCCIO_{13}"
-		(at 83.82 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39ea489d-d613-4b69-a6c5-e0ef412bf0ff")
-	)
 	(label "CLK_CHN_2"
 		(at 335.28 106.68 0)
 		(effects
@@ -12316,16 +12306,6 @@
 			(justify right bottom)
 		)
 		(uuid "8214e507-d9ae-4dd0-9027-cb7ce72486ab")
-	)
-	(label "VCCIO_{13}"
-		(at 267.97 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84378590-a390-4d2e-9c84-b342881804a1")
 	)
 	(label "P32"
 		(at 464.82 158.75 0)
@@ -13547,6 +13527,32 @@
 			(justify right)
 		)
 		(uuid "6f0d3a9f-1c0b-4d66-a565-cc5e39d35aed")
+	)
+	(hierarchical_label "VS"
+		(shape input)
+		(at 83.82 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "7d3ea10f-142d-497b-a5cb-44ef0a44acf5")
+	)
+	(hierarchical_label "VS"
+		(shape input)
+		(at 267.97 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "9d542487-b21e-4c02-b04a-d954a6bb9488")
 	)
 	(hierarchical_label "{MZ_CTRL}"
 		(shape bidirectional)

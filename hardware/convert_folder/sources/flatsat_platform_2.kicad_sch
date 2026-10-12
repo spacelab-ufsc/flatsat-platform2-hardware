@@ -1368,6 +1368,16 @@
 		)
 		(uuid "466b27b6-6d08-4e5c-9cf2-6153ef6d3ebf")
 	)
+	(wire
+		(pts
+			(xy 331.47 138.43) (xy 336.55 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b0a48a-69e2-430b-8d59-ceee1fce7d31")
+	)
 	(bus
 		(pts
 			(xy 350.52 269.24) (xy 350.52 271.78)
@@ -3438,6 +3448,16 @@
 		)
 		(uuid "7e1ed075-e1b0-426d-a326-6608687a685b")
 	)
+	(label "VS"
+		(at 336.55 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e5e6501-42b6-42d1-ab33-9afe1e9e03e8")
+	)
 	(label "EPS_H1-49"
 		(at 210.82 128.27 0)
 		(effects
@@ -4712,6 +4732,16 @@
 		(pin "{MZ_VCCOS}" input
 			(at 331.47 121.92 0)
 			(uuid "e87d8646-00d3-4248-a35b-d3de76a7a77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VS" input
+			(at 331.47 138.43 0)
+			(uuid "4f09b5a3-d8de-45ba-b95d-a4f215d40163")
 			(effects
 				(font
 					(size 1.27 1.27)
