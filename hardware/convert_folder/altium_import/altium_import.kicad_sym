@@ -5562,8 +5562,8 @@
 		)
 		(symbol "root_0_LTC2983CLX#PBF_flatsat_platform_2.SchLib_1_0"
 			(rectangle
-				(start 38.1 -15.24)
-				(end -38.1 15.24)
+				(start -38.1 15.24)
+				(end 38.1 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5682,6 +5682,24 @@
 				)
 			)
 			(pin passive line
+				(at -27.94 20.32 270)
+				(length 5.08)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -27.94 -20.32 90)
 				(length 5.08)
 				(name "GND_5"
@@ -5702,14 +5720,14 @@
 			(pin passive line
 				(at -25.4 20.32 270)
 				(length 5.08)
-				(name "CH20"
+				(name "INTERRUPT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "35"
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5728,24 +5746,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -22.86 20.32 270)
-				(length 5.08)
-				(name "CH19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5774,14 +5774,14 @@
 			(pin passive line
 				(at -20.32 20.32 270)
 				(length 5.08)
-				(name "CH18"
+				(name "CH20"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "33"
+				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5810,14 +5810,14 @@
 			(pin passive line
 				(at -17.78 20.32 270)
 				(length 5.08)
-				(name "CH17"
+				(name "CH19"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "32"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5846,14 +5846,14 @@
 			(pin passive line
 				(at -15.24 20.32 270)
 				(length 5.08)
-				(name "CH16"
+				(name "CH18"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5864,32 +5864,14 @@
 			(pin passive line
 				(at -12.7 20.32 270)
 				(length 5.08)
-				(name "CH15"
+				(name "CH17"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 20.32 270)
-				(length 5.08)
-				(name "CH14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5898,61 +5880,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 20.32 270)
-				(length 5.08)
-				(name "CH13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 20.32 270)
-				(length 5.08)
-				(name "CH12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 20.32 270)
-				(length 5.08)
-				(name "CH11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -20.32 90)
+				(at -12.7 -20.32 90)
 				(length 5.08)
 				(name "LDO"
 					(effects
@@ -5970,16 +5898,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 20.32 270)
+				(at -10.16 20.32 270)
 				(length 5.08)
-				(name "CH10"
+				(name "CH16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5988,16 +5916,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at -7.62 20.32 270)
 				(length 5.08)
-				(name "INTERRUPT"
+				(name "CH15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "37"
+				(number "30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6006,16 +5934,16 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 20.32 270)
+				(at -5.08 20.32 270)
 				(length 5.08)
-				(name "CH9"
+				(name "CH14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6024,25 +5952,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 20.32 270)
-				(length 5.08)
-				(name "CH8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -20.32 90)
+				(at -5.08 -20.32 90)
 				(length 5.08)
 				(name "Q3"
 					(effects
@@ -6060,16 +5970,16 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 20.32 270)
+				(at -2.54 20.32 270)
 				(length 5.08)
-				(name "CH7"
+				(name "CH13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6078,7 +5988,25 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -20.32 90)
+				(at 0 20.32 270)
+				(length 5.08)
+				(name "CH12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 90)
 				(length 5.08)
 				(name "Q2"
 					(effects
@@ -6096,16 +6024,16 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 20.32 270)
+				(at 2.54 20.32 270)
 				(length 5.08)
-				(name "CH6"
+				(name "CH11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6114,7 +6042,25 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -20.32 90)
+				(at 5.08 20.32 270)
+				(length 5.08)
+				(name "CH10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -20.32 90)
 				(length 5.08)
 				(name "Q1"
 					(effects
@@ -6132,16 +6078,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 20.32 270)
+				(at 7.62 20.32 270)
 				(length 5.08)
-				(name "CH5"
+				(name "CH9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6150,16 +6096,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 20.32 270)
+				(at 10.16 20.32 270)
 				(length 5.08)
-				(name "CH4"
+				(name "CH8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6168,7 +6114,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -20.32 90)
+				(at 11.43 -20.32 90)
 				(length 5.08)
 				(name "VREF_BYP"
 					(effects
@@ -6186,16 +6132,52 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 20.32 270)
+				(at 12.7 20.32 270)
 				(length 5.08)
-				(name "CH3"
+				(name "CH7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 20.32 270)
+				(length 5.08)
+				(name "CH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 20.32 270)
+				(length 5.08)
+				(name "CH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6224,14 +6206,14 @@
 			(pin passive line
 				(at 20.32 20.32 270)
 				(length 5.08)
-				(name "CH2"
+				(name "CH4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6260,14 +6242,32 @@
 			(pin passive line
 				(at 22.86 20.32 270)
 				(length 5.08)
-				(name "CH1"
+				(name "CH3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 20.32 270)
+				(length 5.08)
+				(name "CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6296,14 +6296,14 @@
 			(pin passive line
 				(at 27.94 20.32 270)
 				(length 5.08)
-				(name "COM"
+				(name "CH1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "36"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6330,6 +6330,24 @@
 				)
 			)
 			(pin passive line
+				(at 30.48 20.32 270)
+				(length 5.08)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 30.48 -20.32 90)
 				(length 5.08)
 				(name "VDD_3"
@@ -6340,24 +6358,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 33.02 20.32 270)
-				(length 5.08)
-				(name "~{CS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)

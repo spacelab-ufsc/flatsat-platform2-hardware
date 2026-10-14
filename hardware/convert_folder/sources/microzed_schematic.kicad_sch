@@ -15553,7 +15553,7 @@
 			(uuid "3837af1a-7c7f-4539-9514-e7e82b2000fb")
 		)
 		(instances
-			(project ""
+			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
 					(reference "S7")
 					(unit 1)
@@ -16969,7 +16969,7 @@
 			(uuid "3aaedf63-ae69-4810-8bb5-2313595ba76d")
 		)
 		(instances
-			(project ""
+			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
 					(reference "R37")
 					(unit 1)

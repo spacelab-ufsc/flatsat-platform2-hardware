@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 0.85 0.85)
-				(thickness 0.254)
+				(thickness 0.2125)
 			)
 			(justify left bottom)
 		)
@@ -186,4 +186,15 @@
 		(uuid "54b10750-1548-477e-8547-39f13f901394")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/4243-0.STEP"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

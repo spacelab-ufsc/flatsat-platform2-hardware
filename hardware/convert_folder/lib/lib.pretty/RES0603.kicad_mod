@@ -180,7 +180,7 @@
 		(uuid "dbf61a86-b574-45d2-ba89-95e1ee8fabb2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../lib/3dmodels/RES0603.step"
+	(model "${KIPRJMOD}/../lib/lib.3dshapes/RES0603.step"
 		(offset
 			(xyz 0 0 0)
 		)

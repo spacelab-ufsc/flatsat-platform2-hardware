@@ -2750,7 +2750,7 @@
 			(uuid "9ecb7b96-3258-4d0c-9f1a-e13119f39e46")
 		)
 		(instances
-			(project ""
+			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
 					(reference "R9")
 					(unit 1)
@@ -3458,7 +3458,7 @@
 			(uuid "ba5bf6e2-b0aa-4864-b8a4-eb9f1bdfaecf")
 		)
 		(instances
-			(project ""
+			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
 					(reference "Q1")
 					(unit 1)
@@ -3583,7 +3583,7 @@
 			(uuid "e0b3064b-610b-4342-af0e-9e5f004b701d")
 		)
 		(instances
-			(project ""
+			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe/aca72eef-01de-4c32-bcdd-ff44395ea3e5"
 					(reference "LED1")
 					(unit 1)
