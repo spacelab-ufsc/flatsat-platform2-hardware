@@ -1374,6 +1374,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "altium_import:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "altium_import:SW-T3-2B-A-A3-S1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SW-T3-2B-A-A3-S1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SW-T3-2B-A-A3-S1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "altium_import:root_2_mirrored_0533980471_flatsat_platform_2.SchLib"
 			(pin_names
 				(hide yes)
@@ -5168,6 +5333,10 @@
 		(uuid "8c69828a-1baf-4143-a1df-0c9e26944e02")
 	)
 	(no_connect
+		(at 228.6 124.46)
+		(uuid "dca929ba-9fbc-428c-aafa-8a04a1b252c1")
+	)
+	(no_connect
 		(at 241.3 87.63)
 		(uuid "fa70643c-8e01-4f66-800e-9f71080b666d")
 	)
@@ -5500,6 +5669,16 @@
 			(type default)
 		)
 		(uuid "2cd5830f-56ca-4fdd-96e9-b9b031aec3d8")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 213.36 127)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "2d6853c5-e147-4a2a-8527-e6e4ab4e394e")
 	)
 	(wire
 		(pts
@@ -5953,7 +6132,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 129.54) (xy 222.25 129.54)
+			(xy 237.49 129.54) (xy 228.6 129.54)
 		)
 		(stroke
 			(width 0.381)
@@ -7022,12 +7201,12 @@
 		(uuid "c624337b-f23b-4ab9-bf71-8cd44da8468c")
 	)
 	(label "USB_VBUS"
-		(at 222.25 129.54 0)
+		(at 210.82 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d8163524-2faa-4458-bd49-262abffebd02")
 	)
@@ -7339,6 +7518,78 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_2_SW-T3-2B-A-A3-S1_SW-T3-2B-A-A3-S1.SchLib")
+		(at 223.52 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03aa1729-fa63-491a-a015-c38552a06b8f")
+		(property "Reference" "SW1"
+			(at 226.314 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SW-T3-2B-A-A3-S1"
+			(at 226.314 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "altium_import:SW-T3-2B-A-A3-S1"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SW-T3-2B-A-A3-S1"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da859648-eee0-43b2-ac66-f9c9ad6c4613")
+		)
+		(pin "1"
+			(uuid "43cfd4c9-9f0f-44bf-bea3-860a415914d4")
+		)
+		(pin "3"
+			(uuid "45cfc1b6-cc59-4b22-85e9-e44751c12789")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

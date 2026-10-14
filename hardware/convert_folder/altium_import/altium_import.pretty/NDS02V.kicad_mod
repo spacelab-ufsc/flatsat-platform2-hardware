@@ -284,15 +284,15 @@
 		(uuid "96c0e7ee-8305-4e97-ba23-e2fe63ba185d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/NDS02V.stp"
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/NDS02V.STEP"
 		(offset
-			(xyz 0 -0 0)
+			(xyz 0 3.825 3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
