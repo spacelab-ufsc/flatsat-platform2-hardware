@@ -2823,32 +2823,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "connectors:USB-C"
+		(symbol "lib:1054500101"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J?"
-				(at 0 21.59 0)
+			(property "Reference" "J3"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Value" "USB-C"
-				(at 0 19.05 0)
+			(property "Value" "1054500101"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "altium_import:FP-1054500101-MFG"
 				(at 3.81 2.54 0)
 				(effects
 					(font
@@ -2875,6 +2873,78 @@
 					(hide yes)
 				)
 			)
+			(property "Arrow Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "UJ20-C-H-G-MSMT-4B-P16-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
 				(at 0 0 0)
 				(effects
@@ -2893,7 +2963,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_0_0"
+			(symbol "1054500101_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -3005,7 +3075,7 @@
 					)
 				)
 			)
-			(symbol "USB-C_0_1"
+			(symbol "1054500101_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -3206,7 +3276,7 @@
 					)
 				)
 			)
-			(symbol "USB-C_1_1"
+			(symbol "1054500101_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -4998,8 +5068,8 @@
 	)
 	(text_box "USB-C"
 		(exclude_from_sim no)
-		(at 242.18 35.941 0)
-		(size -36.44 8.128)
+		(at 205.74 35.941 0)
+		(size 36.44 8.128)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -8176,7 +8246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RES0402"
+		(property "Footprint" "lib:RES0402"
 			(at 245.11 50.292 0)
 			(effects
 				(font
@@ -8633,191 +8703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:USB-C")
-		(at 226.06 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2908401e-dfb7-4b50-a11f-0bc75c636b8b")
-		(property "Reference" "J3"
-			(at 226.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB-C"
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "altium_import:FP-1054500101-MFG"
-			(at 229.87 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 273.304 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 265.684 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "UJ20-C-H-G-MSMT-4B-P16-TR"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A9"
-			(uuid "a6108b65-a14d-4aba-bdd3-fec720bb2e20")
-		)
-		(pin "S1"
-			(uuid "f333b579-b149-46bf-8035-28291e0c7545")
-		)
-		(pin "B12"
-			(uuid "da61b2c1-f3b6-44b0-a39d-2db43c7ba74b")
-		)
-		(pin "A12"
-			(uuid "79aaeac3-f229-46a5-877d-3268a1615852")
-		)
-		(pin "B9"
-			(uuid "9b06b62c-2e97-4251-8eb6-48ad4c4196f3")
-		)
-		(pin "A5"
-			(uuid "a684b975-e9cf-4ddc-91b6-a7976e3a5dfa")
-		)
-		(pin "B5"
-			(uuid "cf46f20d-2044-4cd1-bc19-6cbba82df0e1")
-		)
-		(pin "B7"
-			(uuid "6e3ff5c8-17a7-41f6-b572-c973fbc7bdfe")
-		)
-		(pin "A6"
-			(uuid "20ad7f68-53e1-4c19-9a4c-92e896bea232")
-		)
-		(pin "B6"
-			(uuid "a0ac880a-51ac-4cb2-a6a2-11c9491484fb")
-		)
-		(pin "A4"
-			(uuid "6c1b9b91-b7cb-4d2c-adff-df7dc1856c03")
-		)
-		(pin "B4"
-			(uuid "51a9ea4b-cbf7-4cd8-aa51-34160fae4683")
-		)
-		(pin "B1"
-			(uuid "cdb2195f-b579-464e-bb05-00a822d13f02")
-		)
-		(pin "A7"
-			(uuid "734241bb-1049-4f30-abe8-20f98144dc00")
-		)
-		(pin "A1"
-			(uuid "44e0d65d-05ab-48cf-b16f-95c3345f1332")
-		)
-		(pin "A8"
-			(uuid "7ea8206f-66d8-4cf9-8e64-2a9d45f8c551")
-		)
-		(pin "B8"
-			(uuid "c1385c59-432a-41ee-9f56-72071b8b8ae7")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistors:CRCW06031K00FKEAHP")
 		(at 271.78 66.04 90)
 		(unit 1)
@@ -8844,7 +8729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RES0603"
+		(property "Footprint" "lib:RES0603"
 			(at 265.43 43.942 0)
 			(effects
 				(font
@@ -12813,7 +12698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RES0402"
+		(property "Footprint" "lib:RES0402"
 			(at 252.73 50.292 0)
 			(effects
 				(font
@@ -14127,6 +14012,191 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:1054500101")
+		(at 226.06 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b996f0b8-4930-495d-95fc-7f10f57a415e")
+		(property "Reference" "J3"
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1054500101"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "altium_import:FP-1054500101-MFG"
+			(at 229.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 273.304 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 265.684 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-MSMT-4B-P16-TR"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B7"
+			(uuid "23e5275b-98b1-430e-883f-96b2971a4767")
+		)
+		(pin "A8"
+			(uuid "115da42e-b8f7-4338-8a7b-bfcd2e7afab8")
+		)
+		(pin "A1"
+			(uuid "de303078-56f1-4bb2-9a83-b4cc1d01fea7")
+		)
+		(pin "S1"
+			(uuid "0b2e3b86-8a10-4d22-9925-29896e429772")
+		)
+		(pin "A4"
+			(uuid "518e8d4e-f31e-47bd-b73c-b148f9798f70")
+		)
+		(pin "B12"
+			(uuid "5815f2e1-786e-48c5-8808-161eced41a29")
+		)
+		(pin "B6"
+			(uuid "27565568-5af3-48c7-9ebf-1ef5c93cfeec")
+		)
+		(pin "B8"
+			(uuid "b8c80003-f155-480c-9ce5-c8023888704f")
+		)
+		(pin "A6"
+			(uuid "77844e4f-55f6-45b3-b9ed-228e71d4f1e3")
+		)
+		(pin "B4"
+			(uuid "e95c03fb-2cf5-4cf5-8cec-be520fdd1074")
+		)
+		(pin "B5"
+			(uuid "03e6b25e-469b-45ae-bd0c-174da8ade16c")
+		)
+		(pin "A7"
+			(uuid "779111c4-4796-445b-bec2-6924c74fdafb")
+		)
+		(pin "B9"
+			(uuid "c7d35eb6-fcfe-4683-ba71-94bde4f3e9b2")
+		)
+		(pin "B1"
+			(uuid "7729bcf4-f370-43f3-a838-c305a730a8fa")
+		)
+		(pin "A9"
+			(uuid "979caa63-c009-43a2-abba-6f75d1b4de0d")
+		)
+		(pin "A12"
+			(uuid "580c990e-31e2-4382-8a2d-4071ddbd0a26")
+		)
+		(pin "A5"
+			(uuid "92566949-c943-42fd-bc93-329ad04351a4")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "J3")
 					(unit 1)
 				)
 			)
