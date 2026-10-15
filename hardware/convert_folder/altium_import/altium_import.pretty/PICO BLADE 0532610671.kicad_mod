@@ -4,14 +4,14 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 4.4594 -3.214275 0)
+		(at 7 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "52e33639-532b-4516-8940-9eb8818ebb34")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -227,26 +227,16 @@
 		(uuid "319cf51c-9051-410f-b89f-25e701a3112d")
 	)
 	(fp_text user "1"
-		(at -4.125 -1.0929 0)
+		(at -4.5 -1.0929 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8ac78648-4aa5-4ba6-a9ae-efba5456fe1a")
 		(effects
 			(font
-				(face "Arial")
-				(size 0.63 0.63)
-				(thickness 0.254)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-		(render_cache "1" 0
-			(polygon
-				(pts
-					(xy -4.057872 -1.2) (xy -4.057872 -1.265857) (xy -3.903345 -1.265857) (xy -3.903345 -1.731631)
-					(xy -4.040215 -1.633306) (xy -4.040215 -1.706472) (xy -3.896883 -1.805644) (xy -3.825447 -1.805644)
-					(xy -3.825447 -1.265857) (xy -3.677845 -1.265857) (xy -3.677845 -1.2)
-				)
-			)
 		)
 	)
 	(pad "0" smd rect

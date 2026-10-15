@@ -4450,6 +4450,18 @@
 		(uuid "fa79b58e-5ae6-4b68-8dd0-0c4dfda9a7d3")
 	)
 	(no_connect
+		(at 285.75 394.97)
+		(uuid "0c5e0b38-067e-476b-abc8-757c97c9cc28")
+	)
+	(no_connect
+		(at 308.61 394.97)
+		(uuid "0dc56dc2-401e-443f-9fc9-f0a6b8bb75a9")
+	)
+	(no_connect
+		(at 279.4 394.97)
+		(uuid "2cf0a2de-eb15-4de1-b717-78593388d810")
+	)
+	(no_connect
 		(at 309.88 382.27)
 		(uuid "44db0967-4230-47a9-854d-125eff092ea7")
 	)
@@ -4458,8 +4470,20 @@
 		(uuid "4d1b60f1-f1c2-400e-b937-fc66eebd061f")
 	)
 	(no_connect
+		(at 300.99 394.97)
+		(uuid "5ad5e780-ab21-45ea-a92f-70aabbe96f07")
+	)
+	(no_connect
+		(at 293.37 394.97)
+		(uuid "64f98b29-2899-4d90-b742-1bbccbb5a941")
+	)
+	(no_connect
 		(at 294.64 382.27)
 		(uuid "844ddc18-619f-4808-9ec8-ad82e3093253")
+	)
+	(no_connect
+		(at 316.23 394.97)
+		(uuid "8a38a73c-534c-4cb7-bc4d-abfbcb3e4a92")
 	)
 	(no_connect
 		(at 284.48 382.27)
@@ -5693,6 +5717,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 392.43) (xy 293.37 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071f4dbd-5808-405b-867c-22096255ed56")
+	)
+	(wire
+		(pts
 			(xy 91.44 166.37) (xy 99.06 166.37)
 		)
 		(stroke
@@ -5750,6 +5784,16 @@
 			(type default)
 		)
 		(uuid "0b052adf-e986-4113-b122-4bba1c1b61fa")
+	)
+	(wire
+		(pts
+			(xy 300.99 392.43) (xy 300.99 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4655f7-b12d-4a0d-9989-0d6edc694144")
 	)
 	(wire
 		(pts
@@ -6770,6 +6814,16 @@
 			(type default)
 		)
 		(uuid "2b70ffcf-b9d7-4eb4-9bbb-975a65f0f1e6")
+	)
+	(wire
+		(pts
+			(xy 279.4 392.43) (xy 279.4 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b938d81-b532-4e06-8af2-6e57812bed3f")
 	)
 	(wire
 		(pts
@@ -8090,6 +8144,16 @@
 			(type default)
 		)
 		(uuid "512e8bcc-fb7b-488d-b291-c9e6205347f6")
+	)
+	(wire
+		(pts
+			(xy 285.75 392.43) (xy 285.75 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519d3783-0bb1-46fd-a1d5-2b5721154fe6")
 	)
 	(wire
 		(pts
@@ -10460,6 +10524,16 @@
 			(type default)
 		)
 		(uuid "96261d32-2836-4627-b8ce-4bd8ffddd237")
+	)
+	(wire
+		(pts
+			(xy 316.23 392.43) (xy 316.23 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96348c8d-201b-4832-ad21-782228b1da65")
 	)
 	(wire
 		(pts
@@ -12840,6 +12914,16 @@
 			(type default)
 		)
 		(uuid "d6b7adfc-e902-4861-9a71-dea15e297734")
+	)
+	(wire
+		(pts
+			(xy 308.61 392.43) (xy 308.61 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b8fcd8-b6fb-4d95-8aa2-5a5fbe030f33")
 	)
 	(wire
 		(pts
@@ -23130,6 +23214,72 @@
 		)
 	)
 	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 279.4 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d20a21-52ff-4fa3-84c1-c2537bcd5b4e")
+		(property "Reference" "MEC9"
+			(at 276.606 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 277.876 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 279.4 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 279.4 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "f399b4d1-33d9-4cad-87d8-e2f90181aa63")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 350.52 336.55 90)
 		(unit 1)
@@ -24259,6 +24409,72 @@
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
 					(reference "CN21")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 300.99 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a5c6401-1519-44d6-a21f-5950cda1f148")
+		(property "Reference" "MEC12"
+			(at 298.196 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 299.466 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 300.99 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 300.99 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "b4e916fa-b93d-4458-aaae-d2a0cf6fd77c")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC12")
+					(unit 1)
 				)
 			)
 		)
@@ -25816,6 +26032,72 @@
 		)
 	)
 	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 308.61 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727a8a12-33f2-4649-911e-b5d148c9ad54")
+		(property "Reference" "MEC13"
+			(at 305.816 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 307.086 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 308.61 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 308.61 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "3652ef2a-3ab3-4608-9a12-271f85db4d20")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_PC104_flatsat_platform_2.SchLib")
 		(at 43.18 336.55 90)
 		(unit 1)
@@ -26831,6 +27113,72 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 316.23 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "925a7321-fdbd-481c-a65a-ac7fe9a78124")
+		(property "Reference" "MEC14"
+			(at 313.436 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 314.706 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 316.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 316.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "445fdaf5-ae62-47ee-8e67-4076eee6310f")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
 		(at 314.96 375.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27334,6 +27682,138 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
 					(reference "MEC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 293.37 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9cfcd49-385d-46c3-a420-33fade2142fa")
+		(property "Reference" "MEC11"
+			(at 290.576 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 291.846 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 293.37 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 293.37 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "cc0451b9-b288-4d67-b13d-e3bd838843ef")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "altium_import:root_0_M3 hole_flatsat_platform_2.SchLib")
+		(at 285.75 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaaa891a-bbf0-4aae-96ea-96b02abe68ee")
+		(property "Reference" "MEC10"
+			(at 282.956 384.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "M3"
+			(at 284.226 386.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "altium_import:M3 HOLE"
+			(at 285.75 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 hole"
+			(at 285.75 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "33ef01a8-a06c-4b8c-b5ac-09ef3d4c3c09")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/a83a7b28-9eff-4d1f-80e0-c5fbfa98ea5b"
+					(reference "MEC10")
 					(unit 1)
 				)
 			)
