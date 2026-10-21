@@ -4976,7 +4976,7 @@
 		(uuid 9df6afeb-d8bc-423b-92a9-9219410cc3e3)
 	)
 	(rectangle
-		(start 203.2 33.909)
+		(start 200.025 33.909)
 		(end 329.06 169.545)
 		(stroke
 			(width 0.0254)
@@ -5602,7 +5602,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 44.45) (xy 88.9 46.99)
+			(xy 88.9 41.91) (xy 88.9 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5892,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 132.08) (xy 295.91 134.62)
+			(xy 307.34 132.08) (xy 307.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5982,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 129.54) (xy 295.91 129.54)
+			(xy 293.37 129.54) (xy 307.34 129.54)
 		)
 		(stroke
 			(width 0.381)
@@ -6102,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 59.69) (xy 271.78 62.23)
+			(xy 293.37 129.54) (xy 293.37 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6472,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 77.47) (xy 271.78 78.74)
+			(xy 293.37 147.32) (xy 293.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6539,16 +6539,6 @@
 			(type default)
 		)
 		(uuid "a9f29fde-1622-4b53-972c-71d823dd63c9")
-	)
-	(wire
-		(pts
-			(xy 274.32 59.69) (xy 271.78 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa64f3b9-a3c4-4954-85f2-c6db43a47c3d")
 	)
 	(wire
 		(pts
@@ -7210,6 +7200,16 @@
 		)
 		(uuid "404bf93d-b8a0-442e-ba13-ca91b3d298c2")
 	)
+	(label "USB_VBUS"
+		(at 88.9 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7111f80a-ad0b-44db-b555-f98c1839a2c8")
+	)
 	(label "V1_E"
 		(at 427.99 74.93 270)
 		(effects
@@ -7249,16 +7249,6 @@
 			(justify left bottom)
 		)
 		(uuid "b74ae40d-fd9a-45a5-94c8-995bccfe9424")
-	)
-	(label "USB_VBUS"
-		(at 274.32 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b98adc49-cd00-402e-b218-cf186ae9b683")
 	)
 	(label "V1_E"
 		(at 410.21 58.42 0)
@@ -8002,7 +7992,7 @@
 	(symbol
 		(lib_name "root_2_5-146285-2_Connector.SchLib_1")
 		(lib_id "altium_import:root_2_5-146285-2_Connector.SchLib_1")
-		(at 300.99 130.81 270)
+		(at 312.42 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8010,7 +8000,7 @@
 		(dnp no)
 		(uuid "182cf5b1-ebe4-4c54-bd65-73c719b69baa")
 		(property "Reference" "CN9"
-			(at 300.99 127 90)
+			(at 312.42 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8009,7 @@
 			)
 		)
 		(property "Value" "5-146285-2"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8019,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
-			(at 300.99 130.81 0)
+			(at 312.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 130.81 0)
+			(at 312.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8037,7 @@
 			)
 		)
 		(property "Description" "02 MODII HDR SRST B/A .100CL"
-			(at 300.99 130.81 0)
+			(at 312.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8046,7 @@
 			)
 		)
 		(property "N OF POSITIONS" "2"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8056,7 @@
 			)
 		)
 		(property "PITCH" "2.54mm"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8066,7 @@
 			)
 		)
 		(property "MOUNT TYPE" "PTH"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8076,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +8086,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Arrow"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8096,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8106,7 @@
 			)
 		)
 		(property "SUPPLIER 3" "Newark"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8116,7 @@
 			)
 		)
 		(property "SUPPLIER 4" "Digi-Key"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8126,7 @@
 			)
 		)
 		(property "SUPPLIER 5" "Farnell"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8136,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "38922002"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8146,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "571-5-146285-2"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8156,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" "16M3972"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8166,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 4" "5-146285-2-ND"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8176,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 5" "1341684"
-			(at 295.402 127 90)
+			(at 306.832 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8186,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "5-146285-2"
-			(at 300.99 137.16 90)
+			(at 312.42 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8694,7 @@
 	)
 	(symbol
 		(lib_id "resistors:CRCW06031K00FKEAHP")
-		(at 271.78 66.04 90)
+		(at 293.37 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8712,7 +8702,7 @@
 		(dnp no)
 		(uuid "2abdc97c-701f-40dd-a24e-ff5cf40874bf")
 		(property "Reference" "R43"
-			(at 269.24 65.278 90)
+			(at 290.83 135.128 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8721,7 +8711,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 269.24 66.548 90)
+			(at 290.83 136.398 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8730,7 +8720,7 @@
 			)
 		)
 		(property "Footprint" "lib:RES0603"
-			(at 265.43 43.942 0)
+			(at 287.02 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 267.97 43.942 0)
+			(at 289.56 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8740,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0.33W, 1k, 1%"
-			(at 278.13 43.942 0)
+			(at 299.72 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8750,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 270.51 43.942 0)
+			(at 292.1 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8760,7 @@
 			)
 		)
 		(property "MPN" "CRCW06031K00FKEAHP"
-			(at 275.59 43.942 0)
+			(at 297.18 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8770,7 @@
 			)
 		)
 		(property "Package" "SMD 0603"
-			(at 273.05 43.942 0)
+			(at 294.64 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8780,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8789,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8798,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8807,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8816,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8825,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8834,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 271.78 66.04 90)
+			(at 293.37 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0R"
 			(at 109.22 62.484 90)
 			(effects
 				(font
@@ -10731,7 +10721,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 271.78 73.66 90)
+		(at 293.37 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10740,7 +10730,7 @@
 		(fields_autoplaced yes)
 		(uuid "70e98986-86db-4de9-a7e6-ed74a43b0fa9")
 		(property "Reference" "D1"
-			(at 275.59 73.9774 90)
+			(at 297.18 143.8274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +10739,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 275.59 76.5174 90)
+			(at 297.18 146.3674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +10748,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 271.78 73.66 0)
+			(at 293.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 73.66 0)
+			(at 293.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10766,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 271.78 73.66 0)
+			(at 293.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +10775,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 271.78 73.66 0)
+			(at 293.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +10784,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10793,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10802,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10811,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +10820,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +10829,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10838,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +10847,7 @@
 			)
 		)
 		(property "MPN" "KT EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 271.78 73.66 90)
+			(at 293.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,7 +11547,7 @@
 		(dnp no)
 		(uuid "918f8fcf-324b-45b9-996c-f49be7a7e8ff")
 		(property "Reference" "R33"
-			(at 38.354 54.61 90)
+			(at 37.084 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,8 +11555,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 40.894 54.61 90)
+		(property "Value" "226k"
+			(at 37.084 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12327,7 +12317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 78.74 0)
+		(at 293.37 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12336,7 +12326,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a063765-7e2c-4a67-900c-33917e344798")
 		(property "Reference" "#PWR039"
-			(at 271.78 85.09 0)
+			(at 293.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +12335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 83.82 0)
+			(at 293.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 78.74 0)
+			(at 293.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 78.74 0)
+			(at 293.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 78.74 0)
+			(at 293.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +12392,7 @@
 		(dnp no)
 		(uuid "9b480207-d225-4f0a-b125-8ad1c8d6a9d9")
 		(property "Reference" "R24"
-			(at 25.654 59.69 90)
+			(at 24.638 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,8 +12400,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 28.194 59.69 90)
+		(property "Value" "280k"
+			(at 24.638 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +12837,7 @@
 		(dnp no)
 		(uuid "ab7bb88a-d2a0-4d59-9e6d-88970ee4adec")
 		(property "Reference" "R32"
-			(at 25.654 72.39 90)
+			(at 24.384 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,8 +12845,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 28.194 72.39 90)
+		(property "Value" "100k"
+			(at 24.384 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +13914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 295.91 134.62 0)
+		(at 307.34 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13932,7 +13922,7 @@
 		(dnp no)
 		(uuid "b7f72b60-de12-4477-97f8-a1c5733a3809")
 		(property "Reference" "#PWR026"
-			(at 295.91 134.62 0)
+			(at 307.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,7 +13931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 140.97 0)
+			(at 307.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13949,7 +13939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 134.62 0)
+			(at 307.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13958,7 +13948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 295.91 134.62 0)
+			(at 307.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,7 +13957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 134.62 0)
+			(at 307.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,7 +13966,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 318.008 133.35 0)
+			(at 329.438 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13986,7 +13976,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 318.008 135.89 0)
+			(at 329.438 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +13986,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 318.008 138.43 0)
+			(at 329.438 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,21 +14297,21 @@
 		(dnp no)
 		(uuid "bca20931-710a-41e8-b8c1-50a79251207a")
 		(property "Reference" "R15"
-			(at 109.22 72.136 90)
+			(at 105.156 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 109.22 69.596 90)
+		(property "Value" "0R"
+			(at 105.156 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -15372,7 +15362,7 @@
 		(dnp no)
 		(uuid "ea5e6a70-80d8-4030-9b2e-49df79f59dab")
 		(property "Reference" "R34"
-			(at 38.354 67.31 90)
+			(at 37.592 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15380,8 +15370,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 40.894 67.31 90)
+		(property "Value" "100k"
+			(at 37.592 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,69 +15436,6 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:+5V_BAR")
-		(at 88.9 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec606777-2e0f-4f38-aa19-6a9e9d82a29f")
-		(property "Reference" "#PWR016"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 88.9 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d88450fd-66e7-4760-bdef-e497b5226902")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
