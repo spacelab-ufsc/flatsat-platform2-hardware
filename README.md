@@ -46,7 +46,7 @@ The **FlatSat Platform 2.0** is a testbench for testing the main SpaceLab's subs
 This repository contains the hardware project of the FlatSat Platform 2.0 (schematics, PCB layout, libraries and fabrication files), developed in KiCad.
 
 <p align="center">
-    <img src="https:https://github.com/spacelab-ufsc/flatsat-platform2-hardware/blob/fix/altium-to-kicad-convert/outputs/top_pcb.png">
+    <img src="https://github.com/spacelab-ufsc/flatsat-platform2-hardware/blob/fix/altium-to-kicad-convert/outputs/top_pcb.png">
 </p>
 
 <p align="center">
