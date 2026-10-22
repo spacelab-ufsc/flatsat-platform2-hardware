@@ -38,12 +38,10 @@
     <a href="#notes">Notes</a>
 </p>
 
-<!--
 <p align="center">
     <img width="45%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/outputs/top_pcb.png">
     <img width="45%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/outputs/bottom_pcb.png">
 </p>
---->
 
 ## Overview
 
