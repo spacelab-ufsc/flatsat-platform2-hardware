@@ -830,6 +830,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "capacitors:C0603C104K5RACTU"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C?"
+				(at 0 6.04 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0 3.79 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib:CAP0603"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, 100nF, 5%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0603"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0603C104K5RACTU"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C104K5RACTU_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_1"
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lib:THVD1450DR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1191,6 +1383,386 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "resistors:CRCW060310K0FKEAHP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R?"
+				(at 0 4.516 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 2.266 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib:RES0603"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0.33W, 10k, 1%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0603"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW060310K0FKEAHP"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW060310K0FKEAHP_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW060310K0FKEAHP_1_0"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "resistors:CRCW0603120RFKEAHP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R?"
+				(at 0 4.516 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "120R"
+				(at 0 2.266 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib:RES0603"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0.33W, 120R, 1%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0603"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW0603120RFKEAHP"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0603120RFKEAHP_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW0603120RFKEAHP_1_0"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "VOLT_CAN_BUS"
 		(members "T/R_CHN_4" "T/R_CHN_3" "TX_CHN_3" "TX_CHN_4" "RX_CHN_3" "RX_CHN_4"
@@ -1224,8 +1796,8 @@
 		(uuid 859904d8-c6dc-4bee-89a0-125807d20d9a)
 	)
 	(rectangle
-		(start 361.188 36.957)
-		(end 246.888 108.077)
+		(start 245.745 29.21)
+		(end 379.095 126.365)
 		(stroke
 			(width 0.0254)
 			(type solid)
@@ -1249,7 +1821,7 @@
 	)
 	(text "RS485 module"
 		(exclude_from_sim no)
-		(at 246.888 36.957 0)
+		(at 245.745 29.21 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -1368,6 +1940,12 @@
 		(uuid "87e0df56-8e4d-48fd-a35f-b76a280931e7")
 	)
 	(junction
+		(at 267.97 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a5d8d6-4a89-4ff9-942e-aad38c6c400a")
+	)
+	(junction
 		(at 57.15 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1404,16 +1982,40 @@
 		(uuid "244e4535-a173-45d3-bb32-bcac70d165bc")
 	)
 	(junction
+		(at 133.35 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3208f70e-8993-43de-a89b-b6dcf3ffba43")
+	)
+	(junction
 		(at 57.15 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4f835e-281e-467f-8e26-8254ccd5468e")
 	)
 	(junction
+		(at 133.35 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d27d050-f0ce-4820-a71f-1f0ed9c8e071")
+	)
+	(junction
+		(at 133.35 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44aee6c4-a56a-46f7-999e-5feab3663630")
+	)
+	(junction
 		(at 57.15 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a184b39-ac9a-4f9b-bd72-abb54aee3416")
+	)
+	(junction
+		(at 133.35 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb52be8-888d-416a-963f-feb91263d61d")
 	)
 	(junction
 		(at 57.15 261.62)
@@ -1428,6 +2030,12 @@
 		(uuid "50ac7edf-a865-4abe-b04d-edbd3724f888")
 	)
 	(junction
+		(at 302.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c31d8d-91dd-4750-b580-f92410319899")
+	)
+	(junction
 		(at 57.15 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1440,10 +2048,34 @@
 		(uuid "69397f97-7f90-4f1a-b2c1-942fbdf37980")
 	)
 	(junction
+		(at 267.97 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6981ff84-c319-436e-ad41-c549977803f1")
+	)
+	(junction
 		(at 46.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f5f228-6fb3-4edd-81a1-d6a744a868dc")
+	)
+	(junction
+		(at 133.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74511506-c217-4d47-9dbe-0444cb6f732d")
+	)
+	(junction
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b21a3e5-8794-4415-bc00-9f83e0702314")
+	)
+	(junction
+		(at 335.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8526209f-a8ab-42e8-8c5f-4bb7a14b7566")
 	)
 	(junction
 		(at 57.15 307.34)
@@ -1452,16 +2084,58 @@
 		(uuid "86cf5237-ac78-41ab-ad1d-1a8661081629")
 	)
 	(junction
-		(at 267.97 83.82)
+		(at 335.28 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "897a0216-ecd4-4262-ad25-23ae2c7bafc6")
+	)
+	(junction
+		(at 267.97 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93c28a6d-b571-483b-9b98-0dd0af4c6528")
+	)
+	(junction
+		(at 133.35 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95548f7c-7823-4d1d-869e-7723acea1706")
+	)
+	(junction
+		(at 133.35 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b1ab196-1d91-435f-b49f-172f8204be06")
+	)
+	(junction
+		(at 335.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11586e7-899b-49fd-bae2-43e51b0bb8f5")
 	)
 	(junction
 		(at 57.15 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a221664e-ef0d-4b51-b860-b502ae675ba9")
+	)
+	(junction
+		(at 133.35 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38a417c-415a-40f0-8f6f-a15995ef1e20")
+	)
+	(junction
+		(at 133.35 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a53da73e-22a5-4509-984b-49322a01c8be")
+	)
+	(junction
+		(at 548.64 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76d8718-16a9-4081-96f8-520b5c9ada5f")
 	)
 	(junction
 		(at 46.99 172.72)
@@ -1488,10 +2162,34 @@
 		(uuid "bd0f51ac-be81-4baa-a636-b3bc328d32dd")
 	)
 	(junction
+		(at 548.64 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf3fc92a-0630-4adf-b709-8e17590254f2")
+	)
+	(junction
 		(at 57.15 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c68bcbb0-e5fa-447f-85ef-77efe5d11034")
+	)
+	(junction
+		(at 133.35 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6cbea3a-22ae-4ba1-a26a-4aa3c18cb97a")
+	)
+	(junction
+		(at 133.35 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c342ec-e751-4a03-8f26-fbe6e6d0e365")
+	)
+	(junction
+		(at 302.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca85fbf1-b3a0-45db-a651-1a47e7fb50a0")
 	)
 	(junction
 		(at 46.99 215.9)
@@ -1518,7 +2216,7 @@
 		(uuid "d4cf17eb-b155-4954-ba04-34c0dd875e51")
 	)
 	(junction
-		(at 267.97 49.53)
+		(at 267.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6cc956d-75a3-4555-a772-8f0cff78fc00")
@@ -1536,16 +2234,34 @@
 		(uuid "dfdbe1dc-9e92-423c-b1dc-4d9cfc29cf95")
 	)
 	(junction
+		(at 133.35 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b1aba5-334e-43c2-ad89-ec5bf445c19f")
+	)
+	(junction
 		(at 46.99 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed107d3d-8e27-4da6-89ad-5b25fc547a2d")
 	)
 	(junction
+		(at 133.35 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee832daf-3867-4b0a-9759-62a84e0feda4")
+	)
+	(junction
 		(at 46.99 350.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f75cd2b8-48a1-4685-9496-ef8e434dd3b6")
+	)
+	(junction
+		(at 335.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd383f45-cd6e-4d7f-9bc7-cfe1116dbaa5")
 	)
 	(no_connect
 		(at 509.27 240.03)
@@ -1625,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 205.74) (xy 124.46 205.74)
+			(xy 123.19 205.74) (xy 133.35 205.74)
 		)
 		(stroke
 			(width 0)
@@ -1655,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ff4fb5-d7aa-4476-bb14-4ca81b6835a2")
+	)
+	(wire
+		(pts
 			(xy 87.63 360.68) (xy 72.39 360.68)
 		)
 		(stroke
@@ -1665,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 81.28) (xy 267.97 81.28)
+			(xy 270.51 93.98) (xy 267.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +2412,17 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 252.73) (xy 552.45 252.73)
+			(xy 267.97 87.63) (xy 267.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ce84d0-4458-412a-a27a-595adbdf17a3")
+	)
+	(wire
+		(pts
+			(xy 544.83 252.73) (xy 548.64 252.73)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +2452,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 231.14) (xy 123.19 231.14)
+			(xy 133.35 162.56) (xy 133.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a84774d-2253-4bdd-a472-ad2a035c6760")
+	)
+	(wire
+		(pts
+			(xy 140.97 231.14) (xy 133.35 231.14)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 187.96) (xy 123.19 187.96)
+			(xy 140.97 187.96) (xy 133.35 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +2552,47 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 46.99) (xy 311.15 46.99)
+			(xy 133.35 187.96) (xy 123.19 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa0570d-2274-46b4-9b82-70d7faedba09")
+	)
+	(wire
+		(pts
+			(xy 267.97 67.31) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132a0aa2-97cf-4456-b1a5-92c7b29f7eb1")
+	)
+	(wire
+		(pts
+			(xy 133.35 308.61) (xy 133.35 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f188df-b447-4797-a2c7-66a5c1b3896c")
+	)
+	(wire
+		(pts
+			(xy 302.26 50.8) (xy 303.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1550760a-9abd-4dbd-a0f6-5a2cf3003482")
+	)
+	(wire
+		(pts
+			(xy 295.91 53.34) (xy 314.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1846,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 340.36) (xy 124.46 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b3afde4-5a34-412c-ac16-ba73a0be53ba")
-	)
-	(wire
-		(pts
 			(xy 46.99 317.5) (xy 46.99 307.34)
 		)
 		(stroke
@@ -1886,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 322.58) (xy 123.19 322.58)
+			(xy 140.97 322.58) (xy 133.35 322.58)
 		)
 		(stroke
 			(width 0)
@@ -1946,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 62.23) (xy 302.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b09e14-3114-42c2-9162-5d5ca58a1fc0")
+	)
+	(wire
+		(pts
 			(xy 46.99 167.64) (xy 34.29 167.64)
 		)
 		(stroke
@@ -1986,6 +2772,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 59.69) (xy 267.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27caa192-823f-4648-b1ef-31eef6898979")
+	)
+	(wire
+		(pts
 			(xy 64.77 81.28) (xy 64.77 83.82)
 		)
 		(stroke
@@ -1996,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 142.24) (xy 123.19 142.24)
+			(xy 140.97 142.24) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 54.61) (xy 339.09 54.61)
+			(xy 314.96 60.96) (xy 335.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2066,6 +2862,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 231.14) (xy 123.19 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecaf274-5040-41f0-a988-4ce598a39df7")
+	)
+	(wire
+		(pts
 			(xy 46.99 302.26) (xy 46.99 307.34)
 		)
 		(stroke
@@ -2073,6 +2879,16 @@
 			(type default)
 		)
 		(uuid "2f3ba4cf-5127-42ff-b80a-1355cee4e036")
+	)
+	(wire
+		(pts
+			(xy 302.26 50.8) (xy 302.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f67a38e-7f44-42f9-a299-18aff94cd3ec")
 	)
 	(wire
 		(pts
@@ -2086,6 +2902,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 102.87) (xy 302.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bea3ac-472c-4561-94e0-efb83f676ec3")
+	)
+	(wire
+		(pts
 			(xy 87.63 177.8) (xy 64.77 177.8)
 		)
 		(stroke
@@ -2096,7 +2922,17 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 44.45) (xy 252.73 44.45)
+			(xy 335.28 58.42) (xy 335.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35078315-9d8d-4e58-a732-6ec10dad398e")
+	)
+	(wire
+		(pts
+			(xy 270.51 50.8) (xy 267.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 276.86) (xy 123.19 276.86)
+			(xy 140.97 276.86) (xy 133.35 276.86)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 76.2) (xy 339.09 80.01)
+			(xy 346.71 88.9) (xy 346.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2173,6 +3009,16 @@
 			(type default)
 		)
 		(uuid "402fc224-a14c-405d-af80-94e6a27589e5")
+	)
+	(wire
+		(pts
+			(xy 133.35 297.18) (xy 133.35 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41346910-49c7-41c2-98f9-eceaff2191e4")
 	)
 	(wire
 		(pts
@@ -2236,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 252.73 52.07)
+			(xy 270.51 58.42) (xy 252.73 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2266,6 +3112,46 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 100.33) (xy 267.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c764fa-3219-415a-845a-06440309856a")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2faa7f-2746-4f13-8d07-a40244a028b7")
+	)
+	(wire
+		(pts
+			(xy 267.97 46.99) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c44f0c2-10f4-423e-bdcd-5babaabd4d4c")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdae059-3093-4971-aa9c-28237029175e")
+	)
+	(wire
+		(pts
 			(xy 34.29 271.78) (xy 46.99 271.78)
 		)
 		(stroke
@@ -2273,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "4df3c530-a626-4fc5-b8a8-3d094700f053")
+	)
+	(wire
+		(pts
+			(xy 133.35 173.99) (xy 133.35 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50688bf5-ee9e-459c-9f8e-e9331bc70dc4")
 	)
 	(wire
 		(pts
@@ -2297,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 297.18) (xy 124.46 297.18)
+			(xy 123.19 297.18) (xy 133.35 297.18)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 267.97 83.82)
+			(xy 252.73 96.52) (xy 267.97 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +3213,17 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 46.99) (xy 267.97 46.99)
+			(xy 133.35 205.74) (xy 133.35 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a8baee-eca1-4a64-a4d6-7fae91c3b271")
+	)
+	(wire
+		(pts
+			(xy 270.51 53.34) (xy 267.97 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2347,13 +3253,33 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 124.46 116.84)
+			(xy 123.19 116.84) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a2c373a-4e47-4496-aeda-1f96d292b3d5")
+	)
+	(wire
+		(pts
+			(xy 133.35 116.84) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab9225c-b329-4468-ac0c-f46d83bba29b")
+	)
+	(wire
+		(pts
+			(xy 335.28 88.9) (xy 346.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3a8650-4dc5-43fd-82a0-ceb0b2b5a09c")
 	)
 	(wire
 		(pts
@@ -2367,13 +3293,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 49.53) (xy 267.97 49.53)
+			(xy 335.28 99.06) (xy 335.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e33dc05-59d4-4846-884b-df60d561c227")
+		(uuid "5e9e3d56-79ce-4811-9cb4-5b4b527f1825")
 	)
 	(wire
 		(pts
@@ -2407,7 +3333,7 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 232.41) (xy 552.45 232.41)
+			(xy 544.83 232.41) (xy 548.64 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2454,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "64c4fcc4-107d-496c-8e93-4c51fa01eb20")
+	)
+	(wire
+		(pts
+			(xy 123.19 340.36) (xy 133.35 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cbe35f-8822-49f8-b609-b6225563baaa")
 	)
 	(wire
 		(pts
@@ -2558,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 76.2) (xy 339.09 76.2)
+			(xy 314.96 88.9) (xy 335.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2578,6 +3514,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 71.12) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d26cd6-c800-4026-bbb7-1d0db1b8fc18")
+	)
+	(wire
+		(pts
 			(xy 87.63 259.08) (xy 80.01 259.08)
 		)
 		(stroke
@@ -2588,6 +3534,16 @@
 	)
 	(wire
 		(pts
+			(xy 548.64 252.73) (xy 552.45 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ce9b8e-82d4-4cb6-a03b-37f1138450b8")
+	)
+	(wire
+		(pts
 			(xy 57.15 193.04) (xy 64.77 193.04)
 		)
 		(stroke
@@ -2595,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "79c1d06e-0c53-4d0b-a871-821214bf36fd")
+	)
+	(wire
+		(pts
+			(xy 133.35 340.36) (xy 135.89 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adecdc1-ee8a-4df8-998a-ced3b1565fce")
 	)
 	(wire
 		(pts
@@ -2678,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 78.74) (xy 252.73 78.74)
+			(xy 270.51 91.44) (xy 267.97 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2698,13 +3664,33 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 41.91) (xy 339.09 45.72)
+			(xy 346.71 48.26) (xy 346.71 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82e16066-cfe5-4241-977e-08b544163da9")
+	)
+	(wire
+		(pts
+			(xy 548.64 232.41) (xy 552.45 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8351c18e-cfe3-48f6-93e0-2f4f50970542")
+	)
+	(wire
+		(pts
+			(xy 302.26 91.44) (xy 303.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a6b6cc-1854-419d-b94f-be3d21641c26")
 	)
 	(wire
 		(pts
@@ -2718,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 49.53) (xy 270.51 49.53)
+			(xy 267.97 55.88) (xy 270.51 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 83.82) (xy 311.15 88.9)
+			(xy 314.96 96.52) (xy 314.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +3774,17 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 44.45) (xy 303.53 44.45)
+			(xy 133.35 322.58) (xy 123.19 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f2c09c-83b3-4c33-8170-6760980a4b34")
+	)
+	(wire
+		(pts
+			(xy 295.91 50.8) (xy 302.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2798,13 +3794,33 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 162.56) (xy 124.46 162.56)
+			(xy 123.19 162.56) (xy 133.35 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89e3d929-3d27-4b5a-84f3-d8b8bffc3fbf")
+	)
+	(wire
+		(pts
+			(xy 267.97 78.74) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a91f6e1-c2b2-43bf-8cc0-b6bd30876a6a")
+	)
+	(wire
+		(pts
+			(xy 133.35 162.56) (xy 135.89 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b62dfec-4213-4ca7-add5-98c44c05f4a5")
 	)
 	(wire
 		(pts
@@ -2818,6 +3834,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 116.84) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbc0665-5f86-4120-b8bd-804d282024c9")
+	)
+	(wire
+		(pts
 			(xy 34.29 137.16) (xy 46.99 137.16)
 		)
 		(stroke
@@ -2825,6 +3851,16 @@
 			(type default)
 		)
 		(uuid "8d52aa14-6b6c-4c33-93f7-2ecaf8fde759")
+	)
+	(wire
+		(pts
+			(xy 548.64 232.41) (xy 548.64 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dac8c48-53fb-423d-80dd-7cfa4c7b9078")
 	)
 	(wire
 		(pts
@@ -2888,6 +3924,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 297.18) (xy 135.89 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91199a22-5dc8-4565-8757-4710bc3f85fe")
+	)
+	(wire
+		(pts
 			(xy 64.77 91.44) (xy 57.15 91.44)
 		)
 		(stroke
@@ -2918,7 +3964,17 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 86.36) (xy 252.73 86.36)
+			(xy 267.97 38.1) (xy 267.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93119b5e-bed8-4b1a-a63a-73af75207107")
+	)
+	(wire
+		(pts
+			(xy 270.51 99.06) (xy 252.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2938,13 +3994,23 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 49.53) (xy 311.15 49.53)
+			(xy 295.91 55.88) (xy 314.96 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9705cf36-1446-441e-af89-3480a7cf5279")
+	)
+	(wire
+		(pts
+			(xy 133.35 251.46) (xy 133.35 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971c557d-625f-4491-b6df-9a6c4a928bd3")
 	)
 	(wire
 		(pts
@@ -2988,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 365.76) (xy 123.19 365.76)
+			(xy 140.97 365.76) (xy 133.35 365.76)
 		)
 		(stroke
 			(width 0)
@@ -3008,6 +4074,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 251.46) (xy 135.89 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc1956d-eb4f-414b-be8a-786a92e0733d")
+	)
+	(wire
+		(pts
 			(xy 57.15 147.32) (xy 64.77 147.32)
 		)
 		(stroke
@@ -3018,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 52.07) (xy 298.45 52.07)
+			(xy 295.91 58.42) (xy 298.45 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 71.12) (xy 124.46 71.12)
+			(xy 123.19 71.12) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3058,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 48.26) (xy 335.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42fe4b8-a8cf-49b8-91c4-543690643f4d")
+	)
+	(wire
+		(pts
 			(xy 57.15 271.78) (xy 57.15 276.86)
 		)
 		(stroke
@@ -3068,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 81.28) (xy 267.97 83.82)
+			(xy 267.97 93.98) (xy 267.97 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3098,13 +4184,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 88.9) (xy 339.09 88.9)
+			(xy 314.96 101.6) (xy 335.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a67b3b51-1fed-473b-be25-9b1993c92202")
+	)
+	(wire
+		(pts
+			(xy 133.35 276.86) (xy 123.19 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8073605-4b9a-4338-bd35-4c5343f7f695")
 	)
 	(wire
 		(pts
@@ -3118,7 +4214,17 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 78.74) (xy 303.53 78.74)
+			(xy 302.26 91.44) (xy 302.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac9470e-ab4c-44d5-b2ba-1b00aa986223")
+	)
+	(wire
+		(pts
+			(xy 295.91 91.44) (xy 302.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3158,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 340.36) (xy 133.35 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0f80d0-b0fa-48ae-9cec-be411a372304")
+	)
+	(wire
+		(pts
 			(xy 64.77 218.44) (xy 64.77 215.9)
 		)
 		(stroke
@@ -3188,6 +4304,26 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 101.6) (xy 346.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b526ee50-f546-43fb-9a56-7de6dc972216")
+	)
+	(wire
+		(pts
+			(xy 133.35 262.89) (xy 133.35 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59bbf6b-6d75-4070-af71-0d3c11e56a43")
+	)
+	(wire
+		(pts
 			(xy 57.15 182.88) (xy 57.15 187.96)
 		)
 		(stroke
@@ -3198,7 +4334,17 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 46.99) (xy 267.97 49.53)
+			(xy 133.35 365.76) (xy 123.19 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a9736f-bb0e-4d59-ac16-f302bec5e25f")
+	)
+	(wire
+		(pts
+			(xy 267.97 53.34) (xy 267.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3238,6 +4384,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 60.96) (xy 346.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7fbfb1-a74b-43cc-b2a0-3609ec708f4c")
+	)
+	(wire
+		(pts
 			(xy 46.99 121.92) (xy 34.29 121.92)
 		)
 		(stroke
@@ -3268,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 54.61) (xy 339.09 48.26)
+			(xy 346.71 60.96) (xy 346.71 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3278,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 46.99) (xy 311.15 41.91)
+			(xy 314.96 53.34) (xy 314.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3308,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 83.82) (xy 270.51 83.82)
+			(xy 267.97 96.52) (xy 270.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +4577,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 83.82) (xy 311.15 83.82)
+			(xy 295.91 96.52) (xy 314.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3431,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 86.36) (xy 298.45 91.44)
+			(xy 298.45 99.06) (xy 298.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 41.91) (xy 339.09 41.91)
+			(xy 314.96 48.26) (xy 335.28 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3478,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "cf06f8f6-43a8-451f-aa32-3d231f7c9418")
+	)
+	(wire
+		(pts
+			(xy 267.97 109.22) (xy 267.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1330d2c-611e-443c-a85b-388a59bbe18f")
 	)
 	(wire
 		(pts
@@ -3511,6 +4677,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 217.17) (xy 133.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d860aa81-a8d9-4966-a5f9-15c2d5fc9514")
+	)
+	(wire
+		(pts
 			(xy 57.15 137.16) (xy 57.15 142.24)
 		)
 		(stroke
@@ -3521,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 251.46) (xy 124.46 251.46)
+			(xy 123.19 251.46) (xy 133.35 251.46)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +4727,17 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 86.36) (xy 298.45 86.36)
+			(xy 133.35 351.79) (xy 133.35 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d2d7e4-accb-4450-99c5-6891b059e70e")
+	)
+	(wire
+		(pts
+			(xy 295.91 99.06) (xy 298.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +4757,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 81.28) (xy 311.15 76.2)
+			(xy 314.96 93.98) (xy 314.96 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +4777,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 123.19 96.52)
+			(xy 335.28 48.26) (xy 346.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac4c1c2-94d5-4264-8fd6-b01a92461e55")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 52.07) (xy 298.45 57.15)
+			(xy 298.45 58.42) (xy 298.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3611,13 +4807,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 49.53) (xy 311.15 54.61)
+			(xy 314.96 55.88) (xy 314.96 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec2b2862-be7e-44bd-af3e-d612733a9e2f")
+	)
+	(wire
+		(pts
+			(xy 252.73 50.8) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfe1325-259b-4bfb-93da-1c191802e6cf")
 	)
 	(polyline
 		(pts
@@ -3652,7 +4858,17 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 81.28) (xy 311.15 81.28)
+			(xy 335.28 88.9) (xy 335.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5a51b7-5030-41c0-8b1e-32bee7d74f13")
+	)
+	(wire
+		(pts
+			(xy 295.91 93.98) (xy 314.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3692,6 +4908,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 128.27) (xy 133.35 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33af048-631d-4566-9373-8468f20f08c5")
+	)
+	(wire
+		(pts
 			(xy 57.15 322.58) (xy 64.77 322.58)
 		)
 		(stroke
@@ -3702,6 +4928,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 82.55) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cc127a-873d-4c99-9bbd-8ae84b035580")
+	)
+	(wire
+		(pts
 			(xy 57.15 317.5) (xy 57.15 322.58)
 		)
 		(stroke
@@ -3709,6 +4945,16 @@
 			(type default)
 		)
 		(uuid "f6385b07-b1a1-489e-89f1-102fb73dd2e1")
+	)
+	(wire
+		(pts
+			(xy 252.73 91.44) (xy 267.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e92d33-f566-462a-93cc-b467289e3842")
 	)
 	(wire
 		(pts
@@ -3742,7 +4988,27 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 88.9) (xy 339.09 82.55)
+			(xy 548.64 243.84) (xy 548.64 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9e4a11-4833-43b3-a1c8-8a71290a35d7")
+	)
+	(wire
+		(pts
+			(xy 133.35 205.74) (xy 135.89 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad4a591-ec4e-4a99-bcea-529828bfc7b9")
+	)
+	(wire
+		(pts
+			(xy 346.71 101.6) (xy 346.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3779,6 +5045,16 @@
 			(type default)
 		)
 		(uuid "fd0488f0-a728-4598-9096-00b8437e7922")
+	)
+	(wire
+		(pts
+			(xy 252.73 55.88) (xy 267.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0ded70-7f2c-49a2-bcbe-53e744e6e177")
 	)
 	(wire
 		(pts
@@ -3881,7 +5157,7 @@
 		(uuid "234de9dc-b742-4e41-aeb3-f964e7ae6702")
 	)
 	(label "TX_CHN_3"
-		(at 252.73 52.07 0)
+		(at 252.73 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3911,7 +5187,7 @@
 		(uuid "24b4968c-819a-4ccf-8dc5-58e3cae06535")
 	)
 	(label "RS485_01_N"
-		(at 317.5 54.61 0)
+		(at 321.31 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3991,7 +5267,7 @@
 		(uuid "4629d9ee-4c26-4d0a-9142-50ec480bdab9")
 	)
 	(label "TX_CHN_4"
-		(at 252.73 86.36 0)
+		(at 252.73 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4051,7 +5327,7 @@
 		(uuid "5d5a0dce-2b3b-4f73-be0a-114bdc4a9c97")
 	)
 	(label "RS485_02_N"
-		(at 317.5 88.9 0)
+		(at 321.31 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,7 +5357,7 @@
 		(uuid "6324f0d6-1166-47aa-84ca-b8df2ddb681e")
 	)
 	(label "T/R_CHN_4"
-		(at 252.73 83.82 0)
+		(at 252.73 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4091,7 +5367,7 @@
 		(uuid "63e90364-ae52-485c-b638-474ed5fb6372")
 	)
 	(label "RX_CHN_3"
-		(at 252.73 44.45 0)
+		(at 252.73 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4111,7 +5387,7 @@
 		(uuid "64c8b916-b93f-46b5-9f89-b78107f0f114")
 	)
 	(label "RS485_01_P"
-		(at 317.5 41.91 0)
+		(at 321.31 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4161,7 +5437,7 @@
 		(uuid "7221e454-71d1-49ac-8356-7c942109713f")
 	)
 	(label "T/R_CHN_3"
-		(at 252.73 49.53 0)
+		(at 252.73 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4381,7 +5657,7 @@
 		(uuid "cd496a02-2184-4402-ae68-c9dcdbd2ff7e")
 	)
 	(label "RS485_02_P"
-		(at 317.5 76.2 0)
+		(at 321.31 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4491,7 +5767,7 @@
 		(uuid "e92a8c43-ebc9-4045-8452-5586d7f49d73")
 	)
 	(label "RX_CHN_4"
-		(at 252.73 78.74 0)
+		(at 252.73 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +5859,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 71.12 0)
+		(at 135.89 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4594,7 +5870,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 297.18 0)
+		(at 135.89 297.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4605,7 +5881,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 116.84 0)
+		(at 135.89 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +5925,18 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 303.53 78.74 0)
+		(at 267.97 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c136476-26ea-40b7-b4ba-9595f0b1f700")
+	)
+	(hierarchical_label "VS"
+		(shape input)
+		(at 303.53 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4668,6 +5955,17 @@
 			(justify left)
 		)
 		(uuid "47950d56-ef2f-40c9-ba0c-fe274c1cd88a")
+	)
+	(hierarchical_label "VS"
+		(shape input)
+		(at 267.97 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "490b3edf-8211-4eab-a59c-2b6181ea673d")
 	)
 	(hierarchical_label "H1-49"
 		(shape output)
@@ -4704,7 +6002,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 205.74 0)
+		(at 135.89 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4715,7 +6013,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 340.36 0)
+		(at 135.89 340.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4770,7 +6068,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 303.53 44.45 0)
+		(at 303.53 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,7 +6134,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 162.56 0)
+		(at 135.89 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4902,7 +6200,7 @@
 	)
 	(hierarchical_label "VS"
 		(shape input)
-		(at 124.46 251.46 0)
+		(at 135.89 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,21 +6307,21 @@
 		(dnp no)
 		(uuid "09e8d0d5-6c35-485a-90cb-96662df98dae")
 		(property "Reference" "R26"
-			(at 61.976 129.54 90)
+			(at 59.3725 130.7465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.436 129.54 90)
+		(property "Value" "47m"
+			(at 59.3725 133.2865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -5044,7 +6342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -5217,21 +6515,21 @@
 		(dnp no)
 		(uuid "16f8d6d5-582d-4990-8d6f-44141fdbc54e")
 		(property "Reference" "R25"
-			(at 61.976 84.328 90)
+			(at 59.2455 85.6615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.436 84.328 90)
+		(property "Value" "47m"
+			(at 59.2455 88.2015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -5252,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -5306,21 +6604,21 @@
 		(dnp no)
 		(uuid "1808b41e-58a9-41a3-84a7-d9e3fa62199f")
 		(property "Reference" "R31"
-			(at 61.722 355.092 90)
+			(at 59.182 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.182 355.092 90)
+		(property "Value" "47m"
+			(at 59.182 356.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -5341,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 360.68 0)
 			(effects
 				(font
@@ -5380,6 +6678,108 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW0603120RFKEAHP")
+		(at 335.28 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "208f5976-0664-46a8-9d70-51bafdc921ff")
+		(property "Reference" "R48"
+			(at 338.7725 53.5865 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 338.7725 55.8365 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 341.63 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 339.09 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 120R, 1%"
+			(at 328.93 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 336.55 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 334.01 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0603120RFKEAHP"
+			(at 331.47 96.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea00bf74-8208-4d18-b43a-87633e58191b")
+		)
+		(pin "2"
+			(uuid "1e73b97f-20cc-4b93-acd1-6ebf51de2c05")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -5482,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "lib:THVD1450DR")
-		(at 270.51 78.74 0)
+		(at 270.51 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5491,7 +6891,7 @@
 		(fields_autoplaced yes)
 		(uuid "26ce93e6-bbba-4383-b218-2c6afae2cdb7")
 		(property "Reference" "U25"
-			(at 283.21 71.12 0)
+			(at 283.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +6899,7 @@
 			)
 		)
 		(property "Value" "THVD1450DR"
-			(at 283.21 73.66 0)
+			(at 283.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6907,7 @@
 			)
 		)
 		(property "Footprint" "lib:THVD1450DR"
-			(at 292.1 173.66 0)
+			(at 292.1 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +6917,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/thvd1450"
-			(at 292.1 273.66 0)
+			(at 292.1 286.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +6927,7 @@
 			)
 		)
 		(property "Description" "3.3-V to 5-V RS-485 Transceivers With +/-16-kV IEC ESD Protection"
-			(at 270.51 78.74 0)
+			(at 270.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +6936,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 292.1 473.66 0)
+			(at 292.1 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +6946,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-THVD1450DR"
-			(at 292.1 573.66 0)
+			(at 292.1 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +6956,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DR?qs=chTDxNqvsymGDnwVnRgduw%3D%3D"
-			(at 292.1 673.66 0)
+			(at 292.1 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +6966,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 292.1 773.66 0)
+			(at 292.1 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +6976,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "THVD1450DR"
-			(at 292.1 873.66 0)
+			(at 292.1 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,8 +7100,308 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2846b79e-7c6f-48f2-9c7e-b16e5fe9f650")
+		(property "Reference" "#PWR064"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 290.068 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 290.068 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 290.068 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "021a2c47-2e2d-4fd0-aca1-87ab8ca07eb0")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 302.26 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "311bf8d2-cc29-4937-87f6-0402e3ed7eb5")
+		(property "Reference" "C49"
+			(at 307.213 99.243 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 307.213 101.493 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 308.61 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 306.07 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 295.91 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 303.53 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 300.99 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 298.45 58.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71a4e059-e975-4019-bfd3-aaca5eb700ee")
+		)
+		(pin "1"
+			(uuid "20680b96-e13a-43e3-a5b9-2c19ff744097")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35a3d622-faa5-44e1-8613-7d3fb5ed37db")
+		(property "Reference" "C46"
+			(at 128.397 170.363 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 172.613 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 129.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbdd5451-bb8b-483a-acbf-1deb81bd59c8")
+		)
+		(pin "1"
+			(uuid "c96157a3-3d1c-46c9-8db9-ac50cd222bdc")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
-		(at 344.17 50.8 90)
+		(at 351.79 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5709,7 +7409,7 @@
 		(dnp no)
 		(uuid "3cc9d100-215a-4099-a5e0-8d869e5793be")
 		(property "Reference" "J2"
-			(at 343.916 42.926 90)
+			(at 351.536 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +7418,7 @@
 			)
 		)
 		(property "Value" "5-146280-2"
-			(at 343.916 53.594 90)
+			(at 351.536 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +7427,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
-			(at 344.17 50.8 0)
+			(at 351.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +7436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 50.8 0)
+			(at 351.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +7445,7 @@
 			)
 		)
 		(property "Description" "02 MODII HDR SRST B/A .100CL"
-			(at 344.17 50.8 0)
+			(at 351.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +7454,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +7464,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +7474,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +7484,7 @@
 			)
 		)
 		(property "PRODUCT_TYPE" "Connector"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +7494,7 @@
 			)
 		)
 		(property "EU_ROHS_COMPLIANCE" "Compliant"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +7504,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +7514,7 @@
 			)
 		)
 		(property "NUMBER_OF_POSITIONS" "2"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +7524,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +7534,7 @@
 			)
 		)
 		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +7544,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +7554,7 @@
 			)
 		)
 		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +7564,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "5-146280-2"
-			(at 344.17 50.8 90)
+			(at 351.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +7685,7 @@
 	)
 	(symbol
 		(lib_id "altium_import:root_0_5-146280-2_flatsat_platform_2.SchLib")
-		(at 344.17 85.09 90)
+		(at 351.79 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5993,7 +7693,7 @@
 		(dnp no)
 		(uuid "446b392b-06e8-4eb5-b4d8-d1fc49568746")
 		(property "Reference" "J1"
-			(at 343.916 77.216 90)
+			(at 351.536 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +7702,7 @@
 			)
 		)
 		(property "Value" "5-146280-2"
-			(at 343.916 87.884 90)
+			(at 351.536 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +7711,7 @@
 			)
 		)
 		(property "Footprint" "altium_import:PIN BAR 2 2.54mm 180 GRAUS"
-			(at 344.17 85.09 0)
+			(at 351.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +7720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 85.09 0)
+			(at 351.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +7729,7 @@
 			)
 		)
 		(property "Description" "02 MODII HDR SRST B/A .100CL"
-			(at 344.17 85.09 0)
+			(at 351.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +7738,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/5-146280-2/TE%20Connectivity%20AMP%20Connectors/view-part/298520/?ref=snap"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +7748,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +7758,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +7768,7 @@
 			)
 		)
 		(property "PRODUCT_TYPE" "Connector"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +7778,7 @@
 			)
 		)
 		(property "EU_ROHS_COMPLIANCE" "Compliant"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +7788,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +7798,7 @@
 			)
 		)
 		(property "NUMBER_OF_POSITIONS" "2"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +7808,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +7818,7 @@
 			)
 		)
 		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-5-146280-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +7828,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +7838,7 @@
 			)
 		)
 		(property "CENTERLINE_PITCH" "2.54 mm[.1 in]"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +7848,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "5-146280-2"
-			(at 344.17 85.09 90)
+			(at 351.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,16 +7873,220 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 298.45 91.44 0)
+		(lib_id "resistors:CRCW060310K0FKEAHP")
+		(at 267.97 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "563ef424-9a46-4eb3-86c0-ce04991cbb98")
-		(property "Reference" "#PWR0177"
-			(at 298.45 91.44 0)
+		(uuid "493e8b6c-2221-458f-917b-6dd1138f5b78")
+		(property "Reference" "R34"
+			(at 271.4625 105.1635 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 271.4625 102.9135 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 274.32 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 271.78 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 10k, 1%"
+			(at 261.62 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 269.24 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 266.7 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060310K0FKEAHP"
+			(at 264.16 146.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76904e60-7121-48de-882e-142c038c9bad")
+		)
+		(pin "2"
+			(uuid "cd754ee2-182d-4959-b717-c51a1783d132")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51cde156-0473-4307-92a5-28df1cfa63d1")
+		(property "Reference" "C45"
+			(at 128.397 213.543 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 215.793 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 172.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a3930b9-a9c4-44f3-8109-321ac0157fca")
+		)
+		(pin "1"
+			(uuid "0bd3d2d8-5f4c-4570-87c1-e88d50ba2ece")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 302.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51d40928-9ac9-4ae0-824c-6cc3e6ffce98")
+		(property "Reference" "#PWR052"
+			(at 302.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +8095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 97.79 0)
+			(at 302.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +8103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 91.44 0)
+			(at 302.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +8112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 298.45 91.44 0)
+			(at 302.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +8121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 298.45 91.44 0)
+			(at 302.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +8130,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 320.548 90.17 0)
+			(at 324.358 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +8140,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 320.548 92.71 0)
+			(at 324.358 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +8150,204 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 320.548 95.25 0)
+			(at 324.358 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aca10c7a-7ee5-4a50-b307-e4c2f92555ce")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "554c12b5-574b-48e9-9a35-e332039ddcc6")
+		(property "Reference" "C43"
+			(at 128.397 259.263 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 261.513 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 218.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6be41c14-807f-4ffe-90d0-7dd93ad869e9")
+		)
+		(pin "1"
+			(uuid "62682c87-f365-42f3-873f-ec8a4b2ac70e")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "563ef424-9a46-4eb3-86c0-ce04991cbb98")
+		(property "Reference" "#PWR0177"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 320.548 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 320.548 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 320.548 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +8370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 298.45 57.15 0)
+		(at 298.45 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +8378,7 @@
 		(dnp no)
 		(uuid "63aec9d3-15da-499c-89d5-8fa338ad6c58")
 		(property "Reference" "#PWR0183"
-			(at 298.45 57.15 0)
+			(at 298.45 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +8387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 63.5 0)
+			(at 298.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +8395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 57.15 0)
+			(at 298.45 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +8404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 298.45 57.15 0)
+			(at 298.45 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +8413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 298.45 57.15 0)
+			(at 298.45 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +8422,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 320.548 55.88 0)
+			(at 320.548 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +8432,7 @@
 			)
 		)
 		(property "Package" "~"
-			(at 320.548 58.42 0)
+			(at 320.548 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +8442,7 @@
 			)
 		)
 		(property "MPN" "~"
-			(at 320.548 60.96 0)
+			(at 320.548 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,21 +8687,21 @@
 		(dnp no)
 		(uuid "7177161f-b8fb-49b6-9114-3e72cf2bb353")
 		(property "Reference" "R27"
-			(at 61.976 175.768 90)
+			(at 59.2455 177.1015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.436 175.768 90)
+		(property "Value" "47m"
+			(at 59.2455 179.6415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -6621,7 +8722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -6666,6 +8767,109 @@
 		)
 	)
 	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 302.26 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "733d8043-6c9e-4b4b-b4b5-5a40eb9769a1")
+		(property "Reference" "C50"
+			(at 307.213 58.603 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 307.213 60.853 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 308.61 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 306.07 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 295.91 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 303.53 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 300.99 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 298.45 17.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e488498a-ee97-4e67-bbd1-9987857a1aad")
+		)
+		(pin "1"
+			(uuid "9c354a16-bbf7-495d-b9ce-960a7ac65c36")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:RDNP_0805")
 		(at 57.15 226.06 180)
 		(unit 1)
@@ -6675,21 +8879,21 @@
 		(dnp no)
 		(uuid "7b456897-568c-47a8-b6ea-12a2a5262f64")
 		(property "Reference" "R28"
-			(at 61.976 219.456 90)
+			(at 59.1185 220.9165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.436 219.456 90)
+		(property "Value" "47m"
+			(at 59.1185 223.4565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -6710,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 226.06 0)
 			(effects
 				(font
@@ -6749,6 +8953,108 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cd0f845-edef-478b-a677-1addd38d6ad8")
+		(property "Reference" "C48"
+			(at 128.397 78.923 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 81.173 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 37.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b7e5c77-3f29-4ed2-b7c2-3246fb465d9e")
+		)
+		(pin "1"
+			(uuid "6a372d27-e3ee-4a7a-9aeb-fdea78c1da72")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -6859,21 +9165,21 @@
 		(dnp no)
 		(uuid "859d357e-bb4d-4ec5-8f64-5a4d97323435")
 		(property "Reference" "R30"
-			(at 62.23 310.388 90)
+			(at 59.563 311.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.69 310.388 90)
+		(property "Value" "47m"
+			(at 59.563 314.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -6894,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 317.5 0)
 			(effects
 				(font
@@ -6933,6 +9239,305 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8894e611-a821-4ffa-b27b-c10578c63ef9")
+		(property "Reference" "C47"
+			(at 128.397 124.643 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 126.893 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 83.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b07a5c0d-5649-4bf0-92ea-1dc64d101ec4")
+		)
+		(pin "1"
+			(uuid "770e61c2-ea36-4d80-ae01-76282a753e2b")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8908d149-5008-40c6-874f-e1d077e9d7ae")
+		(property "Reference" "#PWR060"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 290.068 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 290.068 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 290.068 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe43925-1e78-448e-8ba2-fc9f6a7ee6cc")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW0603120RFKEAHP")
+		(at 335.28 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e24ceda-f281-4e45-a20f-0163c88095f6")
+		(property "Reference" "R47"
+			(at 338.7725 94.2265 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 338.7725 96.4765 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 341.63 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 339.09 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 120R, 1%"
+			(at 328.93 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 336.55 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 334.01 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0603120RFKEAHP"
+			(at 331.47 137.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b9ca53-f44a-4420-833e-9bb6a0f832db")
+		)
+		(pin "2"
+			(uuid "89fa9a48-1080-49d6-adda-78928fb152f0")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7034,6 +9639,108 @@
 		)
 	)
 	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 548.64 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9515430f-ec38-4541-b21a-b439c08a1eda")
+		(property "Reference" "C51"
+			(at 543.687 240.213 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 543.687 242.463 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 542.29 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 544.83 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 554.99 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 547.37 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 549.91 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 552.45 199.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29a87d2f-6023-463a-a058-babb5a9389cf")
+		)
+		(pin "1"
+			(uuid "1c8eb5d4-10fe-4faf-ab52-6654ee4f1c82")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 370.84 0)
 		(unit 1)
@@ -7123,6 +9830,108 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
 					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW060310K0FKEAHP")
+		(at 267.97 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b71cbad-2f8d-4851-932e-08e96394f65d")
+		(property "Reference" "R33"
+			(at 264.4775 62.4765 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.4775 64.7265 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 261.62 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 264.16 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 10k, 1%"
+			(at 274.32 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 266.7 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 269.24 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060310K0FKEAHP"
+			(at 271.78 21.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b22291e5-28fc-4bc9-a612-620b039031c5")
+		)
+		(pin "2"
+			(uuid "e86927f0-f40f-4492-8661-c90a397c5c70")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7557,6 +10366,108 @@
 		)
 	)
 	(symbol
+		(lib_id "resistors:CRCW060310K0FKEAHP")
+		(at 267.97 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77aa7e8-535f-4bdc-a1f0-70f54d7dad75")
+		(property "Reference" "R44"
+			(at 264.4775 42.1565 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.4775 44.4065 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 261.62 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 264.16 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 10k, 1%"
+			(at 274.32 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 266.7 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 269.24 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060310K0FKEAHP"
+			(at 271.78 1.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14d50eb-513d-4e7f-add3-fc48682dc749")
+		)
+		(pin "2"
+			(uuid "55562008-5deb-4692-aa4d-f02af9abf364")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_INA219AID_flatsat_platform_2.SchLib")
 		(at 105.41 83.82 90)
 		(unit 1)
@@ -7677,7 +10588,7 @@
 	)
 	(symbol
 		(lib_id "lib:THVD1450DR")
-		(at 270.51 44.45 0)
+		(at 270.51 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7686,7 +10597,7 @@
 		(fields_autoplaced yes)
 		(uuid "c905cbda-1a6e-4610-be01-6e8ea3438c78")
 		(property "Reference" "U22"
-			(at 283.21 36.83 0)
+			(at 283.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +10605,7 @@
 			)
 		)
 		(property "Value" "THVD1450DR"
-			(at 283.21 39.37 0)
+			(at 283.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +10613,7 @@
 			)
 		)
 		(property "Footprint" "lib:THVD1450DR"
-			(at 292.1 139.37 0)
+			(at 292.1 145.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +10623,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/thvd1450"
-			(at 292.1 239.37 0)
+			(at 292.1 245.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +10633,7 @@
 			)
 		)
 		(property "Description" "3.3-V to 5-V RS-485 Transceivers With +/-16-kV IEC ESD Protection"
-			(at 270.51 44.45 0)
+			(at 270.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +10642,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 292.1 439.37 0)
+			(at 292.1 445.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +10652,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-THVD1450DR"
-			(at 292.1 539.37 0)
+			(at 292.1 545.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +10662,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DR?qs=chTDxNqvsymGDnwVnRgduw%3D%3D"
-			(at 292.1 639.37 0)
+			(at 292.1 645.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +10672,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 292.1 739.37 0)
+			(at 292.1 745.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +10682,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "THVD1450DR"
-			(at 292.1 839.37 0)
+			(at 292.1 845.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,6 +10844,108 @@
 		)
 	)
 	(symbol
+		(lib_id "resistors:CRCW060310K0FKEAHP")
+		(at 267.97 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dddb8b41-02cd-4569-a94c-ccd05d21d5ff")
+		(property "Reference" "R40"
+			(at 264.4775 82.7965 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.4775 85.0465 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0603"
+			(at 261.62 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 264.16 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.33W, 10k, 1%"
+			(at 274.32 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 266.7 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 269.24 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060310K0FKEAHP"
+			(at 271.78 41.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0be5ef6-1195-4310-a185-a3931ceba072")
+		)
+		(pin "2"
+			(uuid "2bc379fa-66fa-4565-9660-c574aa5634fc")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:root_0_INA219AID_flatsat_platform_2.SchLib")
 		(at 105.41 353.06 90)
 		(unit 1)
@@ -8052,6 +11065,305 @@
 		)
 	)
 	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 349.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5be5980-5288-4b9c-9cdd-43de93a2e2d2")
+		(property "Reference" "C44"
+			(at 128.397 348.163 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 350.413 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 307.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b23b106-e1b2-4316-95a9-db1d80f68c9b")
+		)
+		(pin "1"
+			(uuid "b259a74f-7ac7-4a29-903e-e7eca2e74d3c")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 302.26 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f88af7c5-8b51-4e50-a553-f4baf327f48d")
+		(property "Reference" "#PWR016"
+			(at 302.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 324.358 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "~"
+			(at 324.358 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "~"
+			(at 324.358 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486fe699-665d-4a97-a090-6c89aa3ca2dc")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 133.35 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9414b81-85f2-429a-990e-8bd35c8459e2")
+		(property "Reference" "C42"
+			(at 128.397 304.983 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.397 307.233 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CAP0603"
+			(at 127 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 129.54 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 139.7 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 132.08 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 134.62 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 137.16 263.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "349d1fac-5814-4ed9-a0c5-6d848f5aaf4a")
+		)
+		(pin "1"
+			(uuid "e27b46a0-774c-480f-9694-89466586b30b")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/45150708-ee97-48a8-bfb4-3abd1aadda2b"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "altium_import:RDNP_0805")
 		(at 57.15 271.78 180)
 		(unit 1)
@@ -8061,21 +11373,21 @@
 		(dnp no)
 		(uuid "fd57c897-c0e8-49aa-836c-428c9e229d95")
 		(property "Reference" "R29"
-			(at 61.722 264.668 90)
+			(at 59.2455 266.2555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "DNP"
-			(at 59.182 264.668 90)
+		(property "Value" "47m"
+			(at 59.2455 268.7955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:0805"
@@ -8096,7 +11408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES DNP 0805"
+		(property "Description" "RES 0.047 OHM 1% 0805"
 			(at 57.15 271.78 0)
 			(effects
 				(font

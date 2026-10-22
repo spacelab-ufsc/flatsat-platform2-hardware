@@ -5364,6 +5364,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "resistors:CRCW08052K20FKEAHP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R?"
+				(at 0 4.516 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2.2k"
+				(at 0 2.266 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib:RES0805"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0.5W, 2.2k, 1%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0805"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW08052K20FKEAHP"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08052K20FKEAHP_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW08052K20FKEAHP_1_0"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "MZ_CTRL"
 		(members "PG_CARRIER" "PWR_EN" "VBAT" "VCCIO_EN")
@@ -5749,7 +5939,7 @@
 		(uuid "278de722-97de-4efe-b005-e5478886ac67")
 	)
 	(no_connect
-		(at 154.94 146.05)
+		(at 154.94 156.21)
 		(uuid "329edf0c-6d16-4ba7-a49b-314e571bc232")
 	)
 	(no_connect
@@ -7301,17 +7491,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 346.71) (xy 214.63 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "1ceb5fc9-89f1-4ebc-ac8b-943544db2c4d")
-	)
-	(wire
-		(pts
 			(xy 266.7 184.15) (xy 256.54 184.15)
 		)
 		(stroke
@@ -7444,7 +7623,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 151.13) (xy 154.94 151.13)
+			(xy 165.1 148.59) (xy 154.94 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8000,16 +8179,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 140.97) (xy 369.57 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45a25765-e012-4a8d-9358-58af4edd3aac")
-	)
-	(wire
-		(pts
 			(xy 342.9 196.85) (xy 342.9 186.69)
 		)
 		(stroke
@@ -8291,7 +8460,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 236.22 130.81)
+			(xy 236.22 129.54) (xy 236.22 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9216,7 +9385,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 156.21) (xy 154.94 156.21)
+			(xy 165.1 151.13) (xy 154.94 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9589,7 +9758,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 140.97) (xy 236.22 143.51)
+			(xy 236.22 139.7) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9853,7 +10022,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 129.54) (xy 369.57 130.81)
+			(xy 369.57 129.54) (xy 369.57 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10073,6 +10242,17 @@
 		)
 		(uuid "b5fa560e-19ef-4ea6-867b-6004d94441ab")
 	)
+	(wire
+		(pts
+			(xy 217.17 346.71) (xy 214.63 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "b6b2111e-329f-4a5e-97ad-0ad317c875b1")
+	)
 	(bus
 		(pts
 			(xy 496.57 270.51) (xy 496.57 273.05)
@@ -10085,7 +10265,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 148.59) (xy 154.94 148.59)
+			(xy 165.1 146.05) (xy 154.94 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10272,6 +10452,16 @@
 			(type default)
 		)
 		(uuid "bc5de77c-88d3-4227-b929-195b237bddb1")
+	)
+	(wire
+		(pts
+			(xy 369.57 139.7) (xy 369.57 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca6d940-9737-416e-ab7d-88d223f77cb1")
 	)
 	(wire
 		(pts
@@ -12009,7 +12199,7 @@
 		(uuid "263e97ee-6c07-4a9b-9bd4-7d33e85e8d70")
 	)
 	(label "P4"
-		(at 165.1 151.13 0)
+		(at 165.1 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12866,7 +13056,7 @@
 		(uuid "7e294a0f-3181-4d57-af31-10c14b1d2f0b")
 	)
 	(label "P2"
-		(at 165.1 148.59 0)
+		(at 165.1 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13608,7 +13798,7 @@
 		(uuid "d0fb31c2-3e9c-405b-b2da-67c8f252d39e")
 	)
 	(label "P6"
-		(at 165.1 156.21 0)
+		(at 165.1 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13758,16 +13948,6 @@
 			(justify left bottom)
 		)
 		(uuid "dd7b333a-a389-47ca-8102-3043865cfc45")
-	)
-	(label ""
-		(at 256.54 227.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dea18f5b-712e-4141-b400-5462660ebd3a")
 	)
 	(label "PL_JX2_20N"
 		(at 350.52 250.19 0)
@@ -14318,86 +14498,6 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
 					(reference "R160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "altium_import:RDNP_0805")
-		(at 236.22 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "169717f1-c911-4d12-bb99-a6e23ce79ccd")
-		(property "Reference" "R40"
-			(at 237.49 133.9849 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 237.49 137.7949 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "altium_import:0805"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES DNP 0805"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 235.458 130.302 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41061f58-0516-42ed-957f-bd1f6e5d683e")
-		)
-		(pin "1"
-			(uuid "30e13bb2-6959-4189-8af8-14804cba910d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -17586,87 +17686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "altium_import:RDNP_0805")
-		(at 369.57 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3545ea3-3873-4fec-9717-faee70365c6f")
-		(property "Reference" "R47"
-			(at 368.3 133.9849 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 368.3 137.7949 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "altium_import:0805"
-			(at 369.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES DNP 0805"
-			(at 369.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 370.332 130.302 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0be38e0b-6ea6-4b23-aa85-3d3390e6c8ab")
-		)
-		(pin "1"
-			(uuid "75572fa4-7d55-4792-a3bf-fa1c4e43d57d")
-		)
-		(instances
-			(project "flatsat_platform_2"
-				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 264.16 275.59 0)
 		(unit 1)
@@ -17994,6 +18013,108 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW08052K20FKEAHP")
+		(at 369.57 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1ee4643-7ed8-45d7-832d-6c630553a8aa")
+		(property "Reference" "R7"
+			(at 373.0625 134.8665 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 373.0625 137.1165 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0805"
+			(at 375.92 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 373.38 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.5W, 2.2k, 1%"
+			(at 363.22 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 370.84 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0805"
+			(at 368.3 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08052K20FKEAHP"
+			(at 365.76 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b9682a8-424a-48e3-8a9a-1f0ca73051f0")
+		)
+		(pin "1"
+			(uuid "031261b9-0ffe-4f51-91f0-fdeb1b6e28ea")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18445,6 +18566,108 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW08052K20FKEAHP")
+		(at 236.22 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f057a61a-0d53-42d5-84a0-f5cb638ab7ca")
+		(property "Reference" "R8"
+			(at 239.7125 134.8665 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 239.7125 137.1165 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0805"
+			(at 242.57 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 240.03 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0.5W, 2.2k, 1%"
+			(at 229.87 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 237.49 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0805"
+			(at 234.95 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08052K20FKEAHP"
+			(at 232.41 177.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3c2b081-d6bc-4af0-8558-deb8e0dd4ae0")
+		)
+		(pin "1"
+			(uuid "bb411529-51a5-4ad2-b7f1-0b1c9a75ca24")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/5082a2a1-f655-494e-9af4-2fda0824115c"
+					(reference "R8")
 					(unit 1)
 				)
 			)

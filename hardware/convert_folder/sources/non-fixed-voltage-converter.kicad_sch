@@ -3630,7 +3630,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cin"
+		(property "Value" "UMK107BJ105KA-T"
 			(at 204.724 177.038 90)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "ERJH3ED3652V"
+		(property "Value" "ERJ-H3ED5362V"
 			(at 306.832 135.001 0)
 			(effects
 				(font
@@ -4664,7 +4664,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "ERJ-H3ED3652V"
+		(property "Value" "ERJ-H3ED3752V"
 			(at 309.626 150.749 0)
 			(effects
 				(font
@@ -5137,7 +5137,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cout"
+		(property "Value" "GRM188C81C106MA73D"
 			(at 346.202 178.562 90)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cbias"
+		(property "Value" "UMK107BJ105KA-T"
 			(at 224.79 176.53 90)
 			(effects
 				(font

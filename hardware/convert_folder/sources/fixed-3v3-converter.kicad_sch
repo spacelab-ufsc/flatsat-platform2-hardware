@@ -2780,7 +2780,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cout"
+		(property "Value" "GRM188C81C106MA73D"
 			(at 342.392 198.882 90)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cbias"
+		(property "Value" "UMK107BJ105KA-T"
 			(at 213.36 196.85 90)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Cin"
+		(property "Value" "UMK107BJ105KA-T"
 			(at 193.294 197.358 90)
 			(effects
 				(font

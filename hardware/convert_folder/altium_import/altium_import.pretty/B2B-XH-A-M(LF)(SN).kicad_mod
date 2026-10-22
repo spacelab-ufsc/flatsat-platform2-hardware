@@ -174,19 +174,6 @@
 		(layer "User.2")
 		(uuid "8981eb1c-4191-4ef0-aa8e-d8c5e703f23d")
 	)
-	(fp_text user "'.Designator'"
-		(at -2.5 -1.103 0)
-		(unlocked yes)
-		(layer "User.2")
-		(uuid "36f5e94f-bfa0-4c34-ab72-3a486d0c820b")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
 	(pad "1" thru_hole rect
 		(at -1.25 0)
 		(size 1.524 1.524)
