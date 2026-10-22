@@ -1,9 +1,9 @@
-<h1 align="center">  
-    FLATSAT PLATFORM 2.0
+<h1 align="center">
+    FLATSAT PLATFORM 2.0 HARDWARE
     <br>
 </h1>
 
-<h4 align="center">FlatSat platform designed and developed by SpaceLab.</h4>
+<h4 align="center">FlatSat platform's hardware project (sources, outputs, and documentation).</h4>
 
 <p align="center">
     <a href="https://github.com/spacelab-ufsc/spacelab#versioning">
@@ -13,52 +13,90 @@
         <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/spacelab-ufsc/flatsat-platform2?style=for-the-badge">
     </a>
     <a href="https://github.com/spacelab-ufsc/flatsat-platform2/releases">
-        <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/spacelab-ufsc/flatsat-platform2/latest?style=for-the-badge">
+        <img alt="GitHub commits since latest release (by date) for a branch" src="https://img.shields.io/github/commits-since/spacelab-ufsc/flatsat-platform2/latest/dev_hardware?style=for-the-badge">
     </a>
     <a href="https://github.com/spacelab-ufsc/flatsat-platform2/commits/master">
-        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/spacelab-ufsc/flatsat-platform2?style=for-the-badge">
+        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/spacelab-ufsc/flatsat-platform2/dev_hardware?style=for-the-badge">
     </a>
     <a href="https://github.com/spacelab-ufsc/flatsat-platform2/issues">
-        <img alt="GitHub issues" src="https://img.shields.io/github/issues/spacelab-ufsc/ttc?style=for-the-badge">
+        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/issues/spacelab-ufsc/flatsat-platform2/hardware?style=for-the-badge">
     </a>
-    <a href="https://github.com/spacelab-ufsc/flatsat-platform2/graphs/contributors">
-        <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/spacelab-ufsc/flatsat-platform2?color=yellow&style=for-the-badge">
+    <a href="">
+        <img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-yellow?style=for-the-badge">
+    </a>
+    <a href="#license">
+        <img src="https://img.shields.io/badge/license-cern%20ohl%202-yellow?style=for-the-badge">
     </a>
 </p>
 
 <p align="center">
-  	<a href="#overview">Overview</a> •
-  	<a href="#repository-organization">Repository Organizarion</a> •
-  	<a href="#license">License</a> •
-  	<a href="#releases">Releases</a> •
-  	<a href="#notes">Notes</a>
+    <a href="#overview">Overview</a> •
+    <a href="#architecture">Architecture</a> •
+    <a href="#development">Development</a> •
+    <a href="#version">Version</a> •
+    <a href="#license">License</a> •
+    <a href="#notes">Notes</a>
 </p>
 
+<!--
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/documentation/doc/figures/flatsat_perspective_image.png">
+    <img width="45%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/outputs/top_pcb.png">
+    <img width="45%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/outputs/bottom_pcb.png">
 </p>
+--->
 
 ## Overview
 
-The FlatSat Platform 2.0 is a testbench for testing the main SpaceLab's subsystems (but can be adapted for other CubeSat missions). A FlatSat is an electrical model of the satellite with the subsystems assembled side by side over a workbench that can be mounted during the V&V [[1]](#1). They offer an easier, faster and safer way for testing subsystems before assembly into the final structure of a CubeSat. It can be used in combination with the hardware-in-the-loop (HIL) technique, which justifies the usage of a built-in MicroZed and sensors. It supports up to 6 modules.
+TBD
 
-## Repository Organization
-	- doc: Technical FlatSat's documentation.
-	- firmware: FlatSat's firmware project (sources and configs)
-	- hardware: Flatsat's hardware project (sources and outputs).
+## Architecture
+
+TBD
+
+<!---
+<p align="center">
+    <img width="70%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/hardware/images/hardware_architecture_v01.png">
+</p>
+
+> This image refers to the v0.1 release.
+
+--->
+
+## Development
+
+#### Manufacture
+
+The folder [fabrication](https://github.com/spacelab-ufsc/flatsat-platform2/tree/main/hardware/fabrication) contain 3 "ready to go" files: the gerbers and nc_drills for manufacturing the board, the BOM with all required components, and the pick_place file for automated assembly. Additional files are avaliable in the [outputs](https://github.com/spacelab-ufsc/flatsat-platform2/tree/main/hardware/outputs) folder, which contain several useful files and documents, such as: 3D models, bill of materials, schematics, layout prints, and draftsman.
+
+#### Assembly
+
+TBD
+
+#### Power-on procedure
+
+TBD
+
+<!---
+<p align="center">
+    <img width="70%" src="https://github.com/spacelab-ufsc/flatsat-platform2/blob/main/doc/figures/power-diagram.png">
+</p>
+
+> This image refers to the v0.5 release.
+
+--->
+
+#### Debugging
+
+TBD
+
+## Version
+
+Refer to the [releases](https://github.com/spacelab-ufsc/flatsat-platform2/releases) page.
 
 ## License
 
-This project is open-source under three different licenses: CERN Open Hardware License v2.0 for hardware, GNU General Public License v3.0 for firmware, and CC BY-SA 4.0 for the documentation.
-
-## Releases
-
-The FlatSat Platform hardware releases are synchronized in order to garantee compatibility. Then, using diferent versions might lead to unpredictable behavior. Refer to the [documentation](https://github.com/spacelab-ufsc/flatsat-platform2/tree/master/doc) for compatibility notes.
+This repository containing hardware files is licensed under CERN Open Hardware License, version 2.
 
 ## Notes
 
-More info about the SpaceLab: [GitHub](https://github.com/spacelab-ufsc/spacelab) and [Website](https://spacelab.ufsc.br/en/home/).
-
-## References
-<a id="1">[1]</a> 
-J. C. E. Barcellos, A. W. Spengler, L. O. Seman, R. D. C. e. Silva, H. P. Roldán and E. A. Bezerra, "FlatSat Platforms for Small Satellites: A Systematic Mapping and Classification," in IEEE Journal on Miniaturization for Air and Space Systems, vol. 4, no. 2, pp. 186-198, June 2023, doi: 10.1109/JMASS.2023.3249044.
+Project under development!
