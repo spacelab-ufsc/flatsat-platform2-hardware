@@ -959,7 +959,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "Q?"
 				(at 0 0 0)
 				(effects
 					(font
@@ -967,7 +967,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MMBT3904"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7822,22 +7822,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcf53f23-8b43-448d-92d8-06224d225883")
-		(property "Reference" "IC6"
-			(at 214.63 215.9 90)
+		(property "Reference" "Q6"
+			(at 219.71 214.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "MMBT3904"
-			(at 214.63 226.06 90)
+			(at 219.71 225.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:SOT95P240X120-3N"
@@ -7867,86 +7865,6 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N3904,MMBT3904,PZT3904.pdf"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.2mm"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Diotec"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MMBT3904"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "637-MMBT3904"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/MMBT3904?qs=OlC7AqGiEDkK1MwiyUU6mg%3D%3D"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "MMBT3904"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmbt3904/diotec-semiconductor-ag?utm_currency=USD&region=europe"
-			(at 209.042 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0de6cc9b-f0fb-490d-bd7f-ad7a26a23fa3")
 		)
@@ -7959,7 +7877,7 @@
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/873f80e8-fc8a-4a99-bc70-34580f1e31b0"
-					(reference "IC6")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -8522,22 +8440,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef356aec-3bb0-4462-a0be-1f4b39e6fc49")
-		(property "Reference" "IC7"
-			(at 252.73 215.9 90)
+		(property "Reference" "Q7"
+			(at 257.81 214.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "MMBT3904"
-			(at 252.73 226.06 90)
+			(at 257.81 225.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Footprint" "altium_import:SOT95P240X120-3N"
@@ -8567,86 +8483,6 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N3904,MMBT3904,PZT3904.pdf"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.2mm"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Diotec"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MMBT3904"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "637-MMBT3904"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/MMBT3904?qs=OlC7AqGiEDkK1MwiyUU6mg%3D%3D"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "MMBT3904"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmbt3904/diotec-semiconductor-ag?utm_currency=USD&region=europe"
-			(at 247.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3910357e-effe-4cf0-8e26-9a8f2f5d4fd0")
 		)
@@ -8659,7 +8495,7 @@
 		(instances
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/873f80e8-fc8a-4a99-bc70-34580f1e31b0"
-					(reference "IC7")
+					(reference "Q7")
 					(unit 1)
 				)
 			)

@@ -7864,6 +7864,16 @@
 		)
 		(uuid "3f454100-b79f-4e1c-af15-5c9fc067cd75")
 	)
+	(label "V2_E"
+		(at 372.11 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4016101e-14ac-4489-9380-aa8a676b58ea")
+	)
 	(label "VCCIO_EN"
 		(at 115.57 67.31 0)
 		(effects
@@ -7873,6 +7883,16 @@
 			(justify left bottom)
 		)
 		(uuid "404bf93d-b8a0-442e-ba13-ca91b3d298c2")
+	)
+	(label "USB_VBUS"
+		(at 379.73 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41187a1e-23a8-4fc3-9a78-7edeb89f501a")
 	)
 	(label "USB_VBUS"
 		(at 88.9 41.91 90)
@@ -9138,6 +9158,109 @@
 			(project "flatsat_platform_2"
 				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors:CRCW08050000Z0EAHP")
+		(at 375.92 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb3d795-b4ff-4d47-8c18-f276242297b4")
+		(property "Reference" "R49"
+			(at 375.92 133.914 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 375.92 136.164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RES0805"
+			(at 418.018 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 418.018 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 0.5W, 0R, 1%"
+			(at 418.018 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 418.018 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0805"
+			(at 418.018 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08050000Z0EAHP"
+			(at 418.018 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86adf1a5-c84f-413f-b0ca-9a1eeaaacdb3")
+		)
+		(pin "1"
+			(uuid "64cb8876-b5eb-48cc-bc07-18d5210e845c")
+		)
+		(instances
+			(project "flatsat_platform_2"
+				(path "/8c88a7e1-4137-48d7-b926-b5e762e3852f/8386d232-e6d5-4b15-8289-83f2ee4d46fe"
+					(reference "R49")
 					(unit 1)
 				)
 			)
