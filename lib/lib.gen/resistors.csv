@@ -1,0 +1,53 @@
+MPN,Value,Footprint,Datasheet,Manufacturer,Package,Description,Symbol
+CRCW06030000Z0EAHP,0R,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Jumper, 0.33W, 0R, 1%",resistor
+CRCW0603100KFKEAHP,100k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 100k, 1%",resistor
+CRCW060310K0FKEAHP,10k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 10k, 1%",resistor
+CRCW060310R0FKEAHP,10R,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 10R, 1%",resistor
+CRCW0603110KFKEAHP,110k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 110k, 1%",resistor
+CRCW060312K0FKEAHP,12k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 12k, 1%",resistor
+CRCW060313K0FKEAHP,13k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 13k, 1%",resistor
+CRCW0603150KFKEAHP,150k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 150k, 1%",resistor
+CRCW060315K0FKEAHP,15k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 15k, 1%",resistor
+CRCW06031K00FKEAHP,1k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 1k, 1%",resistor
+CRCW060320K0FKEAHP,20k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 20k, 1%",resistor
+CRCW060324K0FKEAHP,24k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 24k, 1%",resistor
+CRCW06032R20FKEAHP,2.2R,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 2.2R, 1%",resistor
+CRCW060330K0FKEAHP,30k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 30k, 1%",resistor
+CRCW060330K1FKEAHP,30.1k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 30.1k, 1%",resistor
+CRCW0603470RFKEAHP,470R,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 470R, 1%",resistor
+CRCW060347K0FKEAHP,47k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 47k, 1%",resistor
+CRCW06035K23FKEAHP,5.23k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.25W, 5.23k, 1%",resistor
+CRCW06037K50FKEAHP,7.5k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 7.5k, 1%",resistor
+CRCW060382K0FKEA,82k,lib:RES0603,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay,SMD 0603,"Resistor, 0.1W, 82k, 1%",resistor
+CRCW06038K20FKEAHP,8.2k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 8.2k, 1%",resistor
+CRCW060390K9FKEAHP,90.9k,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.25W, 90.9k, 1%",resistor
+CRCW08050000Z0EAHP,0R,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Jumper, 0.5W, 0R, 1%",resistor
+CRCW0805100KFKEAHP,100k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 100k, 1%",resistor
+CRCW080520K0FKEAHP,20k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 20k, 1%",resistor
+CRCW0805226KFKEAHP,226k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 226k, 1%",resistor
+CRCW0805270KFKEAHP,270k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 270k, 1%",resistor
+CRCW0805280KFKEAHP,280k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 280k, 1%",resistor
+CRCW08052K20FKEAHP,2.2k,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 2.2k, 1%",resistor
+CRCW20102R00FKEF,2R,lib:RES2010,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay,SMD 2010,"Resistor, 0.75W, 2R, 1%",resistor
+RC0805FR-0710KL,10k,lib:RES0805,https://br.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf,YAGEO,SMD 0805,"Resistor, 0.125W, 10k, 1%",resistor
+WSL20105L000FEA,5m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 0.5W, 0.005R, 1%",resistor
+WSL20108L000FEA18,8m,lib:RES2010,https://www.vishay.com/docs/31057/wslhigh.pdf,Vishay,SMD 2010,"Current sense resistor, 1W, 0.008R, 1%",resistor
+WSL2010R0160FEA,16m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 0.5W, 0.016R, 1%",resistor
+WSL2010R0180FEA,18m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 0.5W, 0.018R, 1%",resistor
+WSL2010R0200FEA,20m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 0.5W, 0.02R, 1%",resistor
+WSL2010R0250FEA18,25m,lib:RES2010,https://www.vishay.com/docs/31057/wslhigh.pdf,Vishay,SMD 2010,"Current sense resistor, 1W, 0.025R, 1%",resistor
+WSL2010R0330FEA,33m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 0.5W, 0.033R, 1%",resistor
+WSL2010R2000FEA18,200m,lib:RES2010,https://www.vishay.com/docs/30100/wsl.pdf,Vishay,SMD 2010,"Current sense resistor, 1W, 0.2R, 1%",resistor
+WSL2512R0330FEA18,33m,lib:RES2010,https://www.vishay.com/docs/31057/wslhigh.pdf,Vishay,SMD 2512,"Current sense resistor, 2W, 0.033R, 1%",resistor
+CRCW04025K11FKED,5.11k,lib:RES0402,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay,SMD 0402,"Resistor, 0.1W, 5.11k, 1%",resistor
+CRCW04021M00FKED,1M,lib:RES0402,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay,SMD 0402,"Resistor, 0.1W, 1M, 1%",resistor
+RC0402FR-07100KL,100k,lib:RES0402,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,YAGEO,SMD 0402,"Resistor, 1/16W, 100k, 1%",resistor
+RT0402BRD07100RL,100R,lib:RES0402,https://www.yageo.com/upload/media/product/app/datasheet/p/RT-Series-1.pdf,YAGEO,SMD 0402,"Thin film resistor, 1/16W, 100R, 0.1%",resistor
+RT0402BRD071KL,1k,lib:RES0402,https://www.yageo.com/upload/media/product/app/datasheet/p/RT-Series-1.pdf,YAGEO,SMD 0402,"Thin film resistor, 1/16W, 1k, 0.1%",resistor
+RC0402JR-070RL,0R,lib:RES0402,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,YAGEO,SMD 0402,"Jumper, 0402, 0R",resistor
+RC0402FR-075K23L,5.23k,lib:RES0402,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,YAGEO,SMD 0402,"Resistor, 1/16W, 5.23k, 1%",resistor
+EXB-N8V101JX,100R,lib:RES0402ARY,https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf,Panasonic,SMD 0402,"Resistor array, 1/16W, 100R, 1%",resistor-array
+YC124-JR-070RL ,0R,lib:RES0402ARY,https://www.mouser.com/datasheet/3/508/1/PYU_YC_TC_GROUP_51_ROHS_L.pdf,YAGEO,SMD 0402,"Resistor array, 1/16W, 0R, 1%",resistor-array
+EXB-28V103JX ,10k,lib:RES0402ARY,https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf,Panasonic,SMD 0402,"Resistor array, 1/16W, 10k, 1%",resistor-array
+ERJ-XGNJ103Y ,10k,lib:RES0402,https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf,Panasonic,SMD 0402,"Resistor, 1/16W, 10k, 1%",resistor
+CRCW0603120RFKEAHP,120R,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 120R, 1%",resistor

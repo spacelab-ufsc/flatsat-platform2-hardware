@@ -1,0 +1,109 @@
+(footprint "RL622"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.191 5.08191 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "121b617d-579e-4fd7-bbeb-fceb8d7b738a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "RL622-3R3K-RC"
+		(at 4.20371 -6.98119 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5b223a3-b9e6-4014-88eb-afed0daa6e37")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a97ea85a-7bca-4682-aceb-6e8ef7862633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92577b20-ff6d-41bb-be34-3ea5214d9168")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0.04)
+		(end 0 4.09047)
+		(stroke
+			(width 0.8128)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "74643da4-96fb-49e9-8931-03170424e479")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "b98b9e8f-296f-42e0-8ea8-d1579a62e729")
+	)
+	(pad "1" thru_hole circle
+		(at -2.51 0.02)
+		(size 1.32 1.32)
+		(drill 0.82)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9ca561a6-bc42-49d8-ace1-edb77e2fc0a7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.49 0.01 180)
+		(size 1.32 1.32)
+		(drill 0.82)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "587b39df-0ee9-4fb2-bf25-d74ee5054391")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/rl622-3r3k-rc.stp"
+		(offset
+			(xyz -0.00023 -0.00011 6.01279)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

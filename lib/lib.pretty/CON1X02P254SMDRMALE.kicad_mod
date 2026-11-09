@@ -1,0 +1,241 @@
+(footprint "CON1X02P254SMDRMALE"
+	(version 20241229)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(descr "surface-mounted straight pin header, 1x02, 2.54mm pitch, single row, style 2 (pin 1 right) [copia KiCad 9.0.7: PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right]")
+	(tags "Surface mounted pin header SMD 1x02 2.54mm single row style2 pin1 right")
+	(property "Reference" "REF**"
+		(at 0 -3.65 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CON1X02P254SMDRMALE"
+		(at 0 3.65 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -2.65)
+		(end -1.38 0.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.38 -2.65)
+		(end 1.38 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.38 -2.08)
+		(end -1.38 0.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.38 2.08)
+		(end -1.38 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.38 2.65)
+		(end 1.38 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.38 -2.65)
+		(end 1.38 -2.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.38 -2.08)
+		(end 2.85 -2.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.38 -0.46)
+		(end 1.38 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -3.41 -3.04)
+		(end 3.41 3.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.54 0.95)
+		(end -2.54 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.54 1.59)
+		(end -1.27 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.27 -2.54)
+		(end -1.27 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.27 -2.54)
+		(end 0.32 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.27 0.95)
+		(end -2.54 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.27 -1.59)
+		(end 0.32 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.27 -1.59)
+		(end 2.54 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.27 2.54)
+		(end -1.27 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.27 2.54)
+		(end 1.27 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.54 -1.59)
+		(end 2.54 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.54 -0.95)
+		(end 1.27 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.655 -1.27)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd rect
+		(at -1.655 1.27)
+		(size 2.51 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3dmodels/CON1X02P254SMDRMALE.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,192 @@
+(footprint "R0603_MD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.574 -1.730825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6c944a3-d0f8-4afe-9e11-cd9bedd49efc")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RC0603FR-07240RL"
+		(at 10.80384 2.429002 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1f1a2588-3a31-4810-812a-f8f47b88c688")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb4ef218-4c0e-4270-82cc-ab10ef36764c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38bcb36e-dd90-441c-858e-ce87960f8d3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.5 -0.7)
+		(end 1.5 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64250b3a-9e3a-4e59-8009-5db4fd63ec56")
+	)
+	(fp_line
+		(start -1.5 0.7)
+		(end -1.5 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3090fcc-5886-429f-928c-7c86ec0377ff")
+	)
+	(fp_line
+		(start -1.5 0.7)
+		(end 1.5 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57f97308-a66c-4d74-a675-d378f1c93e0a")
+	)
+	(fp_line
+		(start 1.5 0.7)
+		(end 1.5 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5a4bbd4-e624-4070-92cf-77d1848bb0a7")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "e59536a1-efa1-426c-87a9-5d0339bda1f6")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "9c41095d-c1a2-4c02-a790-ac078bc917f2")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "60170982-bfa8-4dbd-b154-0b8694a878c1")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "f38be0be-2c5a-4f8a-9a4b-34039c435484")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "9a5ecc68-0085-4e66-979b-dc19c02c3b04")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "75e34fc9-7563-434b-82f3-00ee864d0395")
+	)
+	(fp_text user "'.Designator'"
+		(at -1.4 0.698 0)
+		(unlocked yes)
+		(layer "User.3")
+		(uuid "adcfcb26-19ff-45ff-8b0a-ffb34567adde")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.889 0 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1762b21-974f-4a6a-97e4-0d9cc69b9b45")
+	)
+	(pad "2" smd rect
+		(at 0.889 0 90)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af76a08d-b430-4bde-ad0e-ae2bf8e90adb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/Flat Chip Resistor 0603(1608M).step"
+		(offset
+			(xyz 0 0.001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

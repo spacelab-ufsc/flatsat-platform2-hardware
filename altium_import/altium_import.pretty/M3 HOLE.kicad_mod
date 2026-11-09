@@ -1,0 +1,67 @@
+(footprint "M3 HOLE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8504 -3.751075 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f9e8c50-07d7-49a7-8fda-5c9b5e3e4694")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "M3"
+		(at -2.8575 5.58419 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c10328dd-e3bf-4982-8d1f-cd3be53ca2dc")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceec004c-bb5a-463f-b37a-87bfb57280c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85db7271-fa8f-40ae-8188-a4995f353148")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" thru_hole circle
+		(at 0 0 90)
+		(size 6 6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f60a9412-712a-4759-a8ce-8af5ade8089f")
+	)
+	(embedded_fonts no)
+)

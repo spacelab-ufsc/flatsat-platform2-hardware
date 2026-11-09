@@ -1,0 +1,170 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.9.1-1.fc43"
+    },
+    "CreationDate": "2026-11-09T20:24:32-03:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "flatsat_platform_2",
+      "GUID": "666c6174-7361-4745-9f70-6c6174666f72",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 400.05,
+      "Y": 250.05
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 2.1222,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "flatsat_platform_2-Top Layer.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-FlatSat GND.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-FlatSat VCC.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Bottom Layer.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Top Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Bottom Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Top Overlay.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Bottom Overlay.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "flatsat_platform_2-Top Solder.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "flatsat_platform_2-Bottom Solder.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "flatsat_platform_2-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Top Layer"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.6541,
+      "Material": "FR4",
+      "Name": "Top Layer/FlatSat GND",
+      "Notes": "Type: dielectric layer 1 (from Top Layer to FlatSat GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "FlatSat GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.6541,
+      "Material": "FR4",
+      "Name": "FlatSat GND/FlatSat VCC",
+      "Notes": "Type: dielectric layer 2 (from FlatSat GND to FlatSat VCC)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "FlatSat VCC"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.6541,
+      "Material": "FR4",
+      "Name": "FlatSat VCC/Bottom Layer",
+      "Notes": "Type: dielectric layer 3 (from FlatSat VCC to Bottom Layer)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Bottom Layer"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

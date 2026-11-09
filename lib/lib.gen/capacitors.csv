@@ -1,0 +1,24 @@
+MPN,Value,Footprint,Datasheet,Manufacturer,Package,Description,Symbol
+C0603C101J5GACAUTO,100pF,lib:CAP0603,https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf,KEMET,SMD 0603,"Capacitor, 100pF, 5%",non_pol_capacitor
+C0603C102F3GACTU,1nF,lib:CAP0603,https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf,KEMET,SMD 0603,"Capacitor, 1nF, 5%",non_pol_capacitor
+C0603C104K5RACTU,100nF,lib:CAP0603,https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf,KEMET,SMD 0603,"Capacitor, 100nF, 5%",non_pol_capacitor
+C0603C220K5RACAUTO,22pF,lib:CAP0603,https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf,KEMET,SMD 0603,"Capacitor, 22pF, 5%",non_pol_capacitor
+C0603C332J5GACAUTO,3.3nF,lib:CAP0603,https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf,KEMET,SMD 0603,"Capacitor, 3.3nF, 5%",non_pol_capacitor
+C0603C474K3RACTU,470nF,lib:CAP0603,https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD,KEMET,SMD 0603,"Capacitor, 470nF, 10%",non_pol_capacitor
+C0805C105K5RACTU,1uF,lib:CAP0805,http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf,KEMET,SMD 0805,"Capacitor, 1uF, 5%",non_pol_capacitor
+C1210C106K5RACTU,10uF,lib:CAP1210,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,KEMET,SMD 0603,"Capacitor, 10uF, 5%",non_pol_capacitor
+C1210C225K5RACTU,2.2uF,lib:CAP1210,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,KEMET,SMD 1210,"Capacitor, 2.2uF, 5%",non_pol_capacitor
+C1210C475K5RACTU,4.7uF,lib:CAP1210,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,KEMET,SMD 1210,"Capacitor, 4.7uF, 5%",non_pol_capacitor
+GCM32ER71C226KE19L,22uF,lib:CAP1210,https://www.murata.com/en-us/products/productdetail?partno=GCM32ER71C226KE19%23,Murata,SMD 1210,"Capacitor, 22uF, 5%",non_pol_capacitor
+GCM32ER71H475KA55L,4.7uF,lib:CAP1210,https://br.mouser.com/datasheet/2/281/1/GCM32ER71H475KA55_01A-3146523.pdf,Murata,SMD 1210,"Capacitor, 4.7uF, 5%",non_pol_capacitor
+VJ0603A180JXQCW1BC,18pF,lib:CAP0603,https://www.vishay.com/doc?28548,Vishay,SMD 0603,"Capacitor, 18pF, 5%",non_pol_capacitor
+T495X476K035ATE300,47uF,lib:CAP2917POL,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,KEMET,SMD 2917,"Tantalum capacitor, 47uF, 5%",pol_capacitor
+ESK476M035AC3AA ,47uF,lib:CAP47UELECTROLYTIC,https://br.mouser.com/datasheet/3/72/1/ESK476M035AC3AA.pdf,KEMET,PTH,"Electrolytic capacitor, 47uF, 20%",pol_capacitor
+GRM155R71H104KE14D,100nF,lib:CAP0402,https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23,Murata,SMD 0402,"Capacitor, 100nF, 10%",non_pol_capacitor
+GRM155R61A105KE15D,1uF,lib:CAP0402,https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A105KE15%23,Murata,SMD 0402,"Capacitor, 1uF, 10%",non_pol_capacitor
+GRM1555C1H180JA01D,18pF,lib:CAP0402,https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H180JA01%23,Murata,SMD 0402,"Capacitor, 18pF, 5%",non_pol_capacitor
+GRM188R61C106MA73D,10uF,lib:CAP0603,https://www.murata.com/en-us/products/productdetail?partno=GRM188R61C106MA73%23,Murata,SMD 0603,"Capacitor, 10uF, 20%",non_pol_capacitor
+T495D226K035ATE300,22uF,lib:CAP2917POL,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,KEMET,SMD 2917,"Tantalum capacitor, 22uF, 10%",pol_capacitor
+T495C106K025ATE300,10uF,lib:CAP2312POL,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,KEMET,SMD 2312,"Tantalum capacitor, 10uF, 10%",pol_capacitor
+TR3B106K025C1100,1uF,lib:CAP3528TANT,https://www.vishay.com/docs/40080/tr3.pdf,Vishay,SMD 3528,"Tantalum capacitor, 1uF, 10%",pol_capacitor
+C0603C105K3RACTU,1uF,lib:CAP0603,C0603C105K3RACTU,KEMET,SMD 0603,"Capacitor, 1uF, 10%",non_pol_capacitor

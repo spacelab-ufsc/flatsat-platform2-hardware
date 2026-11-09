@@ -1,0 +1,102 @@
+(footprint "PCC-SMP-V-K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.107405 -3.868108 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ff8151e-7abe-4224-92a6-2c1b8cf4e605")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Soquete de termopar"
+		(at 9.954825 89.106212 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d1ffa932-56cc-4865-909f-f81f48de257a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab2c8de4-42a3-4bef-b966-40e44d116d21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f0fc09-3c4b-47b5-b43a-5c5086e9b3dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.175 3.175)
+		(drill 1.905)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15c1c3ed-faa1-4bc8-87da-952d43d2a28c")
+	)
+	(pad "2" thru_hole circle
+		(at 6.3 0)
+		(size 3.175 3.175)
+		(drill 1.905)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "317534f8-9f0e-43bc-9ceb-31a78a8202b7")
+	)
+	(pad "3" thru_hole circle
+		(at 19 -1.7)
+		(size 3.175 3.175)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ea3dd057-a52b-4da6-9ca7-e1b03dbf9ce6")
+	)
+	(pad "3" thru_hole circle
+		(at 19 5.1)
+		(size 3.175 3.175)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4c5c04b3-b6d3-4601-920a-40a219fe26e0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/PCC-SMP-V-K--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 16.7 -1.6 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

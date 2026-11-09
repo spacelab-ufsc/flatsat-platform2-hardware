@@ -1,0 +1,65 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,GRM188R71C103KA01D,,,,altium_import:C0603_MD,
+C2,1,CL10B104KA8NNNC,,,,altium_import:C0603_MD,
+"C3,C4,C7,C8,C10,C13,C31,C54",8,UMK107BJ105KA-T,,,,altium_import:C0603_MD,
+"C5,C27,C33,C37",4,GRM188C81C106MA73D,,,,altium_import:C0603_MD,
+C6,1,GRM188R71H104JA93D,,,,altium_import:C0603_MD,
+"C9,C11,C19,C21,C22,C23,C24,C25,C26,C28,C38,C39,C40,C41",14,0.1uF/25V,,,,altium_import:CC0805,
+"C12,C32,C36,C55",4,CL10B103KB8NNNC,,,,altium_import:C0603_MD,
+"C14,C15",2,1.0uF/50V,,,,altium_import:CC0805,
+"C16,C17,C18,C34,C35",5,10uF/16V,,,,altium_import:CC1210,
+C20,1,865080845004,,,,altium_import:CAPAE660X770N,
+"C29,C30",2,100nF/50V,,,,altium_import:CC0603,
+"C42,C43,C44,C45,C46,C47,C48,C49,C50,C51",10,100nF,,,,lib:CAP0603,https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf
+"CN1,CN7,CN8,CN9,CN11",5,5-146285-2,,,,altium_import:PIN BAR 2 2.54mm 180 GRAUS,
+"CN2,CN13",2,4243-0,,,,altium_import:4243-0,
+"CN3,CN6",2,4 pin Picoblade,,,,altium_import:PICO BLADE 0532610471,
+"CN4,CN5",2,6 pin Picoblade,,,,altium_import:PICO BLADE 0532610671,
+"CN15,CN26",2,JST 2 position header 2.5mm,,,,altium_import:B2B-XH-A-M(LF)(SN),
+CN20,1,PC104_inverted,,,,altium_import:PC104_INVERTED,
+"CN21,CN22,CN23,CN24,CN25",5,PC104,,,,altium_import:PC104,
+D1,1,LTST-C190GKT,,,,LED_SMD:LED_0603_1608Metric,~
+"FD1,FD2,FD3,FD4,FD5,FD6,FD7,FD8",8,Fiducial 1.3,,,,altium_import:Fiducial 1.3mm,
+IC1,1,TPS3780BDBVT,,,,lib:TPS3780BDBVT,http://www.ti.com/lit/gpn/TPS3780
+"IC2,IC3,IC8,IC66",4,TPS74401RGWRM3,,,,altium_import:QFN65P500X500X100-21N-D,~
+"IC6,IC7",2,MMBT3904,,,,altium_import:SOT95P240X120-3N,
+"J1,J2,J7,J16,J17,J18",6,5-146280-2,,,,altium_import:PIN BAR 2 2.54mm 180 GRAUS,
+J3,1,1054500101,,,,altium_import:FP-1054500101-MFG,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+"J5,J6,J10,J11,J12,J13,J14,J15",8,~,,,,lib:PCC-SMP-V-K-5,
+"J8,J9",2,87832-1420,,,,altium_import:SAMTEC_TSW-107-05-F-D,
+"J20,J21",2,61201421621,,,,lib:61201421621,https://www.we-online.com/components/products/datasheet/61201421621.pdf?srsltid=AfmBOooImqjxGKWjuydUGRlCqt5mZ0HqfArvqAAmRnOquv7XJ6gucueA
+L1,1,742792901,,,,altium_import:WE-PF_7427929...60,
+"LED1,LED2,LED3,LED4",4,LTST-C190GKT,,,,lib:LTST-C190GKT,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf
+"MEC1,MEC2,MEC3,MEC4,MEC5,MEC6,MEC7,MEC8,MEC9,MEC10,MEC11,MEC12,MEC13,MEC14,MEC15,MEC16",16,M3,,,,altium_import:M3 HOLE,
+"Q1,Q2,Q3,Q4",4,BSS138,,,,lib:BSS138,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+"R1,R19",2,RMCF0603FT47K0,,,,altium_import:R0603_HD,
+"R2,R22",2,ERJ-PB3B2492V,,,,altium_import:R0603_HD,
+"R3,R21",2,ERJ-H3ED5362V,,,,altium_import:R0603_HD,
+"R4,R20",2,ERJ-H3ED3752V,,,,altium_import:R0603_HD,
+"R5,R14",2,RMCF0603FT3K57,,,,altium_import:R0603_MD,
+"R6,R18",2,CPF0603F1K15C1,,,,altium_import:R0603_MD,
+"R7,R8",2,2.2k,,,,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R9,R12,R35,R36",4,CRCW06031K00FKEAHP,,,,lib:CRCW06031K00FKEAHP,https://componentsearchengine.com/Datasheets/2/CRCW06031K00FKEAHP.pdf
+R10,1,ERJH3ED3652V,,,,altium_import:R0603_HD,
+"R11,R13",2,0R,,,,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R15,R23",2,100k,,,,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R16,R17",2,120R,,,,altium_import:0805,~
+R24,1,226k,,,,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R25,R26,R27,R28,R29,R30,R31",7,47m,,,,altium_import:0805,
+R32,1,280k,,,,lib:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R33,R34,R40,R44",4,10k,,,,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R37,R38",2,DNP,,,,altium_import:0805,
+"R39,R45,R46,R160",4,CRCW060350R0FKEA,,,,altium_import:R0603_HD,
+"R41,R42",2,5.11k,,,,lib:RES0402,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R43,1,1k,,,,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"R47,R48",2,120R,,,,lib:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf
+"S2,S3,S5,S6,S8,S9",6,NDS02V,,,,altium_import:NDS02V,
+"S7,S10",2,430182043816,,,,lib:430182043816,https://www.we-online.com/catalog/datasheet/430182043816.pdf
+SOM1,1,MicroZed,,,,altium_import:MICROZEDSOM,
+"SW1,SW2,SW3",3,SW-T3-2B-A-A3-S1,,,,altium_import:SW-T3-2B-A-A3-S1,
+"TP1,TP2,TP3,TP4,TP11,TP12,TP13",7,~,,,,altium_import:TEST POINT PTH,
+"U1,U4,U7,U9,U12,U13,U18",7,INA219AID,,,,altium_import:SOIC127P599X175-8N,~
+U19,1,TMP112AIDRLT,,,,altium_import:SOT50P160X60-6N,
+U21,1,LTC2983CLX#PBF,,,,altium_import:QFP50P900X900X160-48N,~
+"U22,U25",2,THVD1450DR,,,,lib:THVD1450DR,http://www.ti.com/lit/gpn/thvd1450
+"U23,U24",2,SN65HVD232D,,,,altium_import:SN65HVD232D,~

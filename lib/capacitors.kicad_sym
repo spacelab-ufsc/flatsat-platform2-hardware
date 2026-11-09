@@ -1,0 +1,873 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "potatolib.py")
+	(generator_version "1.0")
+	(symbol
+		"_non_pol_capacitor"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(symbol
+			"_non_pol_capacitor_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"_non_pol_capacitor_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"_non_pol_capacitor_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none))))
+		(embedded_fonts no))
+	(symbol
+		"_pol_capacitor"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C?" (at 0 5.786 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(symbol
+			"_pol_capacitor_0_1"
+			(polyline
+				(pts (xy -2.794 -1.27) (xy -1.778 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -1.778) (xy -2.286 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy -1.016 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(rectangle
+				(start -0.508 -2.286)
+				(end -1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 0.508 -2.286)
+				(end 1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type outline)))
+			(polyline (pts (xy 1.27 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"_pol_capacitor_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"C0603C101J5GACAUTO"
+		(extends "_non_pol_capacitor")
+		(property "Value" "100pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C101J5GACAUTO"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 100pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C102F3GACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "1nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C102F3GACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1nF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C104K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "100nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C104K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 100nF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C105K3RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"C0603C105K3RACTU"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C105K3RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C220K5RACAUTO"
+		(extends "_non_pol_capacitor")
+		(property "Value" "22pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C220K5RACAUTO"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 22pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C332J5GACAUTO"
+		(extends "_non_pol_capacitor")
+		(property "Value" "3.3nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C332J5GACAUTO"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 3.3nF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C474K3RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "470nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C474K3RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 470nF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0805C105K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0805"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0805"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0805C105K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C1210C106K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "10uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP1210"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C1210C106K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 10uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C1210C225K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "2.2uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP1210"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 1210"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C1210C225K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 2.2uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C1210C475K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "4.7uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP1210"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 1210"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C1210C475K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 4.7uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"ESK476M035AC3AA"
+		(extends "_pol_capacitor")
+		(property "Value" "47uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP47UELECTROLYTIC"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://br.mouser.com/datasheet/3/72/1/ESK476M035AC3AA.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"PTH"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ESK476M035AC3AA"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Electrolytic capacitor, 47uF, 20%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GCM32ER71C226KE19L"
+		(extends "_non_pol_capacitor")
+		(property "Value" "22uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP1210"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GCM32ER71C226KE19%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 1210"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GCM32ER71C226KE19L"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 22uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GCM32ER71H475KA55L"
+		(extends "_non_pol_capacitor")
+		(property "Value" "4.7uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP1210"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://br.mouser.com/datasheet/2/281/1/GCM32ER71H475KA55_01A-3146523.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 1210"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GCM32ER71H475KA55L"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 4.7uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GRM1555C1H180JA01D"
+		(extends "_non_pol_capacitor")
+		(property "Value" "18pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H180JA01%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM1555C1H180JA01D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 18pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GRM155R61A105KE15D"
+		(extends "_non_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A105KE15%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM155R61A105KE15D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GRM155R71H104KE14D"
+		(extends "_non_pol_capacitor")
+		(property "Value" "100nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM155R71H104KE14D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 100nF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"GRM188R61C106MA73D"
+		(extends "_non_pol_capacitor")
+		(property "Value" "10uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM188R61C106MA73%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM188R61C106MA73D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 10uF, 20%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"T495C106K025ATE300"
+		(extends "_pol_capacitor")
+		(property "Value" "10uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP2312POL"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2312"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"T495C106K025ATE300"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 10uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"T495D226K035ATE300"
+		(extends "_pol_capacitor")
+		(property "Value" "22uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP2917POL"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2917"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"T495D226K035ATE300"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 22uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"T495X476K035ATE300"
+		(extends "_pol_capacitor")
+		(property "Value" "47uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP2917POL"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2917"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"T495X476K035ATE300"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 47uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"TR3B106K025C1100"
+		(extends "_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP3528TANT"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/40080/tr3.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3528"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TR3B106K025C1100"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 1uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"VJ0603A180JXQCW1BC"
+		(extends "_non_pol_capacitor")
+		(property "Value" "18pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"lib:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/doc?28548"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"VJ0603A180JXQCW1BC"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 18pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

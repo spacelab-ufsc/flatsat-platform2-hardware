@@ -1,0 +1,177 @@
+(footprint "PIN BAR 1 2.54mm 180 GRAUS - Hide"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.895875 1.25 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a95ab01-1eb9-4c6b-93bb-1b988a75980b")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TSW-101-05-T-S"
+		(at 3.95859 1.3081 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ffbf1a9f-cbb3-4608-a54b-2cf1e4cfd8e3")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55f3b399-879d-4ab8-b9c5-f5d50c38c566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246d362c-7910-4f60-89a6-f37929b38259")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.13 1.2)
+		(end -1.13 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef50785f-5bd0-4cc9-9e7f-0ce1c594b590")
+	)
+	(fp_line
+		(start 1.13 -1.2)
+		(end -1.13 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5debbef6-ff31-4f92-8dde-ff29f27499ac")
+	)
+	(fp_line
+		(start 1.13 1.2)
+		(end -1.13 1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d785682-a2fe-4416-8328-a7b6e0b81c37")
+	)
+	(fp_line
+		(start 1.13 1.2)
+		(end 1.13 -1.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e635f8c-64fc-4400-b2c2-b331777b2354")
+	)
+	(fp_line
+		(start -1.43 1.5)
+		(end -1.43 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "76842656-77a4-48b9-b636-ab1c37a5e440")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "eb6cedf1-c053-496f-82b5-c1d48e65f65d")
+	)
+	(fp_line
+		(start 0.25 0)
+		(end -0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ae929d6a-7e36-4bba-904c-131b5456ecea")
+	)
+	(fp_line
+		(start 1.43 -1.5)
+		(end -1.43 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "1a272f79-916f-4e7c-b78e-50e1c94298e2")
+	)
+	(fp_line
+		(start 1.43 1.5)
+		(end -1.43 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "aca46779-b024-4950-8bf8-8c9c16feb780")
+	)
+	(fp_line
+		(start 1.43 1.5)
+		(end 1.43 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "544e47f0-8360-4586-9887-26b1a07cf9ca")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25e1ca36-9a8d-48a4-ad92-e44ebf43cd22")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../altium_import/altium_import.3dshapes/User Library-Header_Male_1Pin.STEP"
+		(offset
+			(xyz 0.00008 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)
